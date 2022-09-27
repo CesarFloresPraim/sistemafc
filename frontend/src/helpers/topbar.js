@@ -12,13 +12,17 @@ const breadcrums = {
     { name: "Inicio", path: "/home" },
     { name: "Empleados RH", path: "/lista-empleados-rh" },
   ],
+  "nuevo-registro-rh": [
+    { name: "Inicio", path: "/home" },
+    { name: "Nuevo registro", path: "/nuevo-registro-rh" },
+  ],
 };
 
 const titles = {
   "registros-rh": "Registros RH",
   "detalles-registro-rh": "Detalles de registro",
   "lista-empleados-rh": "Lista empleados",
-  "customer-documents-files": "Documents & files",
+  "nuevo-registro-rh": "Nuevo registro",
   "customer-my-mortgages": "My mortgages",
   "customer-my-approvals-contracts": "My approvals & contracts",
   "customer-my-broker": "My broker",

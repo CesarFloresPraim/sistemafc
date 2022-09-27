@@ -111,7 +111,7 @@ export default function RegisterDetails() {
 
   const collapseRegister = (idx) => {
     let changedCollapsed = filteredEmployeeRegisters.map((item, i) => {
-      console.log(i, idx);
+      //console.log(i, idx);
       if (i == idx) {
         item.collapsed = !item.collapsed;
         return item;

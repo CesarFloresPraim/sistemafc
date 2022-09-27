@@ -4,11 +4,15 @@ import InputField from "../../../../components/InputField";
 import SwitchSelection from "../../../../components/SwitchSelection";
 
 import CloseIcon from "../../../../assets/svg/icon_close.svg";
+import AddIcon from "../../../../assets/svg/icon_plus.svg";
+
 import { useSelector } from "react-redux";
 
-export default function AddEmployeeOverlay({ showOverlay }) {
+export default function AddEmployeeOverlay({ showOverlay, employee }) {
   const [department, setDepartment] = useState("Menudeo");
   const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+
   const [fromDay, setFromDay] = useState();
   const [fromMonth, setFromMonth] = useState();
   const [fromYear, setFromYear] = useState();
@@ -114,6 +118,22 @@ export default function AddEmployeeOverlay({ showOverlay }) {
     }
   }, [isCurrent]);
 
+  useEffect(() => {
+    console.log(employee);
+    if (employee) {
+      setDepartment(employee.department);
+      setName(employee.name);
+      setPhone(employee.phone);
+      setFromDay(employee.fromDay);
+      setFromMonth(employee.fromMonth);
+      setFromYear(employee.fromYear);
+      setToDay(employee.toDay);
+      setToMonth(employee.toMonth);
+      setToYear(employee.toYear);
+      setIsCurrent(employee.isCurrent);
+    }
+  }, [employee]);
+
   return (
     <>
       <div className="absolute top-0 left-0 h-screen w-screen flex z-[100]">
@@ -134,21 +154,36 @@ export default function AddEmployeeOverlay({ showOverlay }) {
             </div>
           </div>
           <div className="px-8">
-            <InputField
-              label="Nombre"
-              name="name"
-              type={"text"}
-              placeholder="Enter address"
-              onChange={(e) => {
-                setName(e.target.value);
-              }}
-            ></InputField>
             <div className="grid grid-cols-2 mt-4 gap-4">
               <InputField
-                label="Numero"
+                label="Nombre"
+                name="name"
+                defaultValue={name}
+                type={"text"}
+                placeholder="Escribir nombre"
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+              ></InputField>
+              <InputField
+                label="Telefono"
+                name="telephone"
+                defaultValue={phone}
+                type={"text"}
+                placeholder="Numero de telefono"
+                onChange={(e) => {
+                  setPhone(e.target.value);
+                }}
+              ></InputField>
+            </div>
+
+            <div className="grid grid-cols-2 mt-4 gap-4">
+              <InputField
+                label="Numero telefonico"
                 name="number"
                 type={"text"}
-                placeholder="Ingresar numero"
+                defaultValue={phone}
+                placeholder="Ingresar numero de telefono"
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
@@ -175,8 +210,8 @@ export default function AddEmployeeOverlay({ showOverlay }) {
               </div>
             </div>
             <div className="px-4 mt-8 bg-whiteLilac rounded-xl flex flex-col">
-              <div className="grid grid-cols-2 gap-4 mt-4 ">
-                <div className="flex col-span-2 lg:col-span-1 items-center">
+              <div className="grid grid-cols-1 gap-4 mt-4 ">
+                <div className="flex col-span-1 items-center">
                   <div className="text-regentGray text-[13px] mr-2 font-semibold tracking-wider">
                     DE:
                   </div>
@@ -186,7 +221,7 @@ export default function AddEmployeeOverlay({ showOverlay }) {
                       setValue={setFromDay}
                     ></DaySelect>
                   </div>
-                  <div className="grow">
+                  <div className="">
                     {" "}
                     <MonthSelect
                       value={fromMonth}
@@ -212,7 +247,7 @@ export default function AddEmployeeOverlay({ showOverlay }) {
                     ></DaySelect>
                   </div>
 
-                  <div className="grow">
+                  <div className="">
                     {" "}
                     <MonthSelect
                       value={toMonth}
@@ -243,6 +278,15 @@ export default function AddEmployeeOverlay({ showOverlay }) {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex w-full mt-auto">
+            <button
+              onClick={() => dispatch(ShowNewEmployeeOverlay(true))}
+              className=" ml-auto mb-4 mr-4 flex items-center rounded-3xl h-12 pr-4 text-[13px] text-white bg-primary"
+            >
+              <AddIcon fill="#FFF"></AddIcon>
+              <div>Guardar </div>
+            </button>
           </div>
         </div>
       </div>

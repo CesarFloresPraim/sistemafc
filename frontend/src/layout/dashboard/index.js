@@ -18,7 +18,7 @@ export default function DashboardLayout() {
     <div className="min-h-screen font-poppins flex flex-col md:flex-row">
       <LeftNavbar handleLogout={handleLogout}></LeftNavbar>
       <div
-        className={`flex flex-col h-screen flex-1 ml-[300px] hide-scrollbar`}
+        className={`flex flex-col h-screen flex-1 ml-[300px] overflow-x-hidden hide-scrollbar`}
       >
         <Outlet />
       </div>

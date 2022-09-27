@@ -8,12 +8,17 @@ import {
   Outlet,
 } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux/es/exports";
-import { SetSearchRegisterRH, ShowNewEmployeeOverlay } from "../../../store/actionCreators/rh";
+import {
+  SetSearchRegisterRH,
+  ShowNewEmployeeOverlay,
+} from "../../../store/actionCreators/rh";
 import { getBreadcrumsArray, getTopbarTitle } from "../../../helpers/topbar";
 
 import TopBar from "../../../components/TopBar";
 
 import AddIcon from "../../../assets/svg/icon_plus.svg";
+import UploadIcon from "../../../assets/svg/icon_browse_blue.svg";
+import CheckIcon from "../../../assets/svg/icon_check_big.svg";
 
 export default function RegistroRH() {
   const navigate = useNavigate();
@@ -43,27 +48,46 @@ export default function RegistroRH() {
       <div className="flex flex-col flex-1 ">
         <div className="w-full flex flex-col sticky top-0 bg-white px-12 py-6 z-50">
           <TopBar title={topbarTitle} breadcrums={topbarBreadcrums}>
-            {activeRoute == "detalles-registro-rh" && (
-              <input
-                onChange={(e) => {
-                  dispatch(SetSearchRegisterRH(e.target.value));
-                }}
-                type="text"
-                className="border border-porcelain rounded-[32px]"
-                placeholder="Buscar"
-              />
-            )}
+            {activeRoute == "detalles-registro-rh" ||
+              (activeRoute == "lista-empleados-rh" && (
+                <input
+                  onChange={(e) => {
+                    dispatch(SetSearchRegisterRH(e.target.value));
+                  }}
+                  type="text"
+                  className="border border-porcelain rounded-[32px]"
+                  placeholder="Buscar"
+                />
+              ))}
             {activeRoute == "registros-rh" && (
-              <button className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] text-white bg-primary">
+              <button
+                onClick={() => navigate({ pathname: "/nuevo-registro-rh" })}
+                className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] text-white bg-primary"
+              >
                 <AddIcon fill="#FFF"></AddIcon>
                 <div>Nueva registro</div>
               </button>
             )}
             {activeRoute == "lista-empleados-rh" && (
-              <button onClick={()=>dispatch(ShowNewEmployeeOverlay(true))} className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] text-white bg-primary">
+              <button
+                onClick={() => dispatch(ShowNewEmployeeOverlay(true))}
+                className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] text-white bg-primary"
+              >
                 <AddIcon fill="#FFF"></AddIcon>
                 <div>Nuevo empleado </div>
               </button>
+            )}
+            {activeRoute == "nuevo-registro-rh" && (
+              <>
+                <button className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] border border-porcelain text-primary bg-white">
+                  <UploadIcon fill="#0C3CFD"></UploadIcon>
+                  <div>Cargar excel </div>
+                </button>
+                <button className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] text-white bg-primary">
+                  <CheckIcon fill="#FFF"></CheckIcon>
+                  <div>Gurdar registro </div>
+                </button>
+              </>
             )}
           </TopBar>
         </div>
