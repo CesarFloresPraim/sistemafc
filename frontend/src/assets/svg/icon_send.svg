@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_send" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="Shape" d="M20.534,40.968a1.284,1.284,0,0,1-.78,1.182L1.79,49.9A1.286,1.286,0,0,1,.134,48.143l2.96-5.918L12.821,41,3.093,39.783.134,33.865A1.285,1.285,0,0,1,1.79,32.109l18,7.714A1.235,1.235,0,0,1,20.534,40.968Z" transform="translate(1506.734 41.996)"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_add_colaborator" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <g id="Icon_-_Person" data-name="Icon - Person" transform="translate(1492 58)">
+      <path id="Union_63" data-name="Union 63" d="M-5187-2930v-2h-2a1,1,0,0,1-1-1,1,1,0,0,1,1-1h2v-2a1,1,0,0,1,1-1,1,1,0,0,1,1,1v2h2a1,1,0,0,1,1,1,1,1,0,0,1-1,1h-2v2a1,1,0,0,1-1,1A1,1,0,0,1-5187-2930Zm-10-13a5,5,0,0,1,5-5,5,5,0,0,1,5,5,5,5,0,0,1-5,5A5,5,0,0,1-5197-2943Zm2,0a3,3,0,0,0,3,3,3,3,0,0,0,3-3,3,3,0,0,0-3-3A3,3,0,0,0-5195-2943Z" transform="translate(5215 2963)"/>
+      <path id="Union_62" data-name="Union 62" d="M-5197-2941a1,1,0,0,1,1-1,1,1,0,0,1,1,1,1,1,0,0,1-1,1A1,1,0,0,1-5197-2941Zm6-6a1,1,0,0,1,1-1,1,1,0,0,1,1,1,1,1,0,0,1-1,1A1,1,0,0,1-5191-2947Z" transform="translate(5212 2974)" fill="#0c3cfd"/>
+      <path id="Subtraction_38" data-name="Subtraction 38" d="M-5195-2941h-2a7.008,7.008,0,0,1,7-7v2a5.006,5.006,0,0,0-5,5Z" transform="translate(5212 2974)" fill="#0c3cfd"/>
+    </g>
+  </g>
+</svg>

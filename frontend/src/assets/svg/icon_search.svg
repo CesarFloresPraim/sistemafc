@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_search" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="Icon_-_Search" data-name="Icon - Search" d="M8.087,21.411s0,0,0-.005h-.01V18.119a9.09,9.09,0,1,1,2.02,0v3.287h-.011s0,0,0,.005a1,1,0,0,1-2,0Zm-4-17.322A7.069,7.069,0,0,0,8.979,16.156h.214A7.07,7.07,0,1,0,4.088,4.089Z" transform="translate(1501.651 82.002) rotate(-45)"/>
+  </g>
+</svg>

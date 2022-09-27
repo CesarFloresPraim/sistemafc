@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_left" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="Icon_-_Expand" data-name="Icon - Expand" d="M0,7.612v-6A1.5,1.5,0,0,1,.5.5,1.5,1.5,0,0,1,1.612,0h6a1.5,1.5,0,1,1,0,3H3V7.612a1.5,1.5,0,1,1-3,0Z" transform="translate(1510.557 83) rotate(-45)"/>
+  </g>
+</svg>

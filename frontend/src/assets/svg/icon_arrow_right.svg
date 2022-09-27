@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_arrow_right" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none" />
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none" />
+    <path id="Icon_-_Arrow" data-name="Icon - Arrow" d="M.008,72.642a1.08,1.08,0,0,0,1.08,1.08H17.339l-3.967,3.693a1.079,1.079,0,0,0,1.49,1.563l5.914-5.554a1.067,1.067,0,0,0,.336-.781,1.085,1.085,0,0,0-.334-.782l-5.914-5.554a1.08,1.08,0,0,0-1.49,1.564l3.967,3.693H1.047A1.049,1.049,0,0,0,.008,72.642Z" transform="translate(1504.992 10.358)"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon_menu_document_hover" transform="translate(0.23)">
+    <rect id="Background" width="40" height="40" rx="12" transform="translate(-0.23)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(3.77 4)" fill="none"/>
+    <path id="Icon_-_Document" data-name="Icon - Document" d="M2.381,22A2.378,2.378,0,0,1,0,19.624V2.375A2.379,2.379,0,0,1,2.381,0L14.854,0a2.372,2.372,0,0,1,1.681.7l2.771,2.769A2.393,2.393,0,0,1,20,5.144V19.625A2.377,2.377,0,0,1,17.624,22ZM2,3V19a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V7H15a2,2,0,0,1-2-2V2H3A1,1,0,0,0,2,3ZM7.007,17a1,1,0,0,1,0-2h6a1,1,0,0,1,0,2Zm0-4a1,1,0,1,1,0-2h6a1,1,0,0,1,0,2Z" transform="translate(9.771 9)"/>
+  </g>
+</svg>

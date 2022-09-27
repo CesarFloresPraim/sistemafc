@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon_menu_logout_hover" transform="translate(0.23)">
+    <rect id="Background" width="40" height="40" rx="12" transform="translate(-0.23)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(3.77 4)" fill="none"/>
+    <path id="Icon_-_Exit" data-name="Icon - Exit" d="M5.647,17.5h3.83A8,8,0,1,0,12.262,2a7.958,7.958,0,0,0-2.79.5H5.645a10,10,0,1,1,0,15Zm-1.4-3.164L.335,10.783A1.08,1.08,0,0,1,0,10a1.1,1.1,0,0,1,.333-.783L4.247,5.665a1.08,1.08,0,1,1,1.49,1.564L3.772,8.921h8.293A1.047,1.047,0,0,1,13.1,10a1.079,1.079,0,0,1-1.078,1.078H3.772L5.74,12.772a1.08,1.08,0,0,1-1.49,1.564Z" transform="translate(7.738 10)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+  </g>
+</svg>

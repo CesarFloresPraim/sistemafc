@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_edit" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="Icon_-_Pen" data-name="Icon - Pen" d="M15.728,9.686,14.314,8.272,5,17.586V19H6.414l9.314-9.314Zm1.414-1.414,1.414-1.414L17.142,5.444,15.728,6.858ZM7.242,21H3V16.757L16.435,3.322a1,1,0,0,1,1.414,0l2.829,2.829a1,1,0,0,1,0,1.414L7.243,21Z" transform="translate(1504.015 71.485)"/>
+  </g>
+</svg>

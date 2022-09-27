@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .bubble-blue {
+    color: #0c3cfd;
+    background-color: #e7effe;
+  }
+  .bubble-red {
+    color: #fb3f3f;
+    background-color: #ffebeb;
+  }
+  .bubble-purple {
+    color: #bf40bf;
+    background-color: #ffe0ff;
+  }
+  .bubble-orange {
+    color: #ff6414;
+    background-color: #ffefe7;
+  }
+  .bubble-lime {
+    color: #47c400;
+    background-color: #ecf9e5;
+  }
+  .bubble-pink {
+    color: #fd0c95;
+    background-color: #feebf6;
+  }
+  .preference-green {
+    color: #00c48b;
+    background-color: #eaf8f6;
+  }
+  .preference-pink {
+    color: #fd0c95;
+    background-color: #fff2fa;
+  }
+  .preference-orange {
+    color: #ff6414;
+    background-color: #fff7f3;
+  }
+  .completion-green {
+    color: #00c48b;
+    background-color: #00c48b;
+  }
+  .completion-red {
+    color: #fb3f3f;
+    background-color: #fb3f3f;
+  }
+  .completion-orange {
+    color: #f89d00;
+    background-color: #f89d00;
+  }
+  .document-status-green {
+    color: #00c48b;
+    background-color: #eaf8f6;
+  }
+  .document-status-red {
+    color: #fb3f3f;
+    background-color: #fae6e6;
+  }
+  .document-status-blue {
+    color: #0c3cfd;
+    background-color: #e7effe;
+  }
+  .document-status-orange {
+    color: #ff6414;
+    background-color: #fff7f3;
+  }
+}

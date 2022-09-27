@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon_menu_person_active" transform="translate(0.23)">
+    <rect id="Background" width="40" height="40" rx="12" transform="translate(-0.23)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(3.77 4)" fill="none"/>
+    <path id="Icon_-_Person" data-name="Icon - Person" d="M15,23H5a4,4,0,0,1-4-4V18a4,4,0,0,1,4-4H15a4,4,0,0,1,4,4v1A4,4,0,0,1,15,23ZM10,12a6,6,0,1,1,6-6A6,6,0,0,1,10,12Z" transform="translate(10 8)"/>
+  </g>
+</svg>

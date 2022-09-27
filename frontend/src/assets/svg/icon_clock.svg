@@ -1,0 +1,9 @@
+<svg id="icon_clock" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="Background" width="40" height="40" rx="12" fill="none"/>
+  <rect id="Area" width="32" height="32" rx="4" transform="translate(4 4)" fill="none"/>
+  <g id="Clock">
+    <rect id="Background-2" data-name="Background" width="40" height="40" rx="12" fill="none"/>
+    <rect id="Area-2" data-name="Area" width="32" height="32" rx="4" transform="translate(4 4)" fill="none"/>
+    <path id="Icon_-_Clock" data-name="Icon - Clock" d="M0,10A10,10,0,1,1,10,20,10,10,0,0,1,0,10Zm2,0a8,8,0,1,0,8-8A8.01,8.01,0,0,0,2,10Zm8,2a1,1,0,0,1-1-1V6a1,1,0,1,1,2,0v4h2a1,1,0,0,1,0,2Z" transform="translate(10 10)" fill="#8595a3"/>
+  </g>
+</svg>

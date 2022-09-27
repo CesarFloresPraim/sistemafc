@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon_marker" transform="translate(0.23)">
+    <rect id="Background" width="40" height="40" rx="12" transform="translate(-0.23)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(3.77 4)" fill="none"/>
+    <path id="Icon_-_Marker" data-name="Icon - Marker" d="M0,9A9,9,0,0,1,18,9c0,4.97-5.44,13-9,13S0,13.97,0,9ZM2,9c0,1.9,1.1,4.742,2.814,7.229C6.6,18.83,8.335,20,9,20s2.4-1.168,4.188-3.769C14.9,13.742,16,10.9,16,9A7,7,0,1,0,2,9ZM5,9a4,4,0,1,1,4,4A4,4,0,0,1,5,9ZM7,9A2,2,0,1,0,9,7,2,2,0,0,0,7,9Z" transform="translate(10.771 10)"/>
+  </g>
+</svg>

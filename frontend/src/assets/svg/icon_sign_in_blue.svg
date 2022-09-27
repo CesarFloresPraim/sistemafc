@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_sign-in_blue" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="icon_sign_in_blue" data-name="Icon - Sign In" d="M5.647,17.5H9.475a8,8,0,1,0,0-15H5.648a10,10,0,1,1,0,15Zm-1.4-3.163L.335,10.782A1.08,1.08,0,0,1,0,10a1.063,1.063,0,0,1,.336-.78L4.25,5.665a1.08,1.08,0,1,1,1.49,1.563L3.772,8.92h8.252A1.081,1.081,0,0,1,13.1,10a1.05,1.05,0,0,1-1.04,1.08H3.772l1.966,1.692a1.081,1.081,0,0,1-1.49,1.565Z" transform="translate(1527.684 93.55) rotate(180)" />
+  </g>
+</svg>

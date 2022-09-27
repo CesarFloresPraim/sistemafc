@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48">
+  <g id="icon_check" transform="translate(-1492 -59)">
+    <rect id="Background" width="32" height="32" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="Icon_-_Check" data-name="Icon - Check" d="M4204.239,4241.91a1.5,1.5,0,0,1-1.061-.439l-4.056-3.056a1.5,1.5,0,0,1,2.121-2.121l3,2,6.14-6.14a1.5,1.5,0,0,1,2.121,2.121l-7.2,7.2A1.5,1.5,0,0,1,4204.239,4241.91Z" transform="translate(-2689.811 -4153.811)"/>
+  </g>
+</svg>

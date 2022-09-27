@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 660 496" preserveAspectRatio="xMaxYMax">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3645" data-name="Rectangle 3645" width="660" height="413" rx="20" transform="translate(1110 223)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle_3707" x="64" y="360" width="532" height="136" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3707-2" x="64" y="224" width="532" height="136" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3707-3" x="64" y="80" width="532" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="illustration_login_broker" transform="translate(-1112 -198)">
+    <rect id="Rectangle_3706" data-name="Rectangle 3706" width="516" height="399" rx="12" transform="translate(1184 198)" fill="#5577fe"/>
+    <rect id="Rectangle_3705" data-name="Rectangle 3705" width="580" height="399" rx="16" transform="translate(1152 210)" fill="#9baffe"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(2)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_3704" data-name="Rectangle 3704" width="660" height="413" rx="24" transform="translate(1110 223)" fill="#fff"/>
+      <path id="Rectangle_3714" data-name="Rectangle 3714" d="M24,0H174a0,0,0,0,1,0,0V413a0,0,0,0,1,0,0H24A24,24,0,0,1,0,389V24A24,24,0,0,1,24,0Z" transform="translate(1110 223)" fill="#f6f8fc"/>
+    </g>
+    <g id="Card_03" data-name="Card #03" transform="translate(43 195)">
+      <g transform="matrix(1, 0, 0, 1, 1069, 3)" filter="url(#Rectangle_3707)">
+        <g id="Rectangle_3707-4" data-name="Rectangle 3707" transform="translate(76 366)" fill="#fff" stroke="#e3e6e9" stroke-width="1">
+          <rect width="508" height="112" rx="12" stroke="none"/>
+          <rect x="0.5" y="0.5" width="507" height="111" rx="11.5" fill="none"/>
+        </g>
+      </g>
+      <circle id="Ellipse_387" data-name="Ellipse 387" cx="16" cy="16" r="16" transform="translate(1161 385)" fill="#e5f9f3"/>
+      <circle id="Ellipse_388" data-name="Ellipse 388" cx="16" cy="16" r="16" transform="translate(1497 385)" fill="#0c3cfd"/>
+      <rect id="Rectangle_3708" data-name="Rectangle 3708" width="64" height="8" rx="4" transform="translate(1209 391)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3709" data-name="Rectangle 3709" width="32" height="6" rx="3" transform="translate(1209 405)" fill="#e3e6e9"/>
+      <g id="Rectangle_3710" data-name="Rectangle 3710" transform="translate(1541 385)" fill="#fff" stroke="#e3e6e9" stroke-width="1">
+        <rect width="96" height="32" rx="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="95" height="31" rx="15.5" fill="none"/>
+      </g>
+      <text id="AC" transform="translate(1176.892 404)" fill="#00c48b" font-size="10" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-7" y="0">AC</tspan></text>
+      <rect id="Background" width="480" height="36" rx="8" transform="translate(1157 433)" fill="#f6f8fc"/>
+      <rect id="Rectangle_3711" data-name="Rectangle 3711" width="78" height="6" rx="3" transform="translate(1177 448)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3712" data-name="Rectangle 3712" width="78" height="6" rx="3" transform="translate(1279 448)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3713" data-name="Rectangle 3713" width="78" height="6" rx="3" transform="translate(1381 448)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3717" data-name="Rectangle 3717" width="64" height="8" rx="4" transform="translate(1367 397)" fill="#fff7f3"/>
+      <path id="Icon_-_Chat" data-name="Icon - Chat" d="M-3890.949-2858.527l-1.35-1.473h-1.7a3,3,0,0,1-3-3v-6a3,3,0,0,1,3-3h8a3,3,0,0,1,3,3v6a3,3,0,0,1-3,3h-.7l-1.35,1.473a1.991,1.991,0,0,1-1.45.623A1.989,1.989,0,0,1-3890.949-2858.527ZM-3895-2869v6a1,1,0,0,0,1,1h2.56l1.942,2.1,1.94-2.1H-3886a1,1,0,0,0,1-1v-6a1,1,0,0,0-1-1h-8A1,1,0,0,0-3895-2869Zm4,4a1,1,0,0,1-1-1,1,1,0,0,1,1-1h2a1,1,0,0,1,1,1,1,1,0,0,1-1,1Z" transform="translate(5403 3265.953)" fill="#fff"/>
+    </g>
+    <g id="Card_02" data-name="Card #02" transform="translate(43 59)">
+      <g transform="matrix(1, 0, 0, 1, 1069, 139)" filter="url(#Rectangle_3707-2)">
+        <g id="Rectangle_3707-5" data-name="Rectangle 3707" transform="translate(76 230)" fill="#fff" stroke="#e3e6e9" stroke-width="1">
+          <rect width="508" height="112" rx="12" stroke="none"/>
+          <rect x="0.5" y="0.5" width="507" height="111" rx="11.5" fill="none"/>
+        </g>
+      </g>
+      <circle id="Ellipse_387-2" data-name="Ellipse 387" cx="16" cy="16" r="16" transform="translate(1161 385)" fill="#ffebeb"/>
+      <circle id="Ellipse_388-2" data-name="Ellipse 388" cx="16" cy="16" r="16" transform="translate(1497 385)" fill="#0c3cfd"/>
+      <rect id="Rectangle_3708-2" data-name="Rectangle 3708" width="64" height="8" rx="4" transform="translate(1209 391)" fill="#e3e6e9"/>
+      <g id="Rectangle_3710-2" data-name="Rectangle 3710" transform="translate(1541 385)" fill="#fff" stroke="#e3e6e9" stroke-width="1">
+        <rect width="96" height="32" rx="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="95" height="31" rx="15.5" fill="none"/>
+      </g>
+      <text id="KJ" transform="translate(1176.892 404)" fill="#fb3f3f" font-size="10" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-5" y="0">KJ</tspan></text>
+      <rect id="Background-2" data-name="Background" width="480" height="36" rx="8" transform="translate(1157 433)" fill="#f6f8fc"/>
+      <rect id="Rectangle_3711-2" data-name="Rectangle 3711" width="78" height="6" rx="3" transform="translate(1177 448)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3712-2" data-name="Rectangle 3712" width="78" height="6" rx="3" transform="translate(1279 448)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3713-2" data-name="Rectangle 3713" width="78" height="6" rx="3" transform="translate(1381 448)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3716" data-name="Rectangle 3716" width="64" height="8" rx="4" transform="translate(1367 397)" fill="#fff2fa"/>
+      <path id="Icon_-_Chat-2" data-name="Icon - Chat" d="M-3890.949-2858.527l-1.35-1.473h-1.7a3,3,0,0,1-3-3v-6a3,3,0,0,1,3-3h8a3,3,0,0,1,3,3v6a3,3,0,0,1-3,3h-.7l-1.35,1.473a1.991,1.991,0,0,1-1.45.623A1.989,1.989,0,0,1-3890.949-2858.527ZM-3895-2869v6a1,1,0,0,0,1,1h2.56l1.942,2.1,1.94-2.1H-3886a1,1,0,0,0,1-1v-6a1,1,0,0,0-1-1h-8A1,1,0,0,0-3895-2869Zm4,4a1,1,0,0,1-1-1,1,1,0,0,1,1-1h2a1,1,0,0,1,1,1,1,1,0,0,1-1,1Z" transform="translate(5403 3265.953)" fill="#fff"/>
+    </g>
+    <g id="Card_01" data-name="Card #01" transform="translate(43 -85)">
+      <g transform="matrix(1, 0, 0, 1, 1069, 283)" filter="url(#Rectangle_3707-3)">
+        <g id="Rectangle_3707-6" data-name="Rectangle 3707" transform="translate(76 86)" fill="#fff" stroke="#e3e6e9" stroke-width="1">
+          <rect width="508" height="120" rx="12" stroke="none"/>
+          <rect x="0.5" y="0.5" width="507" height="119" rx="11.5" fill="none"/>
+        </g>
+      </g>
+      <circle id="Ellipse_387-3" data-name="Ellipse 387" cx="16" cy="16" r="16" transform="translate(1161 389)" fill="#e7effe"/>
+      <circle id="Ellipse_388-3" data-name="Ellipse 388" cx="16" cy="16" r="16" transform="translate(1497 389)" fill="#0c3cfd"/>
+      <rect id="Rectangle_3708-3" data-name="Rectangle 3708" width="64" height="8" rx="4" transform="translate(1209 395)" fill="#e3e6e9"/>
+      <rect id="Rectangle_3715" data-name="Rectangle 3715" width="64" height="8" rx="4" transform="translate(1367 401)" fill="#e5f9f3"/>
+      <rect id="Rectangle_3709-2" data-name="Rectangle 3709" width="32" height="6" rx="3" transform="translate(1209 409)" fill="#e3e6e9"/>
+      <g id="Rectangle_3710-3" data-name="Rectangle 3710" transform="translate(1541 389)" fill="#fff" stroke="#e3e6e9" stroke-width="1">
+        <rect width="96" height="32" rx="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="95" height="31" rx="15.5" fill="none"/>
+      </g>
+      <text id="HP" transform="translate(1176.892 408)" fill="#0c3cfd" font-size="10" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-6" y="0">HP</tspan></text>
+      <g id="Group_686" data-name="Group 686" transform="translate(0 8)">
+        <rect id="Background-3" data-name="Background" width="480" height="36" rx="8" transform="translate(1157 433)" fill="#f6f8fc"/>
+        <rect id="Rectangle_3711-3" data-name="Rectangle 3711" width="78" height="6" rx="3" transform="translate(1177 448)" fill="#e3e6e9"/>
+        <rect id="Rectangle_3712-3" data-name="Rectangle 3712" width="78" height="6" rx="3" transform="translate(1279 448)" fill="#e3e6e9"/>
+        <rect id="Rectangle_3713-3" data-name="Rectangle 3713" width="78" height="6" rx="3" transform="translate(1381 448)" fill="#e3e6e9"/>
+      </g>
+      <path id="Icon_-_Chat-3" data-name="Icon - Chat" d="M-3890.949-2858.527l-1.35-1.473h-1.7a3,3,0,0,1-3-3v-6a3,3,0,0,1,3-3h8a3,3,0,0,1,3,3v6a3,3,0,0,1-3,3h-.7l-1.35,1.473a1.991,1.991,0,0,1-1.45.623A1.989,1.989,0,0,1-3890.949-2858.527ZM-3895-2869v6a1,1,0,0,0,1,1h2.56l1.942,2.1,1.94-2.1H-3886a1,1,0,0,0,1-1v-6a1,1,0,0,0-1-1h-8A1,1,0,0,0-3895-2869Zm4,4a1,1,0,0,1-1-1,1,1,0,0,1,1-1h2a1,1,0,0,1,1,1,1,1,0,0,1-1,1Z" transform="translate(5403 3269.952)" fill="#fff"/>
+      <g id="Badge" transform="translate(-365.168 371.832)">
+        <g id="Rectangle_3416" data-name="Rectangle 3416" transform="translate(1887.168 17.168)" fill="#fb3f3f" stroke="#fff" stroke-width="4">
+          <rect width="8" height="8" rx="4" stroke="none"/>
+          <rect x="-2" y="-2" width="12" height="12" rx="6" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

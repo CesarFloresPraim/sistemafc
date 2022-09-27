@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon_menu_home_active" transform="translate(0.23)">
+    <rect id="Background" width="40" height="40" rx="12" transform="translate(-0.23)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(3.77 4)" fill="none"/>
+    <path id="Icon_-_House" data-name="Icon - House" d="M16,21.965H6a6.008,6.008,0,0,1-6-6v-6A4.957,4.957,0,0,1,.18,8.634a5.826,5.826,0,0,1,2.4-3.893L7.449,1.163a6,6,0,0,1,7.1,0L19.424,4.74a6.174,6.174,0,0,1,1.354,1.347A3.963,3.963,0,0,1,22,8.965v7A6.007,6.007,0,0,1,16,21.965ZM8,15.058a1,1,0,1,0,0,2h6a1,1,0,1,0,0-2Z" transform="translate(8.999 8.942)"/>
+  </g>
+</svg>

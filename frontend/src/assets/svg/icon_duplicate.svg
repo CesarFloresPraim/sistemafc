@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_duplicate" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="Union_209" data-name="Union 209" d="M4,20a4,4,0,0,1-4-4V8A4,4,0,0,1,4,4,4,4,0,0,1,8,0h8a4,4,0,0,1,4,4v8a4,4,0,0,1-4,4h0a4,4,0,0,1-4,4ZM2,8v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V8a2,2,0,0,0-2-2H4A2,2,0,0,0,2,8ZM12,4a4,4,0,0,1,4,4v6a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H8A2,2,0,0,0,6,4Z" transform="translate(1506 73)"/>
+  </g>
+</svg>

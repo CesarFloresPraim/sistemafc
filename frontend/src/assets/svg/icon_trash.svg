@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_trash" transform="translate(-1492 -59)">
+    <rect id="Background" width="48" height="48" rx="24" transform="translate(1492 59)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(1500 67)" fill="none"/>
+    <path id="Icon_-_Trash" data-name="Icon - Trash" d="M-7643-14243a3,3,0,0,1-3-3l-.832-10H-7648a1,1,0,0,1-1-1,1,1,0,0,1,1-1h5a4,4,0,0,1,4-4,4,4,0,0,1,4,4h5a1,1,0,0,1,1,1,1,1,0,0,1-1,1h-1.165l-.833,10a3,3,0,0,1-3,3Zm-1-3.071v.071a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1v-.071l.852-9.929h-11.7Zm7-11.926a2,2,0,0,0-2-2,2,2,0,0,0-2,2Zm-1,9v-3a1,1,0,0,1,1-1,1,1,0,0,1,1,1v3a1,1,0,0,1-1,1A1,1,0,0,1-7638-14249Zm-4,0v-3a1,1,0,0,1,1-1,1,1,0,0,1,1,1v3a1,1,0,0,1-1,1A1,1,0,0,1-7642-14249Z" transform="translate(9155 14335)"/>
+  </g>
+</svg>

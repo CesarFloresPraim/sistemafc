@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="icon_menu_briefcase_active" transform="translate(0.23)">
+    <rect id="Background" width="40" height="40" rx="12" transform="translate(-0.23)" fill="none"/>
+    <rect id="Area" width="32" height="32" rx="4" transform="translate(3.77 4)" fill="none"/>
+    <path id="Icon_-_Briefcase" data-name="Icon - Briefcase" d="M18.994,24H5a5.007,5.007,0,0,1-5-5v-10A5,5,0,0,1,5,4h.1A5.027,5.027,0,0,1,10,0h4a5.01,5.01,0,0,1,4.9,4h.1a5.007,5.007,0,0,1,5,5V19A5.01,5.01,0,0,1,18.994,24ZM6,12a1,1,0,1,0,0,2H9a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2H18a1,1,0,1,0,0-2ZM9.927,2A3.01,3.01,0,0,0,7.171,4,3.106,3.106,0,0,0,7,5V6A2,2,0,0,0,9,8h6A2,2,0,0,0,17,6V5a2.99,2.99,0,0,0-2.814-2.991.133.133,0,0,1-.029,0,.1.1,0,0,0-.023,0h-4.2ZM15,6H9V5a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1V6Z" transform="translate(7.771 7)"/>
+  </g>
+</svg>
