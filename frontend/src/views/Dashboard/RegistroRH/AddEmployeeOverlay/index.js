@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import DatePicker, { registerLocale, setDefaultLocale } from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import es from "date-fns/locale/es";
-import { parse } from "date-fns";
+
 
 import InputField from "../../../../components/InputField";
 import SwitchSelection from "../../../../components/SwitchSelection";
 
 import CloseIcon from "../../../../assets/svg/icon_close.svg";
 import AddIcon from "../../../../assets/svg/icon_plus.svg";
+import TrashIcon from "../../../../assets/svg/icon_trash.svg";
 
 import { useSelector } from "react-redux";
 
@@ -17,6 +18,7 @@ export default function AddEmployeeOverlay({
   employee,
   isEditting = false,
   onSave,
+  onDelete,
   departments = [],
 }) {
   const [department, setDepartment] = useState();
@@ -27,9 +29,6 @@ export default function AddEmployeeOverlay({
   const [isCurrent, setIsCurrent] = useState(true);
 
   const handleSave = () => {
-    if (isEditting) {
-      return;
-    }
     let details = {
       department,
       name,
@@ -41,13 +40,15 @@ export default function AddEmployeeOverlay({
     return onSave(details);
   };
 
+
+
   useEffect(() => {
     if (employee && isEditting) {
       setDepartment(employee.department?.id || 0);
       setName(employee.name);
       setPhone(employee.phone);
-      setStartDate(parse(employee.startDate, "dd/MM/yyyy", new Date()));
-      setEndDate(parse(employee.endDate, "dd/MM/yyyy", new Date()));
+      setStartDate(new Date(employee.startDate));
+      setEndDate(new Date(employee.endDate));
       setIsCurrent(employee.isCurrent);
     }
   }, [employee]);
@@ -68,7 +69,7 @@ export default function AddEmployeeOverlay({
         <div className="w-1/2 bg-white flex flex-col overflow-scroll hide-scrollbar">
           <div className="flex px-16 py-16 items-center">
             <h2 className=" text-2xl md:text-[40px] font-semibold text-center">
-              NUEVO EMPLEADO
+              {!isEditting? "NUEVO EMPLEADO":"EDITAR EMPLEADO"}
             </h2>
             <div
               onClick={() => showOverlay(false, false)}
@@ -172,9 +173,16 @@ export default function AddEmployeeOverlay({
             </div>
           </div>
           <div className="flex w-full mt-auto">
+          <button
+              onClick={onDelete}
+              className=" ml-auto mb-4 mr-4 flex items-center rounded-3xl h-12 pr-4 text-[13px] border border-coralRed text-coralRed bg-white"
+            >
+              <TrashIcon fill="#FB3F3F"></TrashIcon>
+              <div>Desactivar </div>
+            </button>
             <button
               onClick={handleSave}
-              className=" ml-auto mb-4 mr-4 flex items-center rounded-3xl h-12 pr-4 text-[13px] text-white bg-primary"
+              className=" mb-4 mr-4 flex items-center rounded-3xl h-12 pr-4 text-[13px] text-white bg-primary"
             >
               <AddIcon fill="#FFF"></AddIcon>
               <div>Guardar </div>

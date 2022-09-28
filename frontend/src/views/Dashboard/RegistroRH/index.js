@@ -24,7 +24,7 @@ export default function RegistroRH() {
   const navigate = useNavigate();
   const location = useLocation();
   const dispatch = useDispatch();
-  const {search} = useSelector(state=>state.rh)
+  const { search } = useSelector((state) => state.rh);
   const [activeRoute, setActiveRoute] = useState(
     location.pathname.replaceAll("/", "")
   );
@@ -41,7 +41,7 @@ export default function RegistroRH() {
     setTopbarBreadcrums(
       getBreadcrumsArray(location.pathname.replaceAll("/", ""))
     );
-    dispatch(SetSearchRegisterRH(""))
+    dispatch(SetSearchRegisterRH(""));
   }, [location]);
 
   return (
@@ -90,8 +90,8 @@ export default function RegistroRH() {
             )}
           </TopBar>
         </div>
-        <div className="mt-6 overflow-x-scroll hide-scrollbar px-8">
-          <ul className="flex items-center">
+        <div className=" overflow-x-scroll hide-scrollbar px-8">
+          <ul className="flex items-center py-4">
             <li
               className={` ${
                 activeRoute === "registros-rh"

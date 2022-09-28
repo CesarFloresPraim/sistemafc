@@ -1008,3 +1008,384 @@ django.db.utils.IntegrityError: (1048, "Column 'department_id' cannot be null")
 [INFO] 2022-09-27 19:14:09,665 "GET /api/v1.0/employees/ HTTP/1.1" 200 1350
 [INFO] 2022-09-27 19:14:19,498 "POST /api/v1.0/employee/ HTTP/1.1" 200 429
 [INFO] 2022-09-27 19:14:19,509 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:14:15,762 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:14:18,436 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:14:18,436 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:14:18,456 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:14:18,459 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:14:47,512 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:14:47,521 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:15:31,587 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:15:31,591 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:16:32,745 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:16:32,747 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:16:40,451 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:16:40,454 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:16:49,835 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:16:49,840 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:17:07,635 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:17:07,639 "GET /api/v1.0/employees/ HTTP/1.1" 200 1574
+[INFO] 2022-09-27 22:18:11,006 "OPTIONS /api/v1.0/employee/ HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:18:11,019 "POST /api/v1.0/employee/ HTTP/1.1" 200 430
+[INFO] 2022-09-27 22:18:11,030 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:18:21,223 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:18:21,227 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:18:49,761 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:18:49,765 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:19:59,755 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:19:59,757 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:20:03,100 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:20:03,103 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:20:34,759 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:20:34,762 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:20:59,080 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:20:59,083 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:24:04,413 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:24:04,417 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:25:40,793 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:25:40,797 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:26:26,825 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:26:26,828 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:27:26,232 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:27:26,235 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:28:31,384 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-09-27 22:28:31,933 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:29:42,242 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:29:42,244 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:30:00,670 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:30:00,673 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:31:29,832 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:31:29,835 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:31:41,621 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:31:41,623 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[ERROR] 2022-09-27 22:31:54,863 Internal Server Error: /api/v1.0/employee/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: EmployeeView.put() missing 1 required positional argument: 'id'
+[ERROR] 2022-09-27 22:31:54,865 "PUT /api/v1.0/employee/ HTTP/1.1" 500 88563
+[ERROR] 2022-09-27 22:33:04,792 Internal Server Error: /api/v1.0/employee/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: EmployeeView.put() missing 1 required positional argument: 'id'
+[ERROR] 2022-09-27 22:33:04,793 "PUT /api/v1.0/employee/ HTTP/1.1" 500 88563
+[INFO] 2022-09-27 22:33:11,624 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:33:11,625 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:33:11,633 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:33:11,637 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:33:20,020 "OPTIONS /api/v1.0/employee//1 HTTP/1.1" 200 0
+[WARNING] 2022-09-27 22:33:20,025 Not Found: /api/v1.0/employee//1
+[WARNING] 2022-09-27 22:33:20,026 "PUT /api/v1.0/employee//1 HTTP/1.1" 404 3168
+[INFO] 2022-09-27 22:33:32,142 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:33:32,142 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:33:32,149 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:33:32,158 "GET /api/v1.0/employees/ HTTP/1.1" 200 1801
+[INFO] 2022-09-27 22:33:40,993 "OPTIONS /api/v1.0/employee/1 HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:33:41,006 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 466
+[INFO] 2022-09-27 22:33:41,028 "GET /api/v1.0/employees/ HTTP/1.1" 200 1837
+[INFO] 2022-09-27 22:33:58,097 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:33:58,100 "GET /api/v1.0/employees/ HTTP/1.1" 200 1837
+[INFO] 2022-09-27 22:34:03,312 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:34:03,315 "GET /api/v1.0/employees/ HTTP/1.1" 200 1837
+[INFO] 2022-09-27 22:35:19,640 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:35:19,643 "GET /api/v1.0/employees/ HTTP/1.1" 200 1837
+[INFO] 2022-09-27 22:35:21,088 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:35:21,092 "GET /api/v1.0/employees/ HTTP/1.1" 200 1837
+[INFO] 2022-09-27 22:35:27,536 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 466
+[INFO] 2022-09-27 22:35:27,548 "GET /api/v1.0/employees/ HTTP/1.1" 200 1837
+[INFO] 2022-09-27 22:35:33,803 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 467
+[INFO] 2022-09-27 22:35:33,815 "GET /api/v1.0/employees/ HTTP/1.1" 200 1838
+[INFO] 2022-09-27 22:35:42,455 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 467
+[INFO] 2022-09-27 22:35:42,467 "GET /api/v1.0/employees/ HTTP/1.1" 200 1838
+[INFO] 2022-09-27 22:35:45,443 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 467
+[INFO] 2022-09-27 22:35:45,456 "GET /api/v1.0/employees/ HTTP/1.1" 200 1838
+[INFO] 2022-09-27 22:35:48,893 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:35:48,897 "GET /api/v1.0/employees/ HTTP/1.1" 200 1838
+[INFO] 2022-09-27 22:35:53,665 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 467
+[INFO] 2022-09-27 22:35:53,675 "GET /api/v1.0/employees/ HTTP/1.1" 200 1838
+[INFO] 2022-09-27 22:36:00,689 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:36:00,694 "GET /api/v1.0/employees/ HTTP/1.1" 200 1838
+[INFO] 2022-09-27 22:36:32,504 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 466
+[INFO] 2022-09-27 22:36:32,515 "GET /api/v1.0/employees/ HTTP/1.1" 200 1837
+[INFO] 2022-09-27 22:36:37,615 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 467
+[INFO] 2022-09-27 22:36:37,625 "GET /api/v1.0/employees/ HTTP/1.1" 200 1838
+[INFO] 2022-09-27 22:37:08,040 "OPTIONS /api/v1.0/employee/2 HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:37:08,052 "PUT /api/v1.0/employee/2 HTTP/1.1" 200 454
+[INFO] 2022-09-27 22:37:08,065 "GET /api/v1.0/employees/ HTTP/1.1" 200 1868
+[INFO] 2022-09-27 22:37:25,832 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:37:25,836 "GET /api/v1.0/employees/ HTTP/1.1" 200 1868
+[INFO] 2022-09-27 22:37:39,349 "OPTIONS /api/v1.0/employee/4 HTTP/1.1" 200 0
+[INFO] 2022-09-27 22:37:39,361 "PUT /api/v1.0/employee/4 HTTP/1.1" 200 454
+[INFO] 2022-09-27 22:37:39,374 "GET /api/v1.0/employees/ HTTP/1.1" 200 1869
+[INFO] 2022-09-27 22:37:47,948 "PUT /api/v1.0/employee/4 HTTP/1.1" 200 453
+[INFO] 2022-09-27 22:37:47,961 "GET /api/v1.0/employees/ HTTP/1.1" 200 1866
+[INFO] 2022-09-27 22:38:01,473 "PUT /api/v1.0/employee/4 HTTP/1.1" 200 454
+[INFO] 2022-09-27 22:38:01,485 "GET /api/v1.0/employees/ HTTP/1.1" 200 1869
+[INFO] 2022-09-27 22:38:39,022 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:38:39,026 "GET /api/v1.0/employees/ HTTP/1.1" 200 1869
+[INFO] 2022-09-27 22:38:46,409 "PUT /api/v1.0/employee/1 HTTP/1.1" 200 463
+[INFO] 2022-09-27 22:38:46,424 "GET /api/v1.0/employees/ HTTP/1.1" 200 1865
+[INFO] 2022-09-27 22:38:56,371 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:38:56,375 "GET /api/v1.0/employees/ HTTP/1.1" 200 1865
+[INFO] 2022-09-27 22:38:57,366 "POST /api/v1.0/employee/ HTTP/1.1" 200 453
+[INFO] 2022-09-27 22:38:57,385 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:40:51,184 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:40:51,189 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:46:21,606 D:\Binara\nominaFC\backend\sistemafcApp\models\employee.py changed, reloading.
+[INFO] 2022-09-27 22:46:22,168 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:47:11,335 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:47:11,857 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:47:21,333 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[ERROR] 2022-09-27 22:47:21,376 Internal Server Error: /api/v1.0/employees/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'sistemafcApp_employee.isActive' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employeeList.py", line 16, in get
+    Employee.objects.all(), many=True).data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\query.py", line 394, in __iter__
+    self._fetch_all()
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1395, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'sistemafcApp_employee.isActive' in 'field list'")
+[ERROR] 2022-09-27 22:47:21,381 "GET /api/v1.0/employees/ HTTP/1.1" 500 198440
+[INFO] 2022-09-27 22:47:42,079 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:47:44,474 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:47:44,478 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:48:19,526 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:48:19,531 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:48:22,275 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:48:22,280 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:49:28,689 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:49:28,694 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:49:30,319 "DELETE /api/v1.0/employee/1 HTTP/1.1" 200 481
+[INFO] 2022-09-27 22:49:30,338 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:49:59,383 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 8785
+[INFO] 2022-09-27 22:49:59,446 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-09-27 22:49:59,446 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-09-27 22:49:59,448 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-09-27 22:49:59,448 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-09-27 22:49:59,455 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-09-27 22:49:59,455 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-09-27 22:49:59,461 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-09-27 22:49:59,463 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-09-27 22:49:59,464 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-09-27 22:49:59,464 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-09-27 22:49:59,466 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-09-27 22:49:59,468 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-09-27 22:49:59,469 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-09-27 22:49:59,471 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-09-27 22:49:59,471 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-09-27 22:49:59,476 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-09-27 22:49:59,476 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-09-27 22:49:59,482 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-09-27 22:49:59,482 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-09-27 22:49:59,487 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-09-27 22:49:59,487 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-09-27 22:49:59,489 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[WARNING] 2022-09-27 22:49:59,515 Not Found: /favicon.ico
+[WARNING] 2022-09-27 22:49:59,515 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-09-27 22:50:00,703 "GET /admin/sistemafcApp/employee/9/change/ HTTP/1.1" 200 16643
+[INFO] 2022-09-27 22:50:00,716 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-09-27 22:50:00,719 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-09-27 22:50:00,723 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-09-27 22:50:00,723 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-09-27 22:50:00,728 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-09-27 22:50:00,728 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[INFO] 2022-09-27 22:50:00,735 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2022-09-27 22:50:00,735 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-09-27 22:50:09,645 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 8785
+[INFO] 2022-09-27 22:50:10,617 "GET /admin/sistemafcApp/employee/1/change/ HTTP/1.1" 200 16675
+[INFO] 2022-09-27 22:50:10,633 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-09-27 22:50:17,950 "DELETE /api/v1.0/employee/1 HTTP/1.1" 200 481
+[INFO] 2022-09-27 22:50:17,970 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:50:24,664 "GET /admin/sistemafcApp/employee/1/change/ HTTP/1.1" 200 16675
+[INFO] 2022-09-27 22:50:24,680 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-09-27 22:50:47,878 "DELETE /api/v1.0/employee/1 HTTP/1.1" 200 481
+[INFO] 2022-09-27 22:50:47,895 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:51:03,984 "DELETE /api/v1.0/employee/4 HTTP/1.1" 200 472
+[INFO] 2022-09-27 22:51:04,002 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:51:06,869 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 8785
+[INFO] 2022-09-27 22:51:07,670 "GET /admin/sistemafcApp/employee/9/change/ HTTP/1.1" 200 16643
+[INFO] 2022-09-27 22:51:07,685 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-09-27 22:55:53,950 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:55:54,501 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:55:58,137 "DELETE /api/v1.0/employee/4 HTTP/1.1" 200 472
+[INFO] 2022-09-27 22:55:58,153 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:56:19,107 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:56:19,642 Watching for file changes with StatReloader
+[ERROR] 2022-09-27 22:56:21,342 Internal Server Error: /api/v1.0/employee/4
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py", line 53, in delete
+    print(serializer.data)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 249, in data
+    raise AssertionError(msg)
+AssertionError: When a serializer is passed a `data` keyword argument you must call `.is_valid()` before attempting to access the serialized `.data` representation.
+You should either call `.is_valid()` first, or access `.initial_data` instead.
+[ERROR] 2022-09-27 22:56:21,345 "DELETE /api/v1.0/employee/4 HTTP/1.1" 500 108623
+[INFO] 2022-09-27 22:56:55,082 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:56:55,620 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:57:08,985 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 22:57:08,988 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[ERROR] 2022-09-27 22:57:10,718 Internal Server Error: /api/v1.0/employee/2
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py", line 54, in delete
+    return self.__getResponseAfterValidation(serializer)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py", line 59, in __getResponseAfterValidation
+    serializer.save()
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 198, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+[ERROR] 2022-09-27 22:57:10,720 "DELETE /api/v1.0/employee/2 HTTP/1.1" 500 108163
+[INFO] 2022-09-27 22:57:42,030 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:57:42,648 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:57:44,043 "DELETE /api/v1.0/employee/2 HTTP/1.1" 200 472
+[INFO] 2022-09-27 22:57:44,062 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:58:05,919 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:58:06,484 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:58:07,233 "DELETE /api/v1.0/employee/4 HTTP/1.1" 200 472
+[INFO] 2022-09-27 22:58:07,252 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:58:22,209 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:58:22,769 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:58:24,812 "DELETE /api/v1.0/employee/4 HTTP/1.1" 200 473
+[INFO] 2022-09-27 22:58:24,829 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:58:32,464 "DELETE /api/v1.0/employee/1 HTTP/1.1" 200 482
+[INFO] 2022-09-27 22:58:32,480 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 22:58:40,868 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employee.py changed, reloading.
+[INFO] 2022-09-27 22:58:41,411 Watching for file changes with StatReloader
+[INFO] 2022-09-27 22:58:43,519 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 8785
+[INFO] 2022-09-27 22:58:45,210 "GET /admin/sistemafcApp/employee/9/change/ HTTP/1.1" 200 16643
+[INFO] 2022-09-27 22:58:45,228 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-09-27 22:58:47,054 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 8785
+[INFO] 2022-09-27 22:58:48,867 "GET /admin/sistemafcApp/employee/1/change/ HTTP/1.1" 200 16667
+[INFO] 2022-09-27 22:58:48,881 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-09-27 22:58:50,624 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 8785
+[INFO] 2022-09-27 23:01:40,980 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 23:01:40,984 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 23:04:28,755 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 23:04:28,758 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 23:04:32,641 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-09-27 23:04:32,645 "GET /api/v1.0/employees/ HTTP/1.1" 200 2115
+[INFO] 2022-09-27 23:05:12,808 D:\Binara\nominaFC\backend\sistemafcApp\serializers\employeeSerializer.py changed, reloading.
+[INFO] 2022-09-27 23:05:13,364 Watching for file changes with StatReloader

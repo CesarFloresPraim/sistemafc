@@ -87,12 +87,38 @@ module.exports = (env) => {
                   mode === "production"
                     ? [
                         ["@babel/plugin-transform-runtime"],
-                        ["inline-react-svg"],
+                        [
+                          "inline-react-svg",
+                          {
+                            svgo: {
+                              plugins: [
+                                {
+                                  name: "removeAttrs",
+                                  params: { attrs: "(data-name)" },
+                                },
+                                "cleanupIDs",
+                              ],
+                            },
+                          },
+                        ],
                       ]
                     : [
                         ["react-refresh/babel"],
                         ["@babel/plugin-transform-runtime"],
-                        ["inline-react-svg"],
+                        [
+                          "inline-react-svg",
+                          {
+                            svgo: {
+                              plugins: [
+                                {
+                                  name: "removeAttrs",
+                                  params: { attrs: "(data-name)" },
+                                },
+                                "cleanupIDs",
+                              ],
+                            },
+                          },
+                        ],
                       ],
               },
             },

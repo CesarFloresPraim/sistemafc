@@ -15,7 +15,8 @@ class EmployeeView(APIView):
 
     def get(self, request, id):
         try:
-            dataSerialized = EmployeeSerializer(Employee.objects.get(id=id)).data
+            dataSerialized = EmployeeSerializer(
+                Employee.objects.get(id=id)).data
 
         except ObjectDoesNotExist:
             return JsonResponse({"message": "No se encontró ese registro"}, status=404)
@@ -35,7 +36,8 @@ class EmployeeView(APIView):
         except ObjectDoesNotExist:
             return JsonResponse({"message": "No se encontró ese registro"}, status=404, safe=False)
 
-        serializer = EmployeeSerializer(object, data=request.data, partial=True)
+        serializer = EmployeeSerializer(
+            object, data=request.data, partial=True)
 
         return self.__getResponseAfterValidation(serializer)
 
@@ -46,9 +48,10 @@ class EmployeeView(APIView):
         except ObjectDoesNotExist:
             return JsonResponse({"message": "No se encontró ese registro"}, status=404)
 
-        object.delete()
+        serializer = EmployeeSerializer(
+                object, data={"isActive":False}, partial=True)
 
-        return JsonResponse({}, status=204)
+        return self.__getResponseAfterValidation(serializer)
 
     def __getResponseAfterValidation(self, serializer):
         if serializer.is_valid():

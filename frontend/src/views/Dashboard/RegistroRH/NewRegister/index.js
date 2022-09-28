@@ -103,50 +103,50 @@ export default function NewRegister() {
         </div>
       </div>
 
-      <div class="overflow-x-scroll rounded-3xl m-6 ">
-        <table class="relative w-full text-sm text-left text-gray-500">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+      <div className="overflow-x-scroll rounded-3xl m-6 ">
+        <table className="relative w-full text-sm text-left text-gray-500">
+          <thead className="text-xs text-gray-700 uppercase bg-gray-50">
             <tr className="">
-              <th scope="col" class="py-3 px-6 sticky left-0 bg-gray-50">
+              <th scope="col" className="py-3 px-6 sticky left-0 bg-gray-50">
                 Nombre
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Comida
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Caja chica
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Horas extra (min)
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Puntualidad
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Asistencia
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Ju
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Vi
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Sa
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Do
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Lu
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Ma
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Mi
               </th>
-              <th scope="col" class="py-3 px-6">
+              <th scope="col" className="py-3 px-6">
                 Comentarios
               </th>
             </tr>
@@ -155,13 +155,13 @@ export default function NewRegister() {
             {filteredEmployeesList.length > 0 &&
               filteredEmployeesList.map((item) => {
                 return (
-                  <tr class="bg-white font-semibold">
+                  <tr key={item.id} className="bg-white font-semibold">
                     <td
-                      class={`py-1 px-6 whitespace-nowrap sticky left-0 bg-white`}
+                      className={`py-1 px-6 whitespace-nowrap sticky left-0 bg-white`}
                     >
                       {item.name}
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       <input
                         type="number"
                         className="border border-porcelain w-[100px]"
@@ -170,7 +170,7 @@ export default function NewRegister() {
                         onChange={(e) => handleRegisterChange(e, item.id)}
                       />{" "}
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       <input
                         type="number"
                         className="border border-porcelain  w-[100px]"
@@ -179,7 +179,7 @@ export default function NewRegister() {
                         onChange={(e) => handleRegisterChange(e, item.id)}
                       />{" "}
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       <input
                         type="number"
                         className="border border-porcelain w-[100px]"
@@ -188,7 +188,7 @@ export default function NewRegister() {
                         onChange={(e) => handleRegisterChange(e, item.id)}
                       />
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       <select
                         name="puntuality"
                         value={item.puntuality}
@@ -198,7 +198,7 @@ export default function NewRegister() {
                         <option value={false}>No</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       <select
                         name="attendance"
                         value={item.attendance}
@@ -208,7 +208,7 @@ export default function NewRegister() {
                         <option value={false}>No</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       {" "}
                       <select
                         name="ju"
@@ -222,7 +222,7 @@ export default function NewRegister() {
                         <option value="Descanso">De</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       {" "}
                       <select
                         name="vi"
@@ -236,7 +236,7 @@ export default function NewRegister() {
                         <option value="Descanso">De</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       {" "}
                       <select
                         name="sa"
@@ -250,7 +250,7 @@ export default function NewRegister() {
                         <option value="Descanso">De</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       {" "}
                       <select
                         name="do"
@@ -264,7 +264,7 @@ export default function NewRegister() {
                         <option value="Descanso">De</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       {" "}
                       <select
                         name="lu"
@@ -278,7 +278,7 @@ export default function NewRegister() {
                         <option value="Descanso">De</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       {" "}
                       <select
                         name="ma"
@@ -292,7 +292,7 @@ export default function NewRegister() {
                         <option value="Descanso">De</option>
                       </select>
                     </td>
-                    <td class={`py-1 px-6`}>
+                    <td className={`py-1 px-6`}>
                       {" "}
                       <select
                         name="mi"
@@ -308,7 +308,7 @@ export default function NewRegister() {
                     </td>
 
                     <td
-                      class={`py-1 px-6 text-primary font-semibold cursor-pointer`}
+                      className={`py-1 px-6 text-primary font-semibold cursor-pointer`}
                       onClick={() => {
                         handleAddComment(item.id);
                       }}

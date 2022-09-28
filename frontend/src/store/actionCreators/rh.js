@@ -39,7 +39,7 @@ export const CreateEmployee = (details) => (dispatch) => {
     axiosPrivate
       .post(apiRoutes.EMPLOYEE, details)
       .then((res) => {
-        resolve(res)
+        resolve(res);
       })
       .catch((err) => {
         reject(err);
@@ -47,13 +47,43 @@ export const CreateEmployee = (details) => (dispatch) => {
   });
 };
 
+export const EditEmployee = (details, id) => (dispatch) => {
+  return new Promise((resolve, reject) => {
+    axiosPrivate
+      .put(`${apiRoutes.EMPLOYEE}${id}`, details)
+      .then((res) => {
+        resolve(res);
+      })
+      .catch((err) => {
+        reject(err);
+      });
+  });
+};
+
+export const DeactivateEmployee = (id) => (dispatch) => {
+  return new Promise((resolve, reject) => {
+    axiosPrivate
+      .delete(`${apiRoutes.EMPLOYEE}${id}`)
+      .then((res) => {
+        resolve(res);
+      })
+      .catch((err) => {
+        reject(err);
+      });
+  });
+};
+
+
 export const FetchDepartmentList = () => (dispatch) => {
   return new Promise((resolve, reject) => {
     axiosPrivate
       .get(apiRoutes.FETCH_DEPARTMENT_LIST)
       .then((res) => {
-        dispatch({ type: actionTypes.FETCH_DEPARTMENT_LIST, payload: res.data });
-        resolve(res)
+        dispatch({
+          type: actionTypes.FETCH_DEPARTMENT_LIST,
+          payload: res.data,
+        });
+        resolve(res);
       })
       .catch((err) => {
         reject(err);

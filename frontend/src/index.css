@@ -82,3 +82,8 @@
     background-color: #fff7f3;
   }
 }
+
+.react-datepicker__input-container > input {
+  border: 1px #E3E6E9 solid;
+  border-radius: 32px;
+}

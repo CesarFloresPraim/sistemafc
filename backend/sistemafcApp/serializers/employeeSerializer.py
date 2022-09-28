@@ -15,5 +15,5 @@ class EmployeeRhSerializer(serializers.ModelSerializer):
     class Meta:
         model = Employee
         fields = ['id', 'name', 'number', 'daysOfWork',
-                  'startDate', 'endDate', 'department', 'phone', 'isCurrent']
+                  'startDate', 'endDate', 'department', 'phone', 'isCurrent', 'isActive']
         depth = 1
