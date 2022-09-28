@@ -91,38 +91,118 @@ export default function RegistroRH() {
           </TopBar>
         </div>
         <div className=" overflow-x-scroll hide-scrollbar px-8">
-          <ul className="flex items-center py-4">
-            <li
-              className={` ${
-                activeRoute === "registros-rh"
-                  ? "text-primary border-b-2 border-b-primary font-semibold"
-                  : "bg-transparent text-regentGray"
-              } cursor-pointer mt-1 py-1 px-2 text-sm`}
-            >
-              <NavLink
-                to="registros-rh"
-                className={`flex items-center p-1`}
-                onClick={() => setActiveRoute("registros-rh")}
+          {activeRoute == "nuevo-registro-rh" || activeRoute == "comida-registro-rh" || activeRoute == "caja-chica-registro-rh" ? (
+            <ul className="flex items-center py-4">
+              <li
+                className={` ${
+                  activeRoute === "nuevo-registro-rh"
+                    ? "text-primary border-b-2 border-b-primary font-semibold"
+                    : "bg-transparent text-regentGray"
+                } cursor-pointer mt-1 py-1 px-2 text-sm`}
               >
-                Registros
-              </NavLink>
-            </li>
-            <li
-              className={` ${
-                activeRoute === "lista-empleados-rh"
-                  ? "text-primary border-b-2 border-b-primary font-semibold"
-                  : "bg-transparent text-regentGray"
-              } cursor-pointer mt-1 py-1 px-2 text-sm`}
-            >
-              <NavLink
-                to="lista-empleados-rh"
-                className={`flex items-center p-1`}
-                onClick={() => setActiveRoute("lista-empleados-rh")}
+                <NavLink
+                  to="nuevo-registro-rh"
+                  className={`flex items-center p-1`}
+                  onClick={() => setActiveRoute("nuevo-registro-rh")}
+                >
+                  Resumen
+                </NavLink>
+              </li>
+              <li
+                className={` ${
+                  activeRoute === "comida-registro-rh"
+                    ? "text-primary border-b-2 border-b-primary font-semibold"
+                    : "bg-transparent text-regentGray"
+                } cursor-pointer mt-1 py-1 px-2 text-sm`}
               >
-                Empleados
-              </NavLink>
-            </li>
-          </ul>
+                <NavLink
+                  to="comida-registro-rh"
+                  className={`flex items-center p-1`}
+                  onClick={() => setActiveRoute("comida-registro-rh")}
+                >
+                  Comida
+                </NavLink>
+              </li>
+              <li
+                className={` ${
+                  activeRoute === "caja-chica-registro-rh"
+                    ? "text-primary border-b-2 border-b-primary font-semibold"
+                    : "bg-transparent text-regentGray"
+                } cursor-pointer mt-1 py-1 px-2 text-sm`}
+              >
+                <NavLink
+                  to="caja-chica-registro-rh"
+                  className={`flex items-center p-1`}
+                  onClick={() => setActiveRoute("caja-chica-registro-rh")}
+                >
+                  Caja chica
+                </NavLink>
+              </li>
+              <li
+                className={` ${
+                  activeRoute === "lista-empleados-rh"
+                    ? "text-primary border-b-2 border-b-primary font-semibold"
+                    : "bg-transparent text-regentGray"
+                } cursor-pointer mt-1 py-1 px-2 text-sm`}
+              >
+                <NavLink
+                  to="lista-empleados-rh"
+                  className={`flex items-center p-1`}
+                  onClick={() => setActiveRoute("lista-empleados-rh")}
+                >
+                  Horas extra
+                </NavLink>
+              </li>
+              <li
+                className={` ${
+                  activeRoute === "lista-empleados-rh"
+                    ? "text-primary border-b-2 border-b-primary font-semibold"
+                    : "bg-transparent text-regentGray"
+                } cursor-pointer mt-1 py-1 px-2 text-sm`}
+              >
+                <NavLink
+                  to="lista-empleados-rh"
+                  className={`flex items-center p-1`}
+                  onClick={() => setActiveRoute("lista-empleados-rh")}
+                >
+                  Faltas
+                </NavLink>
+              </li>
+            </ul>
+          ) : (
+            <ul className="flex items-center py-4">
+              <li
+                className={` ${
+                  activeRoute === "registros-rh"
+                    ? "text-primary border-b-2 border-b-primary font-semibold"
+                    : "bg-transparent text-regentGray"
+                } cursor-pointer mt-1 py-1 px-2 text-sm`}
+              >
+                <NavLink
+                  to="registros-rh"
+                  className={`flex items-center p-1`}
+                  onClick={() => setActiveRoute("registros-rh")}
+                >
+                  Registros
+                </NavLink>
+              </li>
+              <li
+                className={` ${
+                  activeRoute === "lista-empleados-rh"
+                    ? "text-primary border-b-2 border-b-primary font-semibold"
+                    : "bg-transparent text-regentGray"
+                } cursor-pointer mt-1 py-1 px-2 text-sm`}
+              >
+                <NavLink
+                  to="lista-empleados-rh"
+                  className={`flex items-center p-1`}
+                  onClick={() => setActiveRoute("lista-empleados-rh")}
+                >
+                  Empleados
+                </NavLink>
+              </li>
+            </ul>
+          )}
         </div>
         <Outlet></Outlet>
       </div>

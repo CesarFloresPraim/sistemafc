@@ -6,5 +6,5 @@ export const apiRoutes = {
   EMPLOYEE: "api/v1.0/employee/",
   FETCH_EMPLOYEE_LIST: "api/v1.0/employees/",
   FETCH_DEPARTMENT_LIST: "api/v1.0/departments/",
-
+  FETCH_EMPLOYEE_FOR_REGISTER_LIST: "api/v1.0/employeesForRegister/"
 };

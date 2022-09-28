@@ -16,6 +16,14 @@ const breadcrums = {
     { name: "Inicio", path: "/home" },
     { name: "Nuevo registro", path: "/nuevo-registro-rh" },
   ],
+  "comida-registro-rh": [
+    { name: "Inicio", path: "/home" },
+    { name: "Comidas", path: "/comida-registro-rh" },
+  ],
+  "caja-chica-registro-rh": [
+    { name: "Inicio", path: "/home" },
+    { name: "Caja chica", path: "/caja-chica-registro-rh" },
+  ],
 };
 
 const titles = {
@@ -23,8 +31,8 @@ const titles = {
   "detalles-registro-rh": "Detalles de registro",
   "lista-empleados-rh": "Lista empleados",
   "nuevo-registro-rh": "Nuevo registro",
-  "customer-my-mortgages": "My mortgages",
-  "customer-my-approvals-contracts": "My approvals & contracts",
+  "comida-registro-rh": "Registro de comidas",
+  "caja-chica-registro-rh": "Registro de caja chica",
   "customer-my-broker": "My broker",
   "customer-contact-breeze": "Contact",
   "settings-personal-information": "Personal information",

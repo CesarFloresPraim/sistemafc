@@ -29,6 +29,8 @@ import EmployeeList from "./views/Dashboard/RegistroRH/EmployeeList";
 
 
 import ProtectedRoute from "./components/ProtectedRoute";
+import FoodRegister from "./views/Dashboard/RegistroRH/FoodRegister";
+import SmallBoxRegister from "./views/Dashboard/RegistroRH/SmallBoxRegister";
 
 
 
@@ -60,10 +62,13 @@ function App(props) {
             <Route path="home" element={<Home />} />
             <Route element={<RegistroRH />}>
               <Route path="registros-rh" element={<RegisterList />} />
-              <Route path="nuevo-registro-rh" element={<NewRegister />} />
               <Route path="detalles-registro-rh" element={<RegisterDetails />} />
-              <Route path="lista-empleados-rh" element={<EmployeeList />} />
-
+              <Route path="nuevo-registro-rh" element={<NewRegister />} />
+              <Route path="resumen-registro-rh" element={<EmployeeList />} />
+              <Route path="comida-registro-rh" element={<FoodRegister />} />
+              <Route path="caja-chica-registro-rh" element={<SmallBoxRegister />} />
+              <Route path="horas-extra-registro-rh" element={<EmployeeList />} />
+              <Route path="faltas-registro-rh" element={<EmployeeList />} />
             </Route>
           </Route>
         </Route>

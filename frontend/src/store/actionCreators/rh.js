@@ -34,6 +34,24 @@ export const FetchEmployeeList = () => (dispatch) => {
   });
 };
 
+export const FetchEmployeeForResgisterList = () => (dispatch) => {
+  return new Promise((resolve, reject) => {
+    axiosPrivate
+      .get(apiRoutes.FETCH_EMPLOYEE_FOR_REGISTER_LIST)
+      .then((res) => {
+        dispatch({ type: actionTypes.SET_REGISTERS, payload: res.data });
+        resolve(res);
+      })
+      .catch((err) => {
+        reject(err);
+      });
+  });
+};
+
+export const SetRegisters = (registers) => (dispatch) => {
+  return dispatch({ type: actionTypes.SET_REGISTERS, payload: registers });
+};
+
 export const CreateEmployee = (details) => (dispatch) => {
   return new Promise((resolve, reject) => {
     axiosPrivate

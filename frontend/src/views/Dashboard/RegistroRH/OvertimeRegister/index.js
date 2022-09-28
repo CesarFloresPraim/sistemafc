@@ -43,16 +43,6 @@ export default function NewRegister() {
     dispatch(SetRegisters(edittedList));
   };
 
-  const calcFoodValue = (item) => {
-    let sum = 100;
-      for (const key in item.food) {
-        if(item.food[key] == "false")
-        sum -= 20
-      }
-
-    return sum
-  };
-
   // const handleAddComment = (id) => {
   //   let selectedEmp = employeesList.find((item) => item.id == id);
   //   if (selectedEmp) {
@@ -168,7 +158,7 @@ export default function NewRegister() {
                           type="number"
                           className="border border-porcelain w-[100px] bg-whiteLilac"
                           name="food"
-                          value={calcFoodValue(item) || "0"}
+                          value={item.food || ""}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         />{" "}
                       </td>

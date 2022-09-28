@@ -6,7 +6,9 @@ let initialState = {
   showNewEmployeeOverlay: false,
   isEdittingEmployee: false,
   employeeList: [],
-  departments: []
+  departments: [],
+  registers: JSON.parse(localStorage.getItem("registers") || "[]") || [],
+  employeesForRegister: [],
 };
 
 function reducer(state = initialState, action) {
@@ -32,10 +34,21 @@ function reducer(state = initialState, action) {
         ...state,
         employeeList: action.payload,
       };
-    case actionTypes.FETCH_DEPARTMENT_LIST  :
+    case actionTypes.FETCH_DEPARTMENT_LIST:
       return {
         ...state,
         departments: action.payload,
+      };
+    case actionTypes.FETCH_EMPLOYEE_FOR_REGISTER_LIST:
+      return {
+        ...state,
+        employeesForRegister: action.payload,
+      };
+    case actionTypes.SET_REGISTERS:
+      localStorage.setItem("registers", JSON.stringify(action.payload));
+      return {
+        ...state,
+        registers: action.payload,
       };
     default:
       return state;
