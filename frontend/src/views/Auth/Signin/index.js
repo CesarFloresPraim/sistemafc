@@ -5,90 +5,37 @@ import {
   Navigate,
   createSearchParams,
 } from "react-router-dom";
+
 import InputField from "../../../components/InputField";
-import CheckboxField from "../../../components/CheckboxField";
 import { parseError } from "../../../services/errorHandler";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  LoginStatus,
-  SetAuthDetails,
-  SetAuthError,
-} from "../../../store/actionCreators/auth";
+import { SignIn } from "../../../store/actionCreators/auth";
+
 
 export default function Signin(props) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { loginStatus } = useSelector((state) => state.auth);
   const { errorMessage } = useSelector((state) => state.auth);
-  const [email, setEmail] = useState("");
-  const [emailValid, setEmailValid] = useState(false);
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false);
-  const [keepLogged, setKeepLogged] = useState(false);
-  const [error, setError] = useState();
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("user");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(loggedInUser);
-      let startDate = new Date(foundUser.startDate);
-      let now = new Date();
-      const msBetweenDates = Math.abs(startDate.getTime() - now.getTime());
-      //  convert ms to days                 hour   min  sec   ms
-      const daysBetweenDates = msBetweenDates / (24 * 60 * 60 * 1000);
-
-      if (daysBetweenDates < 30) {
-        localStorage.setItem("access_token", foundUser.tokens?.accessToken);
-        localStorage.setItem("refresh_token", foundUser.tokens?.refreshToken);
-        dispatch(SetAuthDetails(foundUser));
-        navigate("/broker-home");
-      } else {
-        localStorage.clear();
-      }
-    }
-  }, []);
-
-  useEffect(() => {
-    if (
-      !errorMessage ||
-      errorMessage === "Incomplete profile information" ||
-      errorMessage === "User has not been confirmed"
-    ) {
-      if (
-        loginStatus?.status === "UNCONFIRMED" ||
-        errorMessage === "User has not been confirmed"
-      ) {
-        const encodedEmail = encodeURIComponent(email);
-        navigate(`/email-confirm?email=${encodedEmail}`);
-      } else if (loginStatus?.status === "COMPLETED") {
-        navigate("/customer-home");
-      }
-    }
-  }, [loginStatus]);
-
-  function delay(time) {
-    return new Promise((resolve) => setTimeout(resolve, time));
-  }
 
   const onLogin = async (e) => {
     e.preventDefault();
-    setError(undefined);
-    dispatch(SetAuthError(""));
-    setLoading(true);
-    let obj = {
-      email: email,
-      password: password,
-      keepLogged: keepLogged,
-    };
-    dispatch(LoginStatus(obj));
+    let credentials = {
+      username: username,
+      password: password
+    }
+    dispatch(SignIn(credentials)).then(res => {
+      navigate({pathname: "/home"})
+    }).catch(err => {
+      console.log(err);
+    })
   };
 
   const buttonDisabled = () => {
     return (
-      !email ||
-      email.length == 0 ||
-      !emailValid ||
+      !username ||
+      username.length == 0 ||
       !password ||
       password.length == 0
     );
@@ -104,20 +51,12 @@ export default function Signin(props) {
           Porfavor ingresa con las credenciales que se te otorgaron
         </p>
         <InputField
-          label="Correo"
-          placeholder="Correo electronico"
-          type="email"
-          value={email}
+          label="Usuario"
+          placeholder="Usuario"
+          type="text"
           formNoValidate
-          validateExpression={
-            /^([+\w-]+(?:\.[+\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/
-          }
-          errorMessage="Invalid email address"
           onChange={(e) => {
-            setEmail(e.target.value);
-          }}
-          onValidationChange={(isValid) => {
-            setEmailValid(isValid);
+            setUsername(e.target.value);
           }}
         ></InputField>
         <InputField
@@ -125,7 +64,6 @@ export default function Signin(props) {
           name="password"
           type={"password"}
           placeholder="Escribe tu contraseña"
-          value={password}
           onChange={(e) => {
             setPassword(e.target.value);
           }}
@@ -136,7 +74,7 @@ export default function Signin(props) {
           type="submit"
           className={`primary mt-6 p-3 w-full justify-center text-center text-white rounded-[32px] ${
             buttonDisabled() ? "bg-mischka" : "bg-primary"
-          } ${loading ? "loading" : ""}`}
+          }`}
         >
           Iniciar sesión
         </button>

@@ -24,7 +24,7 @@ export default function RegistroRH() {
   const navigate = useNavigate();
   const location = useLocation();
   const dispatch = useDispatch();
-
+  const {search} = useSelector(state=>state.rh)
   const [activeRoute, setActiveRoute] = useState(
     location.pathname.replaceAll("/", "")
   );
@@ -41,6 +41,7 @@ export default function RegistroRH() {
     setTopbarBreadcrums(
       getBreadcrumsArray(location.pathname.replaceAll("/", ""))
     );
+    dispatch(SetSearchRegisterRH(""))
   }, [location]);
 
   return (
@@ -48,17 +49,15 @@ export default function RegistroRH() {
       <div className="flex flex-col flex-1 ">
         <div className="w-full flex flex-col sticky top-0 bg-white px-12 py-6 z-50">
           <TopBar title={topbarTitle} breadcrums={topbarBreadcrums}>
-            {activeRoute == "detalles-registro-rh" ||
-              (activeRoute == "lista-empleados-rh" && (
-                <input
-                  onChange={(e) => {
-                    dispatch(SetSearchRegisterRH(e.target.value));
-                  }}
-                  type="text"
-                  className="border border-porcelain rounded-[32px]"
-                  placeholder="Buscar"
-                />
-              ))}
+            <input
+              onChange={(e) => {
+                dispatch(SetSearchRegisterRH(e.target.value));
+              }}
+              value={search}
+              type="text"
+              className="border border-porcelain rounded-[32px]"
+              placeholder="Buscar"
+            />
             {activeRoute == "registros-rh" && (
               <button
                 onClick={() => navigate({ pathname: "/nuevo-registro-rh" })}
@@ -70,7 +69,7 @@ export default function RegistroRH() {
             )}
             {activeRoute == "lista-empleados-rh" && (
               <button
-                onClick={() => dispatch(ShowNewEmployeeOverlay(true))}
+                onClick={() => dispatch(ShowNewEmployeeOverlay(true, false))}
                 className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] text-white bg-primary"
               >
                 <AddIcon fill="#FFF"></AddIcon>

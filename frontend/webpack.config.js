@@ -13,20 +13,20 @@ module.exports = (env) => {
 
   if (env.development) {
     mode = "development";
-    Base_URL = "https://fcsistema.com";
+    Base_URL = "http://localhost:8000";
     // SourceMapType = "eval-cheap-module-source-map";
     SourceMapType = false;
   }
 
   if (env.uat) {
     mode = "production";
-    Base_URL = "https://fcsistema.com";
+    Base_URL = "http://localhost:8000";
     SourceMapType = false;
   }
 
   if (env.production) {
     mode = "production";
-    Base_URL = "https://fcsistema.com";
+    Base_URL = "http://localhost:8000";
     SourceMapType = false;
   }
 

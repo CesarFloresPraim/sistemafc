@@ -1,45 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux/es/exports";
-import useComponentVisible from "../../../helpers/useComponentVisible";
-
-import ProfileProgress from "../../../components/ProfileProgress";
-
-import IconMenu from "../../../assets/svg/icon_menu.svg";
-import CloseMenu from "../../../assets/svg/icon_close.svg";
-import IconChat from "../../../assets/svg/icon_chat.svg";
-import PlayIcon from "../../../assets/svg/icon_play.svg";
-
-import {
-  ShowMobileMenu,
-  HideMobileMenu,
-} from "../../../store/actionCreators/general";
 
 export default function BrokerHome() {
-  const dispatch = useDispatch();
-
-  const { showMobileMenu } = useSelector((state) => state.general);
-
-  const [progressRef, isProgressVisible, setIsProgressVisible] =
-    useComponentVisible(false);
-
-  const [lookingFor, setLookingFor] = useState("");
-  const [estimatedValue, setEstimatedValue] = useState("");
-  const [message, setMessage] = useState("");
-
-  const onGetNewLeads = () => {};
-
-  const onManageYourClients = () => {};
-
-  const onWatchVideo = () => {};
-
-  const buttonDisabled = () => {
-    return lookingFor == "" || estimatedValue == "" || message == "";
-  };
-
-  useEffect(() => {
-    dispatch(HideMobileMenu());
-  }, []);
-
   return (
     <>
       <div className="flex flex-col max-h-[100vh] hide-scrollbar">

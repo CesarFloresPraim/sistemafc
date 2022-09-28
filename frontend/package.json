@@ -36,6 +36,7 @@
     "history": "^5.3.0",
     "html-webpack-plugin": "^5.5.0",
     "import-loader": "^1.0.1",
+    "mem": "^9.0.2",
     "postcss-loader": "^6.2.1",
     "postcss-preset-env": "^7.2.3",
     "preset-react": "^1.0.0",

@@ -3,7 +3,10 @@ import * as actionTypes from "../action-types";
 let initialState = {
   selectedRegister: "",
   search: "",
-  showNewEmployeeOverlay: false
+  showNewEmployeeOverlay: false,
+  isEdittingEmployee: false,
+  employeeList: [],
+  departments: []
 };
 
 function reducer(state = initialState, action) {
@@ -21,7 +24,18 @@ function reducer(state = initialState, action) {
     case actionTypes.SHOW_NEW_EMPLOYEE_OVERLAY:
       return {
         ...state,
-        showNewEmployeeOverlay: action.payload,
+        showNewEmployeeOverlay: action.payload.show,
+        isEdittingEmployee: action.payload.isEditting,
+      };
+    case actionTypes.FETCH_EMPLOYEE_LIST:
+      return {
+        ...state,
+        employeeList: action.payload,
+      };
+    case actionTypes.FETCH_DEPARTMENT_LIST  :
+      return {
+        ...state,
+        departments: action.payload,
       };
     default:
       return state;

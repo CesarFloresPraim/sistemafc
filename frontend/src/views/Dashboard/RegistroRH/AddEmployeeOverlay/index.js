@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from "react";
+import DatePicker, { registerLocale, setDefaultLocale } from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import es from "date-fns/locale/es";
+import { parse } from "date-fns";
 
 import InputField from "../../../../components/InputField";
 import SwitchSelection from "../../../../components/SwitchSelection";
@@ -8,138 +12,58 @@ import AddIcon from "../../../../assets/svg/icon_plus.svg";
 
 import { useSelector } from "react-redux";
 
-export default function AddEmployeeOverlay({ showOverlay, employee }) {
-  const [department, setDepartment] = useState("Menudeo");
+export default function AddEmployeeOverlay({
+  showOverlay,
+  employee,
+  isEditting = false,
+  onSave,
+  departments = [],
+}) {
+  const [department, setDepartment] = useState();
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-
-  const [fromDay, setFromDay] = useState();
-  const [fromMonth, setFromMonth] = useState();
-  const [fromYear, setFromYear] = useState();
-  const [toDay, setToDay] = useState();
-  const [toMonth, setToMonth] = useState();
-  const [toYear, setToYear] = useState();
+  const [startDate, setStartDate] = useState(new Date());
+  const [endDate, setEndDate] = useState(new Date());
   const [isCurrent, setIsCurrent] = useState(true);
 
-  function DaySelect({ value, setValue, disabled }) {
-    const numberOfDays = 31;
-    let daysArray = [];
-    for (let i = 1; i <= numberOfDays; i++) {
-      daysArray.push(i);
+  const handleSave = () => {
+    if (isEditting) {
+      return;
     }
-    return (
-      <select
-        name="days"
-        className={` ${
-          disabled ? "text-mischka" : "text-mineShaft"
-        } flex items-center text-[13px] flex-col w-full h-12 pt-3 pb-3 pr-12 mt-[1px] text-mineShaft placeholder:text-regentGray placeholder:tracking-normal bg-white border border-porcelain rounded-3xl px-4 transition-all duration-100 ease-linear origin-top focus:ring-0`}
-        value={value}
-        disabled={disabled}
-        onChange={(e) => {
-          setValue(e.target.value);
-        }}
-      >
-        <option value="">--</option>
-        {daysArray &&
-          daysArray.length > 0 &&
-          daysArray.map((day) => <option value={day}>{day}</option>)}
-      </select>
-    );
-  }
-
-  function MonthSelect({ value, setValue, disabled }) {
-    const monthsArray = [
-      "Enero",
-      "Febrero",
-      "Marzo",
-      "Abril",
-      "Mayo",
-      "Junio",
-      "Julio",
-      "Agosto",
-      "Septimebre",
-      "Octubre",
-      "Noviembre",
-      "Diciembre",
-    ];
-    return (
-      <select
-        name="province"
-        className={` ${
-          disabled ? "text-mischka" : "text-mineShaft"
-        } flex items-center text-[13px] flex-col w-full h-12 pt-3 pb-3 pr-12 mt-[1px] text-mineShaft placeholder:text-regentGray placeholder:tracking-normal bg-white border border-porcelain rounded-3xl px-4 transition-all duration-100 ease-linear origin-top focus:ring-0`}
-        value={value}
-        disabled={disabled}
-        onChange={(e) => {
-          setValue(e.target.value);
-        }}
-      >
-        <option value="">--</option>
-
-        {monthsArray &&
-          monthsArray.length > 0 &&
-          monthsArray.map((month) => <option value={month}>{month}</option>)}
-      </select>
-    );
-  }
-
-  function YearSelect({ value, setValue, disabled }) {
-    const numberOfYears = 45;
-    let yearsArray = [];
-    for (let i = 0; i < numberOfYears; i++) {
-      let date = new Date();
-      yearsArray.push(date.getFullYear() - i);
-    }
-    return (
-      <select
-        name="province"
-        className={` ${
-          disabled ? "text-mischka" : "text-mineShaft"
-        } flex items-center text-[13px] flex-col w-full h-12 pt-3 pb-3 pr-12 mt-[1px] text-mineShaft placeholder:text-regentGray placeholder:tracking-normal bg-white border border-porcelain rounded-3xl px-4 transition-all duration-100 ease-linear origin-top focus:ring-0`}
-        value={value}
-        disabled={disabled}
-        onChange={(e) => {
-          setValue(e.target.value);
-        }}
-      >
-        <option value="">--</option>
-        {yearsArray &&
-          yearsArray.length > 0 &&
-          yearsArray.map((year) => <option value={year}>{year}</option>)}
-      </select>
-    );
-  }
+    let details = {
+      department,
+      name,
+      phone,
+      startDate,
+      endDate,
+      isCurrent,
+    };
+    return onSave(details);
+  };
 
   useEffect(() => {
-    if (isCurrent) {
-      setToDay("");
-      setToMonth("");
-      setToYear("");
-    }
-  }, [isCurrent]);
-
-  useEffect(() => {
-    console.log(employee);
-    if (employee) {
-      setDepartment(employee.department);
+    if (employee && isEditting) {
+      setDepartment(employee.department?.id || 0);
       setName(employee.name);
       setPhone(employee.phone);
-      setFromDay(employee.fromDay);
-      setFromMonth(employee.fromMonth);
-      setFromYear(employee.fromYear);
-      setToDay(employee.toDay);
-      setToMonth(employee.toMonth);
-      setToYear(employee.toYear);
+      setStartDate(parse(employee.startDate, "dd/MM/yyyy", new Date()));
+      setEndDate(parse(employee.endDate, "dd/MM/yyyy", new Date()));
       setIsCurrent(employee.isCurrent);
     }
   }, [employee]);
+
+  useEffect(() => {
+    if (departments.length > 0) {
+      setDepartment(departments[0].id);
+    }
+  }, [departments]);
 
   return (
     <>
       <div className="absolute top-0 left-0 h-screen w-screen flex z-[100]">
         <div
           className="w-1/2 bg-[#23232399]"
-          onClick={() => showOverlay(false)}
+          onClick={() => showOverlay(false, false)}
         ></div>
         <div className="w-1/2 bg-white flex flex-col overflow-scroll hide-scrollbar">
           <div className="flex px-16 py-16 items-center">
@@ -147,14 +71,14 @@ export default function AddEmployeeOverlay({ showOverlay, employee }) {
               NUEVO EMPLEADO
             </h2>
             <div
-              onClick={() => showOverlay(false)}
+              onClick={() => showOverlay(false, false)}
               className="rounded-full h-16 w-16 ml-auto border border-porcelain flex items-center justify-center"
             >
               <CloseIcon fill="#0C3CFD"></CloseIcon>
             </div>
           </div>
           <div className="px-8">
-            <div className="grid grid-cols-2 mt-4 gap-4">
+            <div className="grid grid-cols-1 mt-4 gap-4">
               <InputField
                 label="Nombre"
                 name="name"
@@ -163,16 +87,6 @@ export default function AddEmployeeOverlay({ showOverlay, employee }) {
                 placeholder="Escribir nombre"
                 onChange={(e) => {
                   setName(e.target.value);
-                }}
-              ></InputField>
-              <InputField
-                label="Telefono"
-                name="telephone"
-                defaultValue={phone}
-                type={"text"}
-                placeholder="Numero de telefono"
-                onChange={(e) => {
-                  setPhone(e.target.value);
                 }}
               ></InputField>
             </div>
@@ -185,7 +99,7 @@ export default function AddEmployeeOverlay({ showOverlay, employee }) {
                 defaultValue={phone}
                 placeholder="Ingresar numero de telefono"
                 onChange={(e) => {
-                  setName(e.target.value);
+                  setPhone(e.target.value);
                 }}
               ></InputField>
               <div className="mt-4">
@@ -203,65 +117,43 @@ export default function AddEmployeeOverlay({ showOverlay, employee }) {
                     setDepartment(e.target.value);
                   }}
                 >
-                  <option value="Menudeo">Menudeo</option>
-                  <option value="Operativo">Operativo</option>
-                  <option value="Oficina">Oficina</option>
+                  {departments.length > 0 &&
+                    departments.map((item) => (
+                      <option value={item.id}>{item.name}</option>
+                    ))}
                 </select>
               </div>
             </div>
             <div className="px-4 mt-8 bg-whiteLilac rounded-xl flex flex-col">
-              <div className="grid grid-cols-1 gap-4 mt-4 ">
+              <div className="grid grid-cols-2 gap-4 mt-4 ">
                 <div className="flex col-span-1 items-center">
-                  <div className="text-regentGray text-[13px] mr-2 font-semibold tracking-wider">
+                  <div className=" text-regentGray text-[13px] mr-2 font-semibold tracking-wider">
                     DE:
                   </div>
                   <div className="shrink">
-                    <DaySelect
-                      value={fromDay}
-                      setValue={setFromDay}
-                    ></DaySelect>
-                  </div>
-                  <div className="">
-                    {" "}
-                    <MonthSelect
-                      value={fromMonth}
-                      setValue={setFromMonth}
-                    ></MonthSelect>
-                  </div>
-                  <div className="shrink">
-                    <YearSelect
-                      value={fromYear}
-                      setValue={setFromYear}
-                    ></YearSelect>
+                    <DatePicker
+                      locale={es}
+                      selected={startDate}
+                      onChange={(date) => setStartDate(date)}
+                      dateFormat="dd/MM/yyyy"
+                    />
                   </div>
                 </div>
                 <div className="flex col-span-1 items-center">
-                  <div className="text-regentGray text-[13px] mr-2 font-semibold tracking-wider">
+                  <div className=" text-regentGray text-[13px] mr-2 font-semibold tracking-wider">
                     A:
                   </div>
-                  <div className="shrink">
-                    <DaySelect
-                      value={toDay}
-                      setValue={setToDay}
+                  {isCurrent ? (
+                    <div className="font-semibold">ACTUAL</div>
+                  ) : (
+                    <DatePicker
+                      locale={es}
+                      selected={endDate}
+                      onChange={(date) => setEndDate(date)}
+                      dateFormat="dd/MM/yyyy"
                       disabled={isCurrent}
-                    ></DaySelect>
-                  </div>
-
-                  <div className="">
-                    {" "}
-                    <MonthSelect
-                      value={toMonth}
-                      setValue={setToMonth}
-                      disabled={isCurrent}
-                    ></MonthSelect>
-                  </div>
-                  <div className="shrink">
-                    <YearSelect
-                      value={toYear}
-                      setValue={setToYear}
-                      disabled={isCurrent}
-                    ></YearSelect>
-                  </div>
+                    />
+                  )}
                 </div>
               </div>
               <div className="flex bg-white rounded-xl m-4 p-4 items-center ">
@@ -281,7 +173,7 @@ export default function AddEmployeeOverlay({ showOverlay, employee }) {
           </div>
           <div className="flex w-full mt-auto">
             <button
-              onClick={() => dispatch(ShowNewEmployeeOverlay(true))}
+              onClick={handleSave}
               className=" ml-auto mb-4 mr-4 flex items-center rounded-3xl h-12 pr-4 text-[13px] text-white bg-primary"
             >
               <AddIcon fill="#FFF"></AddIcon>

@@ -2,82 +2,66 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { ShowNewEmployeeOverlay } from "../../../../store/actionCreators/rh";
+import {
+  FetchEmployeeList,
+  ShowNewEmployeeOverlay,
+  CreateEmployee,
+  FetchDepartmentList
+} from "../../../../store/actionCreators/rh";
 
 import AddEmployeeOverlay from "../AddEmployeeOverlay";
 
 export default function EmployeeList() {
   const dispatch = useDispatch();
-  const { showNewEmployeeOverlay, search } = useSelector((state) => state.rh);
+  const { showNewEmployeeOverlay, search, employeeList, isEdittingEmployee, departments } = useSelector(
+    (state) => state.rh
+  );
 
-  const [employeesList, setEmployeesList] = useState([
-    {
-      number: 654,
-      name: "CESAR EDUARDO FLORES PALACIOS",
-      department: "Operativo",
-      fromDay: "14",
-      fromMonth: "Agosto",
-      fromYear: "2010",
-      toDay: "14",
-      toMonth: "Febrero",
-      toYear: "2022",
-      phone: "74783994",
-      isCurrent: false
-    },
-    {
-      number: 123,
-      name: "SONIA PALACIOS LOYA",
-      department: "Oficina",
-      fromDay: "14",
-      fromMonth: "Agosto",
-      fromYear: "2010",
-      toDay: "",
-      toMonth: "",
-      toYear: "",
-      phone: "74783994",
-      isCurrent: true
-    },
-    {
-      number: 485,
-      name: "LLUVIA JAQ CSATILLO VARELA",
-      department: "Menudeo",
-      fromDay: "14",
-      fromMonth: "Agosto",
-      fromYear: "2010",
-      toDay: "14",
-      toMonth: "Febrero",
-      toYear: "2022",
-      phone: "74783994",
-      isCurrent: false
-    },
-  ]);
   const [filteredEmployeesList, setFilteredEmployeesList] = useState([]);
   const [selectedEmployee, setSelectedEmployee] = useState({});
 
-  const handleSetShowOverlay = (value) => {
-    dispatch(ShowNewEmployeeOverlay(value));
+  const handleSetShowOverlay = (value, isEditting) => {
+    dispatch(ShowNewEmployeeOverlay(value, isEditting));
   };
 
   const handleSeeEmpoyee = (number) => {
-    let employee = employeesList.find((item) => item.number == number);
-    if(employee) {
-      setSelectedEmployee(employee)
-      handleSetShowOverlay(true)
+    let employee = employeeList.find((item) => item.number == number);
+    if (employee) {
+      setSelectedEmployee(employee);
+      handleSetShowOverlay(true, true);
+    }
+  };
+
+  const handleEmployeeSave = (details) => {
+    if (!isEdittingEmployee) {
+      dispatch(CreateEmployee(details)).then(res=> {
+        dispatch(FetchEmployeeList());
+      }).catch(err=> {
+        console.log(err);
+      })
     }
   };
 
   useEffect(() => {
     if (search == "") {
-      setFilteredEmployeesList([...employeesList]);
+      setFilteredEmployeesList([...employeeList]);
     } else {
-      let filteredEmployees = employeesList.filter((item) =>
+      let filteredEmployees = employeeList.filter((item) =>
         item.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
       );
       setFilteredEmployeesList([...filteredEmployees]);
     }
   }, [search]);
 
-  
+  useEffect(() => {
+    dispatch(FetchEmployeeList());
+    dispatch(FetchDepartmentList());
+  }, []);
+
+  useEffect(() => {
+    setFilteredEmployeesList([...employeeList]);
+  }, [employeeList]);
+
   return (
     <>
       <div class="overflow-x-auto relative rounded-3xl m-6 ">
@@ -114,9 +98,11 @@ export default function EmployeeList() {
                   <tr class="bg-white font-semibold hover:bg-gray-50">
                     <td class={`py-4 px-6`}>{item.number}</td>
                     <td class={`py-4 px-6`}>{item.name}</td>
-                    <td class={`py-4 px-6`}>{item.department}</td>
-                    <td class={`py-4 px-6`}>{item.fromDay}/{item.fromMonth}/{item.fromYear}</td>
-                    <td class={`py-4 px-6`}>{item.isCurrent? "Actual": `${item.toDay}/${item.toMonth}/${item.toYear}`}</td>
+                    <td class={`py-4 px-6`}>{item.department?.name}</td>
+                    <td class={`py-4 px-6`}>{item.startDate}</td>
+                    <td class={`py-4 px-6`}>
+                      {item.isCurrent ? "Actual" : item.endDate}
+                    </td>
                     <td class={`py-4 px-6`}>{item.phone}</td>
                     <td
                       class={`py-4 px-6 text-primary font-semibold`}
@@ -135,7 +121,10 @@ export default function EmployeeList() {
       {showNewEmployeeOverlay && (
         <AddEmployeeOverlay
           showOverlay={handleSetShowOverlay}
-          employee={selectedEmployee}
+          employee={isEdittingEmployee? selectedEmployee : null}
+          isEditting={isEdittingEmployee}
+          onSave={handleEmployeeSave}
+          departments={departments}
         ></AddEmployeeOverlay>
       )}
     </>

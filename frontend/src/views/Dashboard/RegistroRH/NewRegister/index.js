@@ -3,15 +3,17 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { ShowNewEmployeeOverlay } from "../../../../store/actionCreators/rh";
-import DatePicker from "react-datepicker";
-
+import DatePicker, { registerLocale, setDefaultLocale } from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import es from "date-fns/locale/es";
 
 import AddEmployeeOverlay from "../AddEmployeeOverlay";
+import CommentsOverlay from "../CommentsOverlay";
 
 export default function NewRegister() {
   const dispatch = useDispatch();
   const { showNewEmployeeOverlay, search } = useSelector((state) => state.rh);
+  const [showCommentsOverlay, setShowCommentsOverlay] = useState(false);
 
   const [employeesList, setEmployeesList] = useState([
     {
@@ -44,8 +46,8 @@ export default function NewRegister() {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
 
-  const handleSetShowOverlay = (value) => {
-    dispatch(ShowNewEmployeeOverlay(value));
+  const handleSetShowOverlay = (value, isEditting) => {
+    dispatch(ShowNewEmployeeOverlay(value, isEditting));
   };
 
   const handleRegisterChange = (e, id) => {
@@ -57,6 +59,14 @@ export default function NewRegister() {
     });
     console.log(edittedList);
     setEmployeesList(edittedList);
+  };
+
+  const handleAddComment = (id) => {
+    let selectedEmp = employeesList.find((item) => item.id == id);
+    if (selectedEmp) {
+      setSelectedEmployee(selectedEmp);
+      setShowCommentsOverlay(true);
+    }
   };
 
   useEffect(() => {
@@ -76,24 +86,28 @@ export default function NewRegister() {
         <div className="flex flex-col mx-6">
           <div className="mr-2">Fecha de inicio:</div>
           <DatePicker
+            locale="es"
             selected={startDate}
             onChange={(date) => setStartDate(date)}
+            dateFormat="dd/MM/yyyy"
           />
         </div>
         <div className="flex flex-col mx-6">
           <div className="mr-2">Fecha de termino:</div>
           <DatePicker
+            locale="es"
             selected={endDate}
             onChange={(date) => setEndDate(date)}
+            dateFormat="dd/MM/yyyy"
           />
         </div>
       </div>
 
       <div class="overflow-x-scroll rounded-3xl m-6 ">
-        <table class="w-full text-sm text-left text-gray-500">
+        <table class="relative w-full text-sm text-left text-gray-500">
           <thead class="text-xs text-gray-700 uppercase bg-gray-50">
-            <tr>
-              <th scope="col" class="py-3 px-6">
+            <tr className="">
+              <th scope="col" class="py-3 px-6 sticky left-0 bg-gray-50">
                 Nombre
               </th>
               <th scope="col" class="py-3 px-6">
@@ -142,7 +156,11 @@ export default function NewRegister() {
               filteredEmployeesList.map((item) => {
                 return (
                   <tr class="bg-white font-semibold">
-                    <td class={`py-1 px-6 whitespace-nowrap`}>{item.name}</td>
+                    <td
+                      class={`py-1 px-6 whitespace-nowrap sticky left-0 bg-white`}
+                    >
+                      {item.name}
+                    </td>
                     <td class={`py-1 px-6`}>
                       <input
                         type="number"
@@ -290,7 +308,7 @@ export default function NewRegister() {
                     </td>
 
                     <td
-                      class={`py-1 px-6 text-primary font-semibold`}
+                      class={`py-1 px-6 text-primary font-semibold cursor-pointer`}
                       onClick={() => {
                         handleAddComment(item.id);
                       }}
@@ -308,6 +326,12 @@ export default function NewRegister() {
           showOverlay={handleSetShowOverlay}
           employee={selectedEmployee}
         ></AddEmployeeOverlay>
+      )}
+      {showCommentsOverlay && (
+        <CommentsOverlay
+          showOverlay={setShowCommentsOverlay}
+          employee={selectedEmployee}
+        ></CommentsOverlay>
       )}
     </>
   );
