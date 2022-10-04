@@ -1,28 +1,28 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { SetRegisters } from "../../../../store/actionCreators/rh";
+import { SetRegistersDetails } from "../../../../../store/actionCreators/rh";
 
-export default function SmallBoxRegister() {
+export default function FoodRegister() {
   const dispatch = useDispatch();
-  const { search, registers } = useSelector((state) => state.rh);
+  const { search, register } = useSelector((state) => state.rh);
 
   const handleFoodChange = (e, id) => {
-    let edittedList = registers.map((item) => {
+    let edittedRegister = register.registersDetails?.map((item) => {
       if (item.id == id) {
-        let currentFood = item.food;
-        currentFood = { ...currentFood, [e.target.name]: e.target.value };
-        //console.log(currentFood);
-        return { ...item, food: currentFood };
+        let foodObject = item.food;
+        foodObject = { ...foodObject, [e.target.name]: e.target.value == "false"? false : true };
+        item.food = foodObject;
       }
-      return item;
+      return item
     });
-    dispatch(SetRegisters(edittedList));
+
+    dispatch(SetRegistersDetails(edittedRegister));
   };
 
   // const handleAddComment = (id) => {
-  //   let selectedEmp = employeesList.find((item) => item.id == id);
-  //   if (selectedEmp) {
-  //     setSelectedEmployee(selectedEmp);
+  //   let Emp = employeesList.find((item) => item.id == id);
+  //   if (Emp) {
+  //     setEmployee(Emp);
   //     setShowCommentsOverlay(true);
   //   }
   // };
@@ -54,13 +54,14 @@ export default function SmallBoxRegister() {
             </tr>
           </thead>
           <tbody>
-            {registers.length > 0 &&
-              registers
+            {register.registersDetails &&
+              register.registersDetails.length > 0 &&
+              register.registersDetails
                 .filter((item) => {
                   if (search == "") {
                     return true;
                   } else {
-                    return item.name
+                    return item.employee?.name
                       .toLocaleLowerCase()
                       .includes(search.toLocaleLowerCase());
                   }
@@ -71,18 +72,16 @@ export default function SmallBoxRegister() {
                       <td
                         className={`py-1 px-2 whitespace-nowrap sticky left-0 bg-white`}
                       >
-                        {item.name}
+                        {item.employee?.name}
                       </td>
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
                           name="lu"
-                          value={item.food?.lu || "true"}
+                          value={item.food.lu? "true": "false" || "true"}
                           onChange={(e) => handleFoodChange(e, item.id)}
                         >
-                          <option value="true" selected>
-                            Si
-                          </option>
+                          <option value="true">Si</option>
                           <option value="false">No</option>
                         </select>
                       </td>
@@ -90,12 +89,10 @@ export default function SmallBoxRegister() {
                         {" "}
                         <select
                           name="ma"
-                          value={item.food?.ma || "true"}
+                          value={item.food?.ma? "true": "false" || "true"}
                           onChange={(e) => handleFoodChange(e, item.id)}
                         >
-                          <option value="true" selected>
-                            Si
-                          </option>
+                          <option value="true">Si</option>
                           <option value="false">No</option>
                         </select>
                       </td>
@@ -103,12 +100,10 @@ export default function SmallBoxRegister() {
                         {" "}
                         <select
                           name="mi"
-                          value={item.food?.mi || "true"}
+                          value={item.food?.mi? "true": "false" || "true"}
                           onChange={(e) => handleFoodChange(e, item.id)}
                         >
-                          <option value="true" selected>
-                            Si
-                          </option>
+                          <option value="true">Si</option>
                           <option value="false">No</option>
                         </select>
                       </td>
@@ -116,12 +111,10 @@ export default function SmallBoxRegister() {
                         {" "}
                         <select
                           name="ju"
-                          value={item.food?.ju || "true"}
+                          value={item.food?.ju? "true": "false" || "true"}
                           onChange={(e) => handleFoodChange(e, item.id)}
                         >
-                          <option value="true" selected>
-                            Si
-                          </option>
+                          <option value="true">Si</option>
                           <option value="false">No</option>
                         </select>
                       </td>
@@ -129,12 +122,10 @@ export default function SmallBoxRegister() {
                         {" "}
                         <select
                           name="vi"
-                          value={item.food?.vi || "true"}
+                          value={item.food?.vi? "true": "false" || "true"}
                           onChange={(e) => handleFoodChange(e, item.id)}
                         >
-                          <option value="true" selected>
-                            Si
-                          </option>
+                          <option value="true">Si</option>
                           <option value="false">No</option>
                         </select>
                       </td>

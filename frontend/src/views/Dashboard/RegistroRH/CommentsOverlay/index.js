@@ -4,22 +4,44 @@ import "react-datepicker/dist/react-datepicker.css";
 import es from "date-fns/locale/es";
 
 registerLocale("es", es);
+
 import CloseIcon from "../../../../assets/svg/icon_close.svg";
 import AddIcon from "../../../../assets/svg/icon_plus.svg";
 
-export default function CommentsOverlay({ showOverlay, employee }) {
+const dateOptions = {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+
+export default function CommentsOverlay({
+  showOverlay,
+  onSave,
+  selectedRegisterDetail,
+  disableCreate = false,
+}) {
   const [name, setName] = useState("");
+  const [newComment, setNewComment] = useState("");
   const [comments, setComments] = useState([]);
-  const [commentDate, setCommentDate] = useState(
-    new Date()
-  );
+  const [commentsSmallBox, setCommentsSmallBox] = useState([]);
+  const [commentDate, setCommentDate] = useState(new Date());
+
+  const handleSave = () => {
+    let comment = {
+      description: newComment,
+      date: commentDate,
+    };
+    onSave(comment);
+  };
 
   useEffect(() => {
-    if (employee) {
-      setName(employee.name || "");
-      setComments(employee.comments || []);
+    if (selectedRegisterDetail) {
+      setName(selectedRegisterDetail.employee.name || "");
+      setComments(selectedRegisterDetail.comments || []);
+      setCommentsSmallBox(selectedRegisterDetail.smallBox || []);
     }
-  }, [employee]);
+  }, [selectedRegisterDetail]);
 
   return (
     <>
@@ -43,25 +65,63 @@ export default function CommentsOverlay({ showOverlay, employee }) {
               <CloseIcon fill="#0C3CFD"></CloseIcon>
             </div>
           </div>
-          <div className="flex flex-col bg-whiteLilac rounded-xl mx-8 justify-center p-2  mt-4">
-            {comments.length > 0 &&
-              comments.map((item) => {
+          {comments.length > 0 && (
+            <div className="flex flex-col bg-whiteLilac rounded-xl mx-8 justify-center p-2  mt-4">
+              <p>Comentarios generales</p>
+              {comments.map((item) => {
                 return (
                   <>
                     <div className="text-regentGray text-[13px] flex p-2">
-                      <div className="">{item.text}</div>
+                      <div className="">{item.description}</div>
                       <div className="text-mineShaft text-[13px] font-semibold ml-auto">
-                        {item.date}
+                        {new Date(item.date).toLocaleDateString(
+                          "es-ES",
+                          dateOptions
+                        )}
                       </div>
                     </div>
                     <div className="w-full h-[1px] bg-porcelain"></div>
                   </>
                 );
               })}
-          </div>
-          <div className="mx-8 flex flex-col mt-4">
+            </div>
+          )}
+
+          {commentsSmallBox.length > 0 && (
+            <div className="flex flex-col bg-whiteLilac rounded-xl mx-8 justify-center p-2  mt-4">
+              <p>Caja chica</p>
+
+              {commentsSmallBox.map((item) => {
+                return (
+                  <>
+                    <div className="text-regentGray text-[13px] flex p-2">
+                      <div className="text-mineShaft font-semibold">
+                        ${item.amount}
+                      </div>
+                      <div className="text-regentGray ml-4">{item.comment}</div>
+                      <div className="text-mineShaft text-[13px] font-semibold ml-auto">
+                        {new Date(item.date).toLocaleDateString(
+                          "es-ES",
+                          dateOptions
+                        )}
+                      </div>
+                    </div>
+                    <div className="w-full h-[1px] bg-porcelain"></div>
+                  </>
+                );
+              })}
+            </div>
+          )}
+
+          <div
+            className={`mx-8 flex flex-col mt-4 ${
+              disableCreate ? "hidden" : ""
+            }`}
+          >
             <label htmlFor="comment">Comentario nuevo:</label>
             <textarea
+              value={newComment}
+              onChange={(e) => setNewComment(e.target.value)}
               name="comment"
               className="rounded-[32px] border border-porcelain "
             ></textarea>
@@ -75,8 +135,13 @@ export default function CommentsOverlay({ showOverlay, employee }) {
               />
             </div>
           </div>
-          <div className="flex w-full mt-auto">
-            <button className=" ml-auto mb-4 mr-4 flex items-center rounded-3xl h-12 pr-4 text-[13px] text-white bg-primary">
+          <div
+            className={`flex w-full mt-auto ${disableCreate ? "hidden" : ""}`}
+          >
+            <button
+              onClick={handleSave}
+              className=" ml-auto mb-4 mr-4 flex items-center rounded-3xl h-12 pr-4 text-[13px] text-white bg-primary"
+            >
               <AddIcon fill="#FFF"></AddIcon>
               <div>Guardar </div>
             </button>

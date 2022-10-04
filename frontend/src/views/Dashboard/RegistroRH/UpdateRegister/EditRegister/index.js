@@ -3,38 +3,27 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
-  FetchEmployeeForResgisterList,
-  ShowNewEmployeeOverlay,
   SetRegisters,
-} from "../../../../store/actionCreators/rh";
+  FetchRegistersDetailsRH,
+  FetchRegisterDetails,
+  SetSelectedRegister,
+} from "../../../../../store/actionCreators/rh";
 import DatePicker, { registerLocale, setDefaultLocale } from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import es from "date-fns/locale/es";
 
-import AddEmployeeOverlay from "../AddEmployeeOverlay";
-import CommentsOverlay from "../CommentsOverlay";
+import CommentsOverlay from "../../CommentsOverlay";
 
-import RefreshIcon from "../../../../assets/svg/icon_refresh.svg";
 
-export default function NewRegister() {
+export default function EditRegister() {
   const dispatch = useDispatch();
-  const { showNewEmployeeOverlay, search, registers, employeesForRegister } =
-    useSelector((state) => state.rh);
+  const { search, selectedRegisterId, selectedRegister } = useSelector(
+    (state) => state.rh
+  );
+  const [selectedRegistedDetail, setSelectedRegisterDetail] = useState();
+
   const [showCommentsOverlay, setShowCommentsOverlay] = useState(false);
-  const [selectedEmployee, setSelectedEmployee] = useState({});
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(new Date());
-
-  const handleSetShowOverlay = (value, isEditting) => {
-    dispatch(ShowNewEmployeeOverlay(value, isEditting));
-  };
-
-  const fetchEmployeesForRegister = () => {
-    dispatch(FetchEmployeeForResgisterList());
-  };
 
   const handleRegisterChange = (e, id) => {
-    let edittedList = registers.map((item) => {
+    let edittedList = selectedRegistedDetail.registersDetails.map((item) => {
       if (item.id == id) {
         return { ...item, [e.target.name]: e.target.value };
       }
@@ -45,21 +34,54 @@ export default function NewRegister() {
 
   const calcFoodValue = (item) => {
     let sum = 100;
-      for (const key in item.food) {
-        if(item.food[key] == "false")
-        sum -= 20
-      }
+    //! Verify when initialization of registers implemented
+    for (const key in item.food) {
+      if (item.food[key] == false) sum -= 20;
+    }
 
-    return sum
+    return sum;
   };
 
-  // const handleAddComment = (id) => {
-  //   let selectedEmp = employeesList.find((item) => item.id == id);
-  //   if (selectedEmp) {
-  //     setSelectedEmployee(selectedEmp);
-  //     setShowCommentsOverlay(true);
-  //   }
-  // };
+  const calSmallBoxValue = (item) => {
+    let sum = 0;
+    if (!item.smallBox) return 0;
+    for (const sbr of item.smallBox) {
+      sum += Number(sbr.amount);
+    }
+    return sum;
+  };
+
+  const getLetterColor = (value) => {
+    if (value == "Asistencia" || !value) return "text-green-500";
+    if (value == "Doblada") return "text-sky-500";
+    if (value == "Falta justificada") return "text-yellow-500";
+    if (value == "Falta injustificada") return "text-red-500";
+    if (value == "Descanso") return "text-black";
+  };
+
+  const handleSeeComment = (registerDetail) => {
+    setSelectedRegisterDetail(registerDetail);
+    setShowCommentsOverlay(true);
+  };
+
+  const handleFromDateChange = (date) => {
+    let localRegister = { ...selectedRegister };
+    localRegister.fromDate = date;
+    dispatch(SetSelectedRegister(localRegister));
+  };
+
+  const handleToDateChange = (date) => {
+    let localRegister = { ...selectedRegister };
+    localRegister.toDate = date;
+    dispatch(SetSelectedRegister(localRegister));
+  };
+
+  useEffect(() => {
+    if (!selectedRegisterId) {
+      return navigate({ pathname: "/registros-rh" });
+    }
+    //dispatch(FetchRegisterDetails(selectedRegisterId));
+  }, [selectedRegisterId]);
 
   return (
     <>
@@ -67,28 +89,23 @@ export default function NewRegister() {
         <div className="flex flex-col mx-6">
           <div className="mr-2">Fecha de inicio:</div>
           <DatePicker
+            popperClassName="z-[100]"
             locale="es"
-            selected={startDate}
-            onChange={(date) => setStartDate(date)}
+            selected={new Date(selectedRegister.fromDate || new Date())}
+            onChange={(date) => handleFromDateChange(date)}
             dateFormat="dd/MM/yyyy"
           />
         </div>
         <div className="flex flex-col mx-6">
           <div className="mr-2">Fecha de termino:</div>
           <DatePicker
+            popperClassName="z-[100]"
             locale="es"
-            selected={endDate}
-            onChange={(date) => setEndDate(date)}
+            selected={new Date(selectedRegister.toDate || new Date())}
+            onChange={(date) => handleToDateChange(date)}
             dateFormat="dd/MM/yyyy"
           />
         </div>
-        <button
-          onClick={fetchEmployeesForRegister}
-          className="ml-auto flex items-center rounded-3xl h-12 pr-4 mx-4 text-[13px] border border-porcelain text-primary bg-white"
-        >
-          <RefreshIcon fill="#0C3CFD"></RefreshIcon>
-          <div>Inicializar registros </div>
-        </button>
       </div>
 
       <div className="overflow-x-scroll rounded-3xl m-6 ">
@@ -143,13 +160,14 @@ export default function NewRegister() {
             </tr>
           </thead>
           <tbody>
-            {registers.length > 0 &&
-              registers
+            {selectedRegister.registersDetails &&
+              selectedRegister.registersDetails.length > 0 &&
+              selectedRegister.registersDetails
                 .filter((item) => {
                   if (search == "") {
                     return true;
                   } else {
-                    return item.name
+                    return item.employee.name
                       .toLocaleLowerCase()
                       .includes(search.toLocaleLowerCase());
                   }
@@ -158,9 +176,9 @@ export default function NewRegister() {
                   return (
                     <tr key={item.id} className="bg-white font-semibold">
                       <td
-                        className={`py-1 px-2 whitespace-nowrap sticky left-0 bg-white`}
+                        className={`py-1 px-2 whitespace-nowrap sticky left-0 z-50 bg-white`}
                       >
-                        {item.name}
+                        {item.employee?.name}
                       </td>
                       <td className={`py-1 px-2`}>
                         <input
@@ -178,7 +196,7 @@ export default function NewRegister() {
                           type="number"
                           className="border border-porcelain  w-[100px] bg-whiteLilac"
                           name="smallBox"
-                          value={item.smallBox || ""}
+                          value={calSmallBoxValue(item) || "0"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         />{" "}
                       </td>
@@ -188,21 +206,24 @@ export default function NewRegister() {
                           type="number"
                           className="border border-porcelain w-[100px] bg-whiteLilac"
                           name="overtimeMinutes"
-                          value={item.overtimeMinutes || ""}
+                          value={item.overtimeMinutes || "0"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         />
                       </td>
                       <td className={`py-1 px-2`}>
                         <input
+                          disabled
                           type="number"
-                          className="border border-porcelain w-[100px]"
+                          className="border border-porcelain w-[100px] bg-whiteLilac"
                           name="abscense"
-                          value={item.abscense || ""}
+                          value={item.abscense || "0"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         />
                       </td>
                       <td className={`py-1 px-2`}>
                         <select
+                          disabled
+                          className="bg-whiteLilac"
                           name="puntuality"
                           value={item.puntuality || ""}
                           onChange={(e) => handleRegisterChange(e, item.id)}
@@ -213,6 +234,8 @@ export default function NewRegister() {
                       </td>
                       <td className={`py-1 px-2`}>
                         <select
+                          disabled
+                          className="bg-whiteLilac"
                           name="attendance"
                           value={item.attendance || ""}
                           onChange={(e) => handleRegisterChange(e, item.id)}
@@ -224,8 +247,12 @@ export default function NewRegister() {
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
+                          disabled
+                          className={`font-semibold bg-whiteLilac ${getLetterColor(
+                            item.ju
+                          )}`}
                           name="ju"
-                          value={item.ju || ""}
+                          value={item.ju || "Asistencia"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         >
                           <option value="Asistencia">A</option>
@@ -238,8 +265,12 @@ export default function NewRegister() {
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
+                          disabled
+                          className={`font-semibold bg-whiteLilac ${getLetterColor(
+                            item.vi
+                          )}`}
                           name="vi"
-                          value={item.vi || ""}
+                          value={item.vi || "Asistencia"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         >
                           <option value="Asistencia">A</option>
@@ -252,8 +283,12 @@ export default function NewRegister() {
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
+                          disabled
+                          className={`font-semibold bg-whiteLilac ${getLetterColor(
+                            item.sa
+                          )}`}
                           name="sa"
-                          value={item.sa || ""}
+                          value={item.sa || "Asistencia"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         >
                           <option value="Asistencia">A</option>
@@ -266,8 +301,12 @@ export default function NewRegister() {
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
+                          disabled
+                          className={`font-semibold bg-whiteLilac ${getLetterColor(
+                            item.do
+                          )}`}
                           name="do"
-                          value={item.do || ""}
+                          value={item.do || "Asistencia"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         >
                           <option value="Asistencia">A</option>
@@ -280,8 +319,12 @@ export default function NewRegister() {
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
+                          disabled
+                          className={`font-semibold bg-whiteLilac ${getLetterColor(
+                            item.lu
+                          )}`}
                           name="lu"
-                          value={item.lu || ""}
+                          value={item.lu || "Asistencia"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         >
                           <option value="Asistencia">A</option>
@@ -294,8 +337,12 @@ export default function NewRegister() {
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
+                          disabled
+                          className={`font-semibold bg-whiteLilac ${getLetterColor(
+                            item.ma
+                          )}`}
                           name="ma"
-                          value={item.ma || ""}
+                          value={item.ma || "Asistencia"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         >
                           <option value="Asistencia">A</option>
@@ -308,8 +355,12 @@ export default function NewRegister() {
                       <td className={`py-1 px-2`}>
                         {" "}
                         <select
+                          disabled
+                          className={`font-semibold bg-whiteLilac ${getLetterColor(
+                            item.mi
+                          )}`}
                           name="mi"
-                          value={item.mi || ""}
+                          value={item.mi || "Asistencia"}
                           onChange={(e) => handleRegisterChange(e, item.id)}
                         >
                           <option value="Asistencia">A</option>
@@ -323,7 +374,7 @@ export default function NewRegister() {
                       <td
                         className={`py-1 px-2 text-primary font-semibold cursor-pointer`}
                         onClick={() => {
-                          handleAddComment(item.id);
+                          handleSeeComment(item);
                         }}
                       >
                         Comentarios
@@ -334,16 +385,11 @@ export default function NewRegister() {
           </tbody>
         </table>
       </div>
-      {showNewEmployeeOverlay && (
-        <AddEmployeeOverlay
-          showOverlay={handleSetShowOverlay}
-          employee={selectedEmployee}
-        ></AddEmployeeOverlay>
-      )}
       {showCommentsOverlay && (
         <CommentsOverlay
           showOverlay={setShowCommentsOverlay}
-          employee={selectedEmployee}
+          selectedRegisterDetail={selectedRegistedDetail}
+          disableCreate={true}
         ></CommentsOverlay>
       )}
     </>

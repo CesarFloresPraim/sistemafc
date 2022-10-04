@@ -1,19 +1,42 @@
 import * as actionTypes from "../action-types";
 
 let initialState = {
-  selectedRegister: "",
+  selectedRegisterId: localStorage.getItem("selectedRegisterId") || "",
+  selectedRegister:
+    JSON.parse(localStorage.getItem("selectedRegister") || "{}") || {},
+  registerList: JSON.parse(localStorage.getItem("registerList") || "[]") || [],
   search: "",
   showNewEmployeeOverlay: false,
   isEdittingEmployee: false,
   employeeList: [],
   departments: [],
-  registers: JSON.parse(localStorage.getItem("registers") || "[]") || [],
+  register: JSON.parse(localStorage.getItem("register") || "{}") || {},
   employeesForRegister: [],
 };
 
 function reducer(state = initialState, action) {
+  let localRegister = {};
   switch (action.type) {
-    case actionTypes.SET_SELECTED_REGISTER_RH:
+    case actionTypes.SET_SELECTED_REGISTER_ID:
+      localStorage.setItem(
+        "selectedRegisterId",
+        JSON.stringify(action.payload)
+      );
+      return {
+        ...state,
+        selectedRegisterId: action.payload,
+      };
+    case actionTypes.CLEAR_NEW_REGISTER:
+      localStorage.setItem(
+        "register",
+        JSON.stringify(action.payload)
+      );
+      return {
+        ...state,
+        register: action.payload,
+      };
+    case actionTypes.SET_SELECTED_REGISTER:
+      localStorage.setItem("selectedRegister", JSON.stringify(action.payload));
       return {
         ...state,
         selectedRegister: action.payload,
@@ -45,10 +68,36 @@ function reducer(state = initialState, action) {
         employeesForRegister: action.payload,
       };
     case actionTypes.SET_REGISTERS:
-      localStorage.setItem("registers", JSON.stringify(action.payload));
+      localStorage.setItem("register", JSON.stringify(action.payload));
       return {
         ...state,
-        registers: action.payload,
+        register: action.payload,
+      };
+    case actionTypes.SET_REGISTERS_DETAILS:
+      localRegister = {
+        ...state.register,
+        registersDetails: action.payload,
+      };
+      localStorage.setItem("register", JSON.stringify(localRegister));
+      return {
+        ...state,
+        register: localRegister,
+      };
+      case actionTypes.SET_SELECTED_REGISTERS_DETAILS:
+        localRegister = {
+          ...state.selectedRegister,
+          registersDetails: action.payload,
+        };
+        localStorage.setItem("selectedRegister", JSON.stringify(localRegister));
+        return {
+          ...state,
+          selectedRegister: localRegister,
+        };
+    case actionTypes.FETCH_REGISTERS:
+      localStorage.setItem("registerList", JSON.stringify(action.payload));
+      return {
+        ...state,
+        registerList: action.payload,
       };
     default:
       return state;

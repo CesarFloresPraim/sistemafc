@@ -10,7 +10,10 @@ import {
 } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux/es/exports";
-import { SetSelectedRegisterRH } from "../../../../store/actionCreators/rh";
+import {
+  FetchRegisterList,
+  SetSelectedRegisterId,
+} from "../../../../store/actionCreators/rh";
 
 import DocumentIconBlue from "../../../../assets/svg/document/icon_document-blue-ribbon.svg";
 import DocumentIconCoralRed from "../../../../assets/svg/document/icon_document_coral-red.svg";
@@ -22,61 +25,64 @@ import DocumentIconOrange from "../../../../assets/svg/document/icon_document_or
 import EyeIcon from "../../../../assets/svg/icon_view.svg";
 import AddIcon from "../../../../assets/svg/icon_plus.svg";
 
+const icons = [
+  <DocumentIconBlue />,
+  <DocumentIconCoralRed />,
+  <DocumentIconCaribbean />,
+  <DocumentIconHollywood />,
+];
+
+const dateOptions = {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+
 export default function RegisterList() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const { registerList } = useSelector((state) => state.rh);
 
-  const [registers, setRegisters] = useState([
-    {
-      id: "0",
-      icon: <DocumentIconBlue></DocumentIconBlue>,
-      fromDate: "17 de agosto del 2022",
-      toDate: "23 de agosto del 2022",
-    },
-    {
-      id: "1",
-      icon: <DocumentIconCoralRed></DocumentIconCoralRed>,
-      fromDate: "17 de agosto del 2022",
-      toDate: "23 de agosto del 2022",
-    },
-    {
-      id: "2",
-      icon: <DocumentIconCaribbean></DocumentIconCaribbean>,
-      fromDate: "17 de agosto del 2022",
-      toDate: "23 de agosto del 2022",
-    },
-    {
-      id: "3",
-      icon: <DocumentIconHollywood></DocumentIconHollywood>,
-      fromDate: "17 de agosto del 2022",
-      toDate: "23 de agosto del 2022",
-    },
-  ]);
+  const randomIconColor = () => {
+    return icons[Math.floor(Math.random() * icons.length)];
+  };
+
+  useEffect(() => {
+    dispatch(FetchRegisterList());
+  }, []);
 
   return (
     <div className="md:m-auto md:w-11/12 w-full flex flex-col grow h-full pt-16">
       <form className="flex flex-col w-full mx-auto">
         <div className="flex flex-col">
-          {registers &&
-            Object.keys(registers).length > 0 &&
-            Object.keys(registers).map((itemKey) => {
+          {registerList &&
+            registerList.length > 0 &&
+            registerList.map((item) => {
               return (
                 <>
                   {/** Desktop */}
                   <div className="flex border border-porcelain rounded-2xl p-4 mt-4">
                     <div className="flex gap-4 basis-full">
-                      {registers[itemKey].icon}
+                      {randomIconColor()}
                       <div className="flex flex-col ml-4 justify-center">
                         <div className="text-mineShaft text-base font-semibold">
-                          {registers[itemKey].fromDate} -{" "}
-                          {registers[itemKey].toDate}
+                          {new Date(item.fromDate).toLocaleDateString(
+                            "es-ES",
+                            dateOptions
+                          )}{" "}
+                          -{" "}
+                          {new Date(item.toDate).toLocaleDateString(
+                            "es-ES",
+                            dateOptions
+                          )}
                         </div>
                       </div>
                       <div className="flex items-center ml-auto">
                         <button
                           onClick={() => {
+                            dispatch(SetSelectedRegisterId(item.id));
                             navigate({ pathname: "/detalles-registro-rh" });
-                            dispatch(SetSelectedRegisterRH(registers[itemKey].id));
                           }}
                           type="button"
                           className="pr-4 flex items-center ml-auto rounded-[32px] border border-porcelain"

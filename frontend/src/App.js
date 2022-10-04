@@ -13,24 +13,29 @@ import Assets from "./assets";
 
 //Breexe auth
 import AuthLayout from "./layout/auth";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 import Signin from "./views/Auth/Signin";
 
-//Breeze broker dashboard
+
 import DashboardLayout from "./layout/dashboard";
 import Home from "./views/Dashboard/Home";
 
 
 import RegistroRH from "./views/Dashboard/RegistroRH";
-import RegisterDetails from "./views/Dashboard/RegistroRH/RegisterDetails";
-import NewRegister from "./views/Dashboard/RegistroRH/NewRegister";
 import RegisterList from "./views/Dashboard/RegistroRH/RegisterList";
 import EmployeeList from "./views/Dashboard/RegistroRH/EmployeeList";
 
+import NewRegister from "./views/Dashboard/RegistroRH/CreateRegister/NewRegister";
+import OvertimeAttendanceRegister from "./views/Dashboard/RegistroRH/CreateRegister/OvertimeAttendanceRegister";
+import SmallBoxRegister from "./views/Dashboard/RegistroRH/CreateRegister/SmallBoxRegister";
+import FoodRegister from "./views/Dashboard/RegistroRH/CreateRegister/FoodRegister";
 
-import ProtectedRoute from "./components/ProtectedRoute";
-import FoodRegister from "./views/Dashboard/RegistroRH/FoodRegister";
-import SmallBoxRegister from "./views/Dashboard/RegistroRH/SmallBoxRegister";
+import RegisterDetails from "./views/Dashboard/RegistroRH/RegisterDetails";
+import EditRegister from "./views/Dashboard/RegistroRH/UpdateRegister/EditRegister";
+import EditFoodRegister from "./views/Dashboard/RegistroRH/UpdateRegister/EditFoodRegister";
+import EditSmallBoxRegister from "./views/Dashboard/RegistroRH/UpdateRegister/EditSmallBoxRegister";
+import EditOvertimeAttendanceRegister from "./views/Dashboard/RegistroRH/UpdateRegister/EditOvertimeAttendanceRegister";
 
 
 
@@ -38,7 +43,7 @@ function App(props) {
   const { auth } = useSelector((state) => state.auth);
 
   return (
-    <>
+    <div className="text-mineShaft font-poppins">
       <Routes>
         {/* route not found */}
         <Route path="*" element={<Navigate to="/home" />} />
@@ -64,11 +69,14 @@ function App(props) {
               <Route path="registros-rh" element={<RegisterList />} />
               <Route path="detalles-registro-rh" element={<RegisterDetails />} />
               <Route path="nuevo-registro-rh" element={<NewRegister />} />
-              <Route path="resumen-registro-rh" element={<EmployeeList />} />
+              <Route path="lista-empleados-rh" element={<EmployeeList />} />
               <Route path="comida-registro-rh" element={<FoodRegister />} />
               <Route path="caja-chica-registro-rh" element={<SmallBoxRegister />} />
-              <Route path="horas-extra-registro-rh" element={<EmployeeList />} />
-              <Route path="faltas-registro-rh" element={<EmployeeList />} />
+              <Route path="horas-extra-registro-rh" element={<OvertimeAttendanceRegister />} />
+              <Route path="editar-registro-rh" element={<EditRegister />} />
+              <Route path="editar-comida-registro-rh" element={<EditFoodRegister />} />
+              <Route path="editar-caja-chica-registro-rh" element={<EditSmallBoxRegister />} />
+              <Route path="editar-horas-extra-registro-rh" element={<EditOvertimeAttendanceRegister />} />
             </Route>
           </Route>
         </Route>
@@ -77,7 +85,7 @@ function App(props) {
         <Route path="/assets" element={<Assets />} />
       </Routes>
       <Outlet />
-    </>
+    </div>
   );
 }
 

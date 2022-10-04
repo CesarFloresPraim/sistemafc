@@ -38,8 +38,8 @@ export default function EmployeeList() {
     dispatch(ShowNewEmployeeOverlay(value, isEditting));
   };
 
-  const handleSeeEmpoyee = (number) => {
-    let employee = employeeList.find((item) => item.number == number);
+  const handleSeeEmpoyee = (id) => {
+    let employee = employeeList.find((item) => item.id == id);
     if (employee) {
       setSelectedEmployee(employee);
       handleSetShowOverlay(true, true);
@@ -168,7 +168,7 @@ export default function EmployeeList() {
                       <td
                         className={`py-4 px-6 text-primary font-semibold`}
                         onClick={() => {
-                          handleSeeEmpoyee(item.number);
+                          handleSeeEmpoyee(item.id);
                         }}
                       >
                         Editar
