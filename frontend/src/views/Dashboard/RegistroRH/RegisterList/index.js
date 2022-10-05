@@ -106,7 +106,7 @@ export default function RegisterList() {
         >
           <button
             type="button"
-            onClick={() => {}}
+            onClick={() => {navigate({pathname: "/nuevo-registro-rh"})}}
             className="flex pr-4 items-center bg-white border border-porcelain rounded-3xl"
           >
             <div>

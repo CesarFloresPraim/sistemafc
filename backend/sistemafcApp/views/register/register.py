@@ -38,6 +38,7 @@ class RegisterRHView(APIView):
                                                                  data=registerRhData)
                 if registerRhSerialized.is_valid(raise_exception=True):
                     registerRhSerialized.save()
+
                 try:
                     for registerDetail in request.data['registersDetails']:
                         registerDetail['employee'] = registerDetail['employee']['id']
@@ -51,6 +52,7 @@ class RegisterRHView(APIView):
                         if registerDetailSerialized.is_valid(raise_exception=True):
                             registerDetailSerialized.save()
 
+                        #Save food, new if no id found
                         foodObject = Food.objects.get(
                             id=registerDetail['food']['id'])
                         foodSerialized = WriteFoodSerializer(
@@ -59,8 +61,8 @@ class RegisterRHView(APIView):
                         if foodSerialized.is_valid(raise_exception=True):
                             foodSerialized.save()
 
-                        # Missing edit for smallbox
-                        #smallBoxObject = Food.objects.get(id=registerDetail['smallBox']['id'])
+                        
+                        #Save small box, new if no id found
                         for smallBoxRecord in registerDetail['smallBox']:
                             try:
                                 if "id" in smallBoxRecord:
@@ -74,6 +76,25 @@ class RegisterRHView(APIView):
 
                                 if smallBoxSerialized.is_valid(raise_exception=True):
                                     smallBoxSerialized.save()
+                            except (ObjectDoesNotExist, ValidationError):
+                                print(e)
+                                return JsonResponse({"message": "Los datos enviados son incorrectos o falta algun dato"},
+                                                    status=400,
+                                                    safe=False)
+                        #Save comments, new if no id found
+                        for commentRecord in registerDetail['comments']:
+                            try:
+                                if "id" in commentRecord:
+                                    commentObject = Comment.objects.get(
+                                        id=commentRecord['id'])
+                                    commentSerialized = WriteCommentSerializer(
+                                        commentObject, data=commentRecord, partial=True)
+                                else:
+                                    commentSerialized = WriteCommentSerializer(
+                                        data=commentRecord)
+
+                                if commentSerialized.is_valid(raise_exception=True):
+                                    commentSerialized.save()
                             except (ObjectDoesNotExist, ValidationError):
                                 print(e)
                                 return JsonResponse({"message": "Los datos enviados son incorrectos o falta algun dato"},

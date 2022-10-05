@@ -9,5 +9,8 @@ admin.site.register(RegisterRH)
 admin.site.register(Food)
 admin.site.register(Comment)
 admin.site.register(Observation)
-
+admin.site.register(Deduction)
+admin.site.register(DeductionType)
+admin.site.register(Perception)
+admin.site.register(PerceptionType)
 

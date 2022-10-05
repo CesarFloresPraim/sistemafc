@@ -11,7 +11,6 @@ import CloseIcon from "../../../../assets/svg/icon_close.svg";
 import AddIcon from "../../../../assets/svg/icon_plus.svg";
 import TrashIcon from "../../../../assets/svg/icon_trash.svg";
 
-import { useSelector } from "react-redux";
 
 export default function AddEmployeeOverlay({
   showOverlay,

@@ -17,6 +17,9 @@ import DuplicateIcon from "../../../assets/svg/icon_duplicate.svg";
 import WheelActiveIcon from "../../../assets/svg/icon_menu_wheel_active.svg";
 import WheelIcon from "../../../assets/svg/icon_menu_wheel_hover.svg";
 import LogoutIcon from "../../../assets/svg/icon_menu_logout_hover.svg";
+import UpArrowIcon from "../../../assets/svg/icon_arrow_up.svg"; 
+import DownArrowIcon from "../../../assets/svg/icon_arrow_down.svg"; 
+import CalendarIcon from "../../../assets/svg/icon_calendar.svg"; 
 
 export default function LeftNavbar({ handleLogout }) {
   const location = useLocation();
@@ -61,10 +64,10 @@ export default function LeftNavbar({ handleLogout }) {
             onClick={() => setActiveRoute("nomina")}
           >
             <div>
-              {activeRoute === "nomina" ? (
-                <MenuHomeActiveIcon fill="#FFFFFF" />
+            {activeRoute === "nomina" ? (
+                <MenuDocumentActiveIcon fill="#FFFFFF" />
               ) : (
-                <MenuHomeIcon fill="#FFFFFF" />
+                <MenuDocumentIcon fill="#FFFFFF" />
               )}
             </div>
             <div className="grow text-white ml-2 text-sm">Nomina</div>
@@ -72,21 +75,21 @@ export default function LeftNavbar({ handleLogout }) {
         </li>
         <li
           className={`rounded-[32px] ${
-            activeRoute === "customer-current-mortgages"
+            activeRoute === "empleados"
               ? "bg-primary"
               : "bg-transparent"
           } hover:bg-[#133B8D] mt-2`}
         >
           <NavLink
-            to="customer-current-mortgages"
+            to="empleados"
             className={`flex items-center p-1`}
-            onClick={() => setActiveRoute("customer-current-mortgages")}
+            onClick={() => setActiveRoute("empleados")}
           >
             <div>
-              {activeRoute === "customer-current-mortgages" ? (
-                <MenuMarkerActiveIcon fill="#FFFFFF" />
+              {activeRoute === "empleados" ? (
+                <PortraitActiveIcon fill="#FFFFFF" />
               ) : (
-                <MenuMarkerIcon fill="#FFFFFF" />
+                <PortraitIcon fill="#FFFFFF" />
               )}
             </div>
             <div className="grow text-white ml-2 text-sm">
@@ -96,21 +99,21 @@ export default function LeftNavbar({ handleLogout }) {
         </li>
         <li
           className={`rounded-[32px] ${
-            activeRoute === "customer-employment-history"
+            activeRoute === "asignar-percepcion"
               ? "bg-primary"
               : "bg-transparent"
           } hover:bg-[#133B8D] mt-2`}
         >
           <NavLink
-            to="customer-employment-history"
+            to="asignar-percepcion"
             className={`flex items-center p-1`}
-            onClick={() => setActiveRoute("customer-employment-history")}
+            onClick={() => setActiveRoute("asignar-percepcion")}
           >
             <div>
-              {activeRoute === "customer-employment-history" ? (
-                <MenuBriefcaseActiveIcon fill="#FFFFFF" />
+              {activeRoute === "asignar-percepcion" ? (
+                <UpArrowIcon fill="#FFFFFF" />
               ) : (
-                <MenuBriefcaseIcon fill="#FFFFFF" />
+                <UpArrowIcon fill="#FFFFFF" />
               )}
             </div>
             <div className="grow text-white ml-2 text-sm">
@@ -120,21 +123,21 @@ export default function LeftNavbar({ handleLogout }) {
         </li>
         <li
           className={`rounded-[32px] ${
-            activeRoute === "customer-documents-files"
+            activeRoute === "asignar-deduccion"
               ? "bg-primary"
               : "bg-transparent"
           } hover:bg-[#133B8D] mt-2`}
         >
           <NavLink
-            to="customer-documents-files"
+            to="asignar-deduccion"
             className={`flex items-center p-1`}
-            onClick={() => setActiveRoute("customer-documents-files")}
+            onClick={() => setActiveRoute("asignar-deduccion")}
           >
             <div>
-              {activeRoute === "customer-documents-files" ? (
-                <MenuDocumentActiveIcon fill="#FFFFFF" />
+              {activeRoute === "asignar-deduccion" ? (
+                <DownArrowIcon fill="#FFFFFF" />
               ) : (
-                <MenuDocumentIcon fill="#FFFFFF" />
+                <DownArrowIcon fill="#FFFFFF" />
               )}
             </div>
             <div className="grow text-white ml-2 text-sm">
@@ -156,9 +159,9 @@ export default function LeftNavbar({ handleLogout }) {
           >
             <div>
               {activeRoute === "registros-rh" ? (
-                <PortraitActiveIcon fill="#FFFFFF" />
+                <CalendarIcon fill="#FFFFFF" />
               ) : (
-                <PortraitIcon fill="#FFFFFF" />
+                <CalendarIcon fill="#FFFFFF" />
               )}
             </div>
             <div className="grow text-white ml-2 text-sm">Registro RH</div>

@@ -49,7 +49,7 @@ export default function RegistroRH() {
   const updateRegister = () => {
     dispatch(SaveRegister(selectedRegister)).then((res) => {
       //dispatch(ClearNewRegister());
-      navigate({ pathname: "/detalles-registro-rh" });
+      navigate({ pathname: "/registros-rh" });
     });
   };
 

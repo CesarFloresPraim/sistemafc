@@ -5,3 +5,6 @@ from .obervationsSerializer import *
 from .smallBoxSerializer import *
 from .registerRHSerializer import *
 from .foodSerializer import *
+from .commentSerializer import *
+from .perceptionSerializer import *
+from .deductionSerializer import *

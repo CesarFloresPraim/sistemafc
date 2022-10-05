@@ -4,7 +4,7 @@ from rest_framework import serializers
 from .employeeSerializer import EmployeeForRegisterRhSerializer
 from .smallBoxSerializer import ReadSmallBoxSerializer
 from .foodSerializer import ReadFoodSerializer, WriteFoodSerializer
-from .commentSerializer import CommentSerializer
+from .commentSerializer import ReadCommentSerializer
 from ..models.food import Food
 
 class WriteRegisterDetailRHSerializer(serializers.ModelSerializer):
@@ -22,7 +22,7 @@ class ReadRegisterDetailRHSerializer(serializers.ModelSerializer):
         source='smallbox_set', many=True, read_only=True)
     food = ReadFoodSerializer(
         source='food_set', read_only=True)
-    comments = CommentSerializer(
+    comments = ReadCommentSerializer(
         source='comments_set', many=True, read_only=True)
     class Meta:
         model = RegisterDetailRH

@@ -6,3 +6,5 @@ from .smallBox import *
 from .registerRH import *
 from .food import *
 from .comment import *
+from .perception import *
+from .deduction import *

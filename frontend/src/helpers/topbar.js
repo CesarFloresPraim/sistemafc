@@ -1,4 +1,8 @@
 const breadcrums = {
+  "empleados": [
+    { name: "Inicio", path: "/home" },
+    { name: "Empleados", path: "/empleados" },
+  ],
   "registros-rh": [
     { name: "Inicio", path: "/home" },
     { name: "Registros RH", path: "/registros-rh" },
@@ -56,8 +60,26 @@ const breadcrums = {
     { name: "Detalles registro", path: "/detalles-registro-rh" },
     { name: "Editar registro", path: "/editar-registro-rh" },
   ],
+  "asignar-percepcion": [
+    { name: "Inicio", path: "/home" },
+    { name: "Percepcion", path: "/asignar-percepcion" },
+  ],
+  "tipo-percepcion": [
+    { name: "Inicio", path: "/home" },
+    { name: "Percepcion", path: "/tipo-percepcion" },
+  ],
+  "asignar-deduccion": [
+    { name: "Inicio", path: "/home" },
+    { name: "Deduccion", path: "/asignar-deduccion" },
+  ],
+  "tipo-deduccion": [
+    { name: "Inicio", path: "/home" },
+    { name: "Deduccion", path: "/tipo-deduccion" },
+  ],
 };
+
 const titles = {
+  "empleados": "Empleados",
   "registros-rh": "Registros RH",
   "detalles-registro-rh": "Detalles de registro",
   "lista-empleados-rh": "Lista empleados",
@@ -72,7 +94,12 @@ const titles = {
   "settings-personal-information": "Personal information",
   "settings-account-focus": "Account focus",
   "settings-password": "Password",
+  "asignar-percepcion": "Asignar percepcion",
+  "tipo-percepcion": "Crear tipo de percepcion",
+  "asignar-deduccion": "Asignar deduccion",
+  "tipo-deduccion": "Crear tipo de deduccion",
 };
+
 export function getBreadcrumsArray(path) {
   return breadcrums[path];
 }

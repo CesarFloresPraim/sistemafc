@@ -37,6 +37,15 @@ import EditFoodRegister from "./views/Dashboard/RegistroRH/UpdateRegister/EditFo
 import EditSmallBoxRegister from "./views/Dashboard/RegistroRH/UpdateRegister/EditSmallBoxRegister";
 import EditOvertimeAttendanceRegister from "./views/Dashboard/RegistroRH/UpdateRegister/EditOvertimeAttendanceRegister";
 
+import Perceptions from "./views/Dashboard/Perceptions";
+import AssignPerception from "./views/Dashboard/Perceptions/AssignPerception";
+import PerceptionTypes from "./views/Dashboard/Perceptions/PerceptionTypes";
+
+import Deductions from "./views/Dashboard/Deductions";
+import AssignDeduction from "./views/Dashboard/Deductions/AssignDeduction";
+import DeductionTypes from "./views/Dashboard/Deductions/DeductionTypes";
+import Employees from "./views/Dashboard/Employees";
+
 
 
 function App(props) {
@@ -65,6 +74,7 @@ function App(props) {
         <Route element={<ProtectedRoute isAllowed={auth.accessToken} />}>
           <Route element={<DashboardLayout />}>
             <Route path="home" element={<Home />} />
+            <Route path="empleados" element={<Employees />} />
             <Route element={<RegistroRH />}>
               <Route path="registros-rh" element={<RegisterList />} />
               <Route path="detalles-registro-rh" element={<RegisterDetails />} />
@@ -77,6 +87,14 @@ function App(props) {
               <Route path="editar-comida-registro-rh" element={<EditFoodRegister />} />
               <Route path="editar-caja-chica-registro-rh" element={<EditSmallBoxRegister />} />
               <Route path="editar-horas-extra-registro-rh" element={<EditOvertimeAttendanceRegister />} />
+            </Route>
+            <Route element={<Perceptions />}>
+              <Route path="asignar-percepcion" element={<AssignPerception />} />
+              <Route path="tipo-percepcion" element={<PerceptionTypes />} />
+            </Route>
+            <Route element={<Deductions />}>
+              <Route path="asignar-deduccion" element={<AssignDeduction />} />
+              <Route path="tipo-deduccion" element={<DeductionTypes />} />
             </Route>
           </Route>
         </Route>

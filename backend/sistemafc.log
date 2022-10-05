@@ -4318,3 +4318,1112 @@ Original exception text was: 'QuerySet' object has no attribute 'fromDate'.
 [INFO] 2022-10-03 19:10:51,193 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4422
 [INFO] 2022-10-03 19:54:30,286 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
 [INFO] 2022-10-03 19:54:30,930 Watching for file changes with StatReloader
+[INFO] 2022-10-03 21:14:43,659 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-10-03 21:14:43,664 "GET /api/v1.0/registerList/ HTTP/1.1" 200 180
+[INFO] 2022-10-03 21:14:46,214 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-10-03 21:14:46,236 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4422
+[INFO] 2022-10-03 21:14:54,286 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-10-03 21:14:54,302 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-03 21:18:47,579 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-10-03 21:18:48,167 Watching for file changes with StatReloader
+[INFO] 2022-10-03 21:19:05,184 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-10-03 21:19:05,233 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4422
+[INFO] 2022-10-03 21:20:36,239 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-10-03 21:20:36,772 Watching for file changes with StatReloader
+[INFO] 2022-10-03 21:30:59,914 D:\Binara\nominaFC\backend\sistemafcApp\serializers\commentSerializer.py changed, reloading.
+[INFO] 2022-10-03 21:31:00,442 Watching for file changes with StatReloader
+[INFO] 2022-10-03 21:33:10,915 D:\Binara\nominaFC\backend\sistemafcApp\serializers\registerRHSerializer.py changed, reloading.
+[INFO] 2022-10-03 21:33:11,449 Watching for file changes with StatReloader
+[WARNING] 2022-10-03 21:33:43,126 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-10-03 21:33:43,126 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-10-03 21:37:23,468 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-10-03 21:37:24,051 Watching for file changes with StatReloader
+[WARNING] 2022-10-03 21:37:41,078 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-10-03 21:37:41,079 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-10-03 21:38:44,171 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[WARNING] 2022-10-03 21:38:55,828 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-10-03 21:38:55,828 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[WARNING] 2022-10-03 21:40:40,669 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-10-03 21:40:40,670 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-10-03 21:41:02,005 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-03 21:41:05,507 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4422
+[INFO] 2022-10-03 21:41:31,844 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-10-03 21:41:31,891 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4515
+[INFO] 2022-10-03 21:41:50,454 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-10-03 21:41:51,003 Watching for file changes with StatReloader
+[INFO] 2022-10-03 21:42:06,536 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-10-03 21:42:06,584 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4612
+[INFO] 2022-10-03 21:42:57,341 "GET /api/v1.0/registerList/ HTTP/1.1" 200 180
+[INFO] 2022-10-03 21:43:07,116 "OPTIONS /api/v1.0/initializeRegister/ HTTP/1.1" 200 0
+[INFO] 2022-10-03 21:43:07,152 "POST /api/v1.0/initializeRegister/ HTTP/1.1" 200 10
+[INFO] 2022-10-03 21:43:07,156 "OPTIONS /api/v1.0/registerRH/85 HTTP/1.1" 200 0
+[INFO] 2022-10-03 21:43:07,174 "GET /api/v1.0/registerRH/85 HTTP/1.1" 200 3738
+[INFO] 2022-10-03 21:43:29,596 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-03 21:43:59,372 "PUT /api/v1.0/registerRH/85 HTTP/1.1" 200 68
+[INFO] 2022-10-03 21:44:39,635 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4612
+[INFO] 2022-10-03 21:44:44,212 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-03 21:45:20,373 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4612
+[INFO] 2022-10-03 21:45:27,129 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-03 21:45:28,916 "GET /api/v1.0/registerRH/85 HTTP/1.1" 200 3937
+[INFO] 2022-10-03 22:20:16,817 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-03 22:21:07,264 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-03 22:21:11,022 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-03 22:21:12,733 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-03 22:21:28,510 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-03 22:21:31,344 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-03 22:21:32,214 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-10-03 22:21:32,215 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-10-03 22:21:32,227 "GET /api/v1.0/employees/ HTTP/1.1" 200 2314
+[INFO] 2022-10-03 22:21:32,231 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-10-04 11:39:30,769 Watching for file changes with StatReloader
+[INFO] 2022-10-04 11:46:16,342 "GET /admin/sistemafcApp/smallbox/ HTTP/1.1" 200 10142
+[INFO] 2022-10-04 11:46:16,360 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2022-10-04 11:46:16,360 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[INFO] 2022-10-04 11:46:16,362 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[INFO] 2022-10-04 11:46:16,362 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[INFO] 2022-10-04 11:46:16,363 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2022-10-04 11:46:16,422 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-10-04 11:46:16,425 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-10-04 11:46:16,425 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-10-04 11:46:16,434 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-10-04 11:46:16,436 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 11:46:16,446 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-10-04 11:46:16,446 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-10-04 11:46:16,469 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-10-04 11:46:16,470 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-10-04 11:46:16,473 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-10-04 11:46:16,473 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-10-04 11:46:16,478 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-10-04 11:46:16,493 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-10-04 11:46:16,510 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-10-04 11:46:16,511 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-10-04 11:46:16,512 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-10-04 11:46:16,513 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[WARNING] 2022-10-04 11:46:16,556 Not Found: /favicon.ico
+[WARNING] 2022-10-04 11:46:16,556 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-10-04 11:46:18,586 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4612
+[INFO] 2022-10-04 11:46:22,140 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 11:46:22,148 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-04 12:03:06,701 D:\Binara\nominaFC\backend\sistemafcApp\models\debt.py changed, reloading.
+[INFO] 2022-10-04 12:03:07,282 Watching for file changes with StatReloader
+[INFO] 2022-10-04 12:04:25,847 D:\Binara\nominaFC\backend\sistemafcApp\models\__init__.py changed, reloading.
+[INFO] 2022-10-04 12:04:26,386 Watching for file changes with StatReloader
+[INFO] 2022-10-04 12:04:55,815 Watching for file changes with StatReloader
+[INFO] 2022-10-04 12:05:21,349 D:\Binara\nominaFC\backend\sistemafcApp\admin.py changed, reloading.
+[INFO] 2022-10-04 12:05:21,908 Watching for file changes with StatReloader
+[INFO] 2022-10-04 12:05:24,523 "GET /admin/sistemafcApp/smallbox/ HTTP/1.1" 200 11440
+[INFO] 2022-10-04 12:05:24,542 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 12:46:17,942 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-04 12:46:19,780 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-10-04 12:46:19,807 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4612
+[INFO] 2022-10-04 13:51:42,318 D:\Binara\nominaFC\backend\sistemafcApp\views\__init__.py changed, reloading.
+[INFO] 2022-10-04 13:51:42,923 Watching for file changes with StatReloader
+[INFO] 2022-10-04 13:51:58,704 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-04 13:51:59,249 Watching for file changes with StatReloader
+[INFO] 2022-10-04 13:52:05,392 "GET /api/v1.0/perceptionList HTTP/1.1" 301 0
+[ERROR] 2022-10-04 13:52:05,455 Internal Server Error: /api/v1.0/perceptionList/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'fromDate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionTypeList.py", line 20, in get
+    perceptionInstances = ReadRegisterRHSerializer(PerceptionType.objects.all()).data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `fromDate` on serializer `ReadRegisterRHSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'fromDate'.
+[ERROR] 2022-10-04 13:52:05,458 "GET /api/v1.0/perceptionList/ HTTP/1.1" 500 135234
+[WARNING] 2022-10-04 13:52:05,562 Not Found: /favicon.ico
+[WARNING] 2022-10-04 13:52:05,562 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-10-04 13:52:40,263 D:\Binara\nominaFC\backend\sistemafcApp\serializers\__init__.py changed, reloading.
+[INFO] 2022-10-04 13:52:40,874 Watching for file changes with StatReloader
+[INFO] 2022-10-04 13:52:49,110 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionTypeList.py changed, reloading.
+[INFO] 2022-10-04 13:52:49,695 Watching for file changes with StatReloader
+[ERROR] 2022-10-04 13:52:50,084 Internal Server Error: /api/v1.0/perceptionList/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionTypeList.py", line 20, in get
+    perceptionInstances = PerceptionTypeSerializer(PerceptionType.objects.all()).data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PerceptionTypeSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+[ERROR] 2022-10-04 13:52:50,087 "GET /api/v1.0/perceptionList/ HTTP/1.1" 500 120444
+[INFO] 2022-10-04 13:53:03,523 "GET /admin/sistemafcApp/perceptiontype/ HTTP/1.1" 200 9031
+[INFO] 2022-10-04 13:53:03,620 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-10-04 13:53:03,621 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-10-04 13:53:03,621 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-10-04 13:53:03,624 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-10-04 13:53:03,625 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-10-04 13:53:03,627 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-10-04 13:53:03,629 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-10-04 13:53:03,630 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-10-04 13:53:03,633 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-10-04 13:53:03,633 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 13:53:03,634 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-10-04 13:53:03,635 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-10-04 13:53:03,636 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-10-04 13:53:03,638 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-10-04 13:53:03,639 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-10-04 13:53:03,644 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-10-04 13:53:03,645 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-10-04 13:53:03,649 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-10-04 13:53:03,654 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-10-04 13:53:03,655 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-10-04 13:53:03,656 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-10-04 13:53:03,657 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-10-04 13:53:04,902 "GET /admin/sistemafcApp/perceptiontype/add/ HTTP/1.1" 200 9682
+[INFO] 2022-10-04 13:53:04,917 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-10-04 13:53:04,917 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-10-04 13:53:04,921 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 13:53:04,923 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-10-04 13:53:04,924 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-10-04 13:53:14,099 "POST /admin/sistemafcApp/perceptiontype/add/ HTTP/1.1" 302 0
+[INFO] 2022-10-04 13:53:14,118 "GET /admin/sistemafcApp/perceptiontype/ HTTP/1.1" 200 10454
+[INFO] 2022-10-04 13:53:14,135 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 13:53:14,156 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[ERROR] 2022-10-04 13:53:16,326 Internal Server Error: /api/v1.0/perceptionList/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionTypeList.py", line 20, in get
+    perceptionInstances = PerceptionTypeSerializer(PerceptionType.objects.all()).data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PerceptionTypeSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+[ERROR] 2022-10-04 13:53:16,327 "GET /api/v1.0/perceptionList/ HTTP/1.1" 500 120738
+[INFO] 2022-10-04 13:53:50,193 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionTypeList.py changed, reloading.
+[INFO] 2022-10-04 13:53:50,794 Watching for file changes with StatReloader
+[INFO] 2022-10-04 13:54:59,671 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionTypeList.py changed, reloading.
+[INFO] 2022-10-04 13:55:00,273 Watching for file changes with StatReloader
+[INFO] 2022-10-04 13:55:00,781 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:02:26,807 "OPTIONS / HTTP/1.1" 200 0
+[WARNING] 2022-10-04 14:02:26,815 Not Found: /
+[WARNING] 2022-10-04 14:02:26,815 "GET / HTTP/1.1" 404 2447
+[INFO] 2022-10-04 14:03:04,751 "OPTIONS /api/v1.0/perceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:03:04,758 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:04:20,379 D:\Binara\nominaFC\backend\sistemafcApp\views\__init__.py changed, reloading.
+[INFO] 2022-10-04 14:04:20,926 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:09:05,263 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:09:05,825 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:09:24,872 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:09:25,416 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:10:22,364 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:10:22,913 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:10:45,171 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:10:45,735 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:11:22,103 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:11:22,656 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:11:46,011 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-04 14:11:46,560 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:12:03,394 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-04 14:12:03,931 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:12:26,193 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-04 14:12:26,749 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:13:42,391 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:14:11,541 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:16:48,113 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:17:20,573 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:17:55,294 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:18:09,178 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[WARNING] 2022-10-04 14:20:33,466 Method Not Allowed: /api/v1.0/perceptionList/
+[WARNING] 2022-10-04 14:20:33,467 "POST /api/v1.0/perceptionList/ HTTP/1.1" 405 41
+[INFO] 2022-10-04 14:21:32,792 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:21:33,335 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:21:46,998 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[WARNING] 2022-10-04 14:21:49,392 Method Not Allowed: /api/v1.0/perceptionList/
+[WARNING] 2022-10-04 14:21:49,392 "POST /api/v1.0/perceptionList/ HTTP/1.1" 405 41
+[WARNING] 2022-10-04 14:22:46,058 Method Not Allowed: /api/v1.0/perceptionList/
+[WARNING] 2022-10-04 14:22:46,058 "POST /api/v1.0/perceptionList/ HTTP/1.1" 405 41
+[INFO] 2022-10-04 14:22:53,799 "OPTIONS /api/v1.0/perceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:22:53,805 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 41
+[INFO] 2022-10-04 14:22:59,790 "OPTIONS /api/v1.0/perceptionType/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:22:59,802 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 37
+[INFO] 2022-10-04 14:22:59,812 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:25:54,608 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:28:04,631 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:37:21,159 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:37:33,712 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:37:35,200 "OPTIONS /api/v1.0/perceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:37:35,206 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:37:54,101 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:41:31,645 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:45:33,483 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 80
+[INFO] 2022-10-04 14:46:05,465 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:46:05,476 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 120
+[INFO] 2022-10-04 14:46:17,769 "OPTIONS /api/v1.0/perceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:46:17,774 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 120
+[INFO] 2022-10-04 14:46:23,373 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:46:23,383 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 160
+[INFO] 2022-10-04 14:47:05,618 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 160
+[INFO] 2022-10-04 14:47:11,426 "OPTIONS /api/v1.0/perceptionType/4 HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:47:11,435 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:47:11,444 "PUT /api/v1.0/perceptionType/4 HTTP/1.1" 200 460
+[INFO] 2022-10-04 14:47:11,448 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 200
+[INFO] 2022-10-04 14:47:11,453 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 200
+[INFO] 2022-10-04 14:47:40,828 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:47:40,834 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-04 14:47:42,576 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:47:42,576 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:47:42,611 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-10-04 14:47:42,614 "GET /api/v1.0/employees/ HTTP/1.1" 200 2301
+[INFO] 2022-10-04 14:47:48,897 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 200
+[INFO] 2022-10-04 14:48:20,530 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:48:21,149 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:48:25,323 "OPTIONS /api/v1.0/perceptionType/5 HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:48:25,329 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:48:25,331 "PUT /api/v1.0/perceptionType/5 HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:48:25,339 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 240
+[INFO] 2022-10-04 14:48:25,343 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 240
+[INFO] 2022-10-04 14:48:38,143 "OPTIONS /api/v1.0/perceptionType/6 HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:48:38,152 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:48:38,154 "PUT /api/v1.0/perceptionType/6 HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:48:38,163 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 280
+[INFO] 2022-10-04 14:48:38,167 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 280
+[INFO] 2022-10-04 14:48:49,470 "OPTIONS /api/v1.0/perceptionType/7 HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:48:49,480 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:48:49,483 "PUT /api/v1.0/perceptionType/7 HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:48:49,492 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 320
+[INFO] 2022-10-04 14:48:49,496 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 320
+[INFO] 2022-10-04 14:48:58,325 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 320
+[WARNING] 2022-10-04 14:48:58,351 Not Found: /favicon.ico
+[WARNING] 2022-10-04 14:48:58,352 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-10-04 14:49:27,871 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 320
+[INFO] 2022-10-04 14:49:29,629 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 320
+[INFO] 2022-10-04 14:49:33,227 "OPTIONS /api/v1.0/perceptionType/8 HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:49:33,238 "PUT /api/v1.0/perceptionType/8 HTTP/1.1" 200 38
+[INFO] 2022-10-04 14:49:33,249 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 320
+[INFO] 2022-10-04 14:49:44,550 "GET /admin/sistemafcApp/perceptiontype/ HTTP/1.1" 200 11838
+[INFO] 2022-10-04 14:49:44,631 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-10-04 14:49:44,632 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-10-04 14:49:44,633 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-10-04 14:49:44,633 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-10-04 14:49:44,634 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-10-04 14:49:44,644 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-10-04 14:49:44,646 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-10-04 14:49:44,646 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-10-04 14:49:44,650 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 14:49:44,650 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-10-04 14:49:44,651 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-10-04 14:49:44,653 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-10-04 14:49:44,654 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-10-04 14:49:44,654 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-10-04 14:49:44,656 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-10-04 14:49:44,660 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-10-04 14:49:44,662 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-10-04 14:49:44,668 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-10-04 14:49:44,678 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-10-04 14:49:44,678 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-10-04 14:49:44,679 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-10-04 14:49:44,680 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-10-04 14:49:55,158 "POST /admin/sistemafcApp/perceptiontype/ HTTP/1.1" 200 9781
+[INFO] 2022-10-04 14:49:55,175 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[INFO] 2022-10-04 14:49:55,951 "POST /admin/sistemafcApp/perceptiontype/ HTTP/1.1" 302 0
+[INFO] 2022-10-04 14:49:55,963 "GET /admin/sistemafcApp/perceptiontype/ HTTP/1.1" 200 10829
+[INFO] 2022-10-04 14:49:55,983 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 14:49:55,997 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2022-10-04 14:49:58,569 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 120
+[INFO] 2022-10-04 14:50:04,387 "OPTIONS /api/v1.0/perceptionType/1 HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:50:04,392 "PUT /api/v1.0/perceptionType/1 HTTP/1.1" 200 40
+[INFO] 2022-10-04 14:50:04,402 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 121
+[INFO] 2022-10-04 14:50:07,485 "PUT /api/v1.0/perceptionType/1 HTTP/1.1" 200 39
+[INFO] 2022-10-04 14:50:07,495 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 120
+[INFO] 2022-10-04 14:50:12,301 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 26
+[INFO] 2022-10-04 14:50:12,311 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 148
+[INFO] 2022-10-04 14:50:25,571 "OPTIONS /api/v1.0/perceptionType/9 HTTP/1.1" 200 0
+[INFO] 2022-10-04 14:50:25,583 "PUT /api/v1.0/perceptionType/9 HTTP/1.1" 200 45
+[INFO] 2022-10-04 14:50:25,593 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 14:50:52,789 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionType.py changed, reloading.
+[INFO] 2022-10-04 14:50:53,379 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:51:33,017 D:\Binara\nominaFC\backend\sistemafcApp\views\__init__.py changed, reloading.
+[INFO] 2022-10-04 14:51:33,559 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:53:03,019 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionList.py changed, reloading.
+[INFO] 2022-10-04 14:53:03,631 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:53:27,046 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 14:53:27,581 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:54:07,104 D:\Binara\nominaFC\backend\sistemafcApp\models\perception.py changed, reloading.
+[INFO] 2022-10-04 14:54:07,638 Watching for file changes with StatReloader
+[INFO] 2022-10-04 14:58:19,276 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 14:58:19,827 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:01:04,858 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:01:05,395 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:01:44,965 D:\Binara\nominaFC\backend\sistemafcApp\models\perception.py changed, reloading.
+[INFO] 2022-10-04 15:01:45,526 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:01:48,773 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 2
+[INFO] 2022-10-04 15:01:58,361 "GET /admin/sistemafcApp/perception/ HTTP/1.1" 200 8998
+[INFO] 2022-10-04 15:01:58,377 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 15:01:59,465 "GET /admin/sistemafcApp/perception/add/ HTTP/1.1" 200 15709
+[INFO] 2022-10-04 15:01:59,484 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 15:01:59,521 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-10-04 15:01:59,525 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-10-04 15:01:59,525 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-10-04 15:01:59,536 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-10-04 15:01:59,537 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[INFO] 2022-10-04 15:01:59,539 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2022-10-04 15:01:59,539 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-10-04 15:02:28,924 "POST /admin/sistemafcApp/perception/add/ HTTP/1.1" 302 0
+[INFO] 2022-10-04 15:02:28,942 "GET /admin/sistemafcApp/perception/ HTTP/1.1" 200 10476
+[INFO] 2022-10-04 15:02:28,957 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 15:02:38,680 D:\Binara\nominaFC\backend\sistemafcApp\models\perception.py changed, reloading.
+[INFO] 2022-10-04 15:02:39,258 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:02:40,929 "GET /admin/sistemafcApp/perception/ HTTP/1.1" 200 10212
+[INFO] 2022-10-04 15:02:40,948 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-04 15:02:44,145 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 677
+[INFO] 2022-10-04 15:04:02,548 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:04:03,133 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:04:03,387 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 460
+[INFO] 2022-10-04 15:04:53,584 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:04:54,147 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:04:54,378 "GET /api/v1.0/perceptionList/ HTTP/1.1" 200 244
+[INFO] 2022-10-04 15:08:45,402 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perceptionList.py changed, reloading.
+[INFO] 2022-10-04 15:08:45,996 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:34:13,783 D:\Binara\nominaFC\backend\sistemafcApp\serializers\employeeSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:34:14,356 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:35:33,839 D:\Binara\nominaFC\backend\sistemafcApp\models\perception.py changed, reloading.
+[INFO] 2022-10-04 15:35:34,388 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:39:17,719 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:39:18,282 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:39:37,162 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:39:37,706 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:39:50,127 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:40:50,284 D:\Binara\nominaFC\backend\sistemafcApp\views\__init__.py changed, reloading.
+[INFO] 2022-10-04 15:40:50,847 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:41:00,136 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-04 15:41:00,679 Watching for file changes with StatReloader
+[ERROR] 2022-10-04 15:41:06,765 Internal Server Error: /api/v1.0/employeePerceptionList/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employeePerceptionList.py", line 15, in get
+    employeeSerialized = EmployeeRhSerializer(employeeInstances).data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `EmployeeRhSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+[ERROR] 2022-10-04 15:41:06,768 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 500 126463
+[INFO] 2022-10-04 15:41:56,821 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employeePerceptionList.py changed, reloading.
+[INFO] 2022-10-04 15:41:57,370 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:41:58,199 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1223
+[INFO] 2022-10-04 15:44:10,126 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:44:10,704 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:46:18,787 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:46:19,346 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:46:26,359 D:\Binara\nominaFC\backend\sistemafcApp\serializers\perceptionSerializer.py changed, reloading.
+[INFO] 2022-10-04 15:46:26,886 Watching for file changes with StatReloader
+[INFO] 2022-10-04 15:46:30,637 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 15:58:33,200 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 15:58:33,218 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 15:58:34,175 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[WARNING] 2022-10-04 15:58:34,176 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:58:34,177 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 15:58:47,910 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 15:58:48,853 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:58:48,854 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 15:59:12,721 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 15:59:12,855 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:59:12,855 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 15:59:27,462 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 15:59:27,856 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:59:27,856 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 15:59:32,270 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 15:59:32,858 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:59:32,859 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 15:59:41,072 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 15:59:41,854 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:59:41,854 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 15:59:44,129 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 15:59:44,859 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:59:44,860 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 15:59:55,272 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 15:59:55,855 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 15:59:55,855 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:00:04,867 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:00:05,866 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:00:05,866 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:00:36,886 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:00:37,858 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:00:37,858 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:02:05,972 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:02:06,865 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:02:06,866 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:02:26,503 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:02:26,865 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:02:26,866 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:02:46,892 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:02:47,858 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:02:47,858 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:04:26,088 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:04:26,865 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:04:26,865 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:04:45,126 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 16:04:45,130 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 16:05:09,785 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 16:05:38,972 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 16:05:39,742 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 16:05:40,103 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 16:05:42,513 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:06:13,853 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:06:13,855 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:06:13,863 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:06:44,864 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:06:44,866 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:06:44,875 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:07:31,865 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:07:31,866 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:07:31,873 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 16:12:42,546 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-04 16:12:45,541 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-10-04 16:12:45,569 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4612
+[INFO] 2022-10-04 16:12:49,693 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-10-04 16:12:49,699 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-04 16:13:02,998 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:15:21,165 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:15:21,165 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:15:54,054 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:15:54,854 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:15:54,854 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:16:01,011 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:16:01,867 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:16:01,868 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:16:14,397 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:16:14,858 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:16:14,858 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[WARNING] 2022-10-04 16:16:22,857 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:16:22,858 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:16:22,860 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 16:16:31,160 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:16:31,857 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:16:31,858 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:16:37,699 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:16:37,861 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:16:37,862 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:16:40,204 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:16:40,871 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:16:40,872 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:17:45,802 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:17:45,855 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:17:45,855 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:18:32,393 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:18:32,852 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:18:32,853 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:18:56,849 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:18:56,866 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:18:56,867 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:22:52,038 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:22:52,857 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:22:52,857 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:24:01,523 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:24:01,860 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:24:01,860 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:25:11,286 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:25:11,865 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:25:11,865 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:26:03,061 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:26:03,856 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:26:03,857 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:26:31,359 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:26:31,862 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:26:31,862 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:28:14,545 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:28:14,852 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:28:14,852 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:28:53,455 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:28:53,854 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:28:53,854 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:28:56,184 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:28:56,864 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:28:56,864 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:29:43,230 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:29:43,856 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:29:43,856 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:30:05,541 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:30:05,862 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:30:05,863 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:30:28,502 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:30:28,861 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:30:28,862 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 16:30:47,182 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 16:32:02,654 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 16:35:17,802 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 16:35:47,257 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 16:35:47,515 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 16:35:47,516 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[WARNING] 2022-10-04 17:00:55,855 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 17:00:55,855 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 17:00:55,909 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 17:03:00,314 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 17:03:00,315 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 17:03:00,368 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 17:08:21,948 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 17:13:31,740 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:14:53,136 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 17:14:53,167 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-04 17:14:53,168 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 17:15:51,789 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:15:51,793 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-04 17:15:51,865 Unauthorized: /api/v1.0/employeePerceptionList/
+[INFO] 2022-10-04 17:15:51,866 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[WARNING] 2022-10-04 17:15:51,866 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-04 17:15:51,870 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:21:46,449 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:21:46,454 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 17:22:51,668 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:22:51,674 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 17:23:33,260 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:23:33,266 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 17:30:12,806 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:30:12,810 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 17:31:02,866 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:31:02,871 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-04 17:31:49,725 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-04 17:31:49,732 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-05 11:49:35,558 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 11:49:35,558 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 11:49:35,588 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 11:49:35,596 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-05 11:58:02,249 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 11:58:02,255 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-05 12:00:03,983 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:00:03,990 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-05 12:01:06,224 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:01:06,232 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-05 12:14:12,607 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:14:12,613 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-05 12:14:13,517 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[WARNING] 2022-10-05 12:14:13,520 Unauthorized: /api/v1.0/employeePerceptionList/
+[INFO] 2022-10-05 12:14:13,520 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[WARNING] 2022-10-05 12:14:13,521 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:14:13,524 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:14:30,294 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:14:30,301 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-05 12:14:31,220 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:14:31,221 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:14:31,225 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:14:46,236 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:14:46,241 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-05 12:14:47,214 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:14:47,215 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:14:47,217 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:17:40,827 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:17:40,831 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-05 12:17:41,209 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:17:41,210 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:17:41,212 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:17:50,530 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:17:50,535 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[WARNING] 2022-10-05 12:17:51,212 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:17:51,213 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:17:51,215 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:18:24,471 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-05 12:18:25,129 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:19:41,242 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perception.py changed, reloading.
+[INFO] 2022-10-05 12:19:41,764 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:20:34,020 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perception.py changed, reloading.
+[INFO] 2022-10-05 12:20:34,552 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:21:58,148 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perception.py changed, reloading.
+[INFO] 2022-10-05 12:21:58,673 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:22:00,877 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:22:00,896 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 790
+[INFO] 2022-10-05 12:22:11,244 "OPTIONS /api/v1.0/perception/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:22:11,260 "POST /api/v1.0/perception/ HTTP/1.1" 200 149
+[INFO] 2022-10-05 12:22:11,273 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[WARNING] 2022-10-05 12:22:17,681 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:22:17,681 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:23:06,754 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perception.py changed, reloading.
+[INFO] 2022-10-05 12:23:07,313 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:23:08,901 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:23:08,917 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[WARNING] 2022-10-05 12:23:17,517 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:23:17,518 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:23:38,583 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perception.py changed, reloading.
+[INFO] 2022-10-05 12:23:39,118 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:23:41,175 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:23:41,190 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[WARNING] 2022-10-05 12:23:47,687 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:23:47,688 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:24:51,269 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:24:51,276 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[INFO] 2022-10-05 12:27:06,933 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perception.py changed, reloading.
+[INFO] 2022-10-05 12:27:07,476 Watching for file changes with StatReloader
+[WARNING] 2022-10-05 12:27:29,787 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:27:29,787 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:28:20,955 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-05 12:28:21,536 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:28:23,460 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:28:23,478 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[INFO] 2022-10-05 12:28:32,900 "OPTIONS /api/v1.0/perception/1 HTTP/1.1" 200 0
+[WARNING] 2022-10-05 12:28:32,906 Bad Request: /api/v1.0/perception/1
+[WARNING] 2022-10-05 12:28:32,906 "PUT /api/v1.0/perception/1 HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:29:26,399 D:\Binara\nominaFC\backend\sistemafcApp\views\perception\perception.py changed, reloading.
+[INFO] 2022-10-05 12:29:26,957 Watching for file changes with StatReloader
+[INFO] 2022-10-05 12:29:27,798 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:29:27,814 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[WARNING] 2022-10-05 12:29:30,856 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:29:30,856 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:30:12,841 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:30:12,857 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[WARNING] 2022-10-05 12:30:17,272 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:30:17,272 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[WARNING] 2022-10-05 12:32:20,907 Bad Request: /api/v1.0/perception/1
+[WARNING] 2022-10-05 12:32:20,907 "PUT /api/v1.0/perception/1 HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:32:24,897 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:32:24,897 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:32:24,903 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:32:24,912 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[WARNING] 2022-10-05 12:32:30,944 Bad Request: /api/v1.0/perception/1
+[WARNING] 2022-10-05 12:32:30,944 "PUT /api/v1.0/perception/1 HTTP/1.1" 400 68
+[WARNING] 2022-10-05 12:33:58,999 Bad Request: /api/v1.0/perception/1
+[WARNING] 2022-10-05 12:33:58,999 "PUT /api/v1.0/perception/1 HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:34:08,107 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:34:08,112 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1024
+[INFO] 2022-10-05 12:34:13,702 "PUT /api/v1.0/perception/1 HTTP/1.1" 200 173
+[INFO] 2022-10-05 12:34:18,780 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:34:18,789 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1039
+[INFO] 2022-10-05 12:34:49,269 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:34:49,273 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1039
+[WARNING] 2022-10-05 12:34:50,520 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:34:50,521 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:34:50,524 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:34:54,964 "PUT /api/v1.0/perception/1 HTTP/1.1" 200 172
+[INFO] 2022-10-05 12:34:54,977 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1038
+[INFO] 2022-10-05 12:35:32,571 "PUT /api/v1.0/perception/1 HTTP/1.1" 200 173
+[INFO] 2022-10-05 12:35:32,585 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1039
+[INFO] 2022-10-05 12:35:43,257 "PUT /api/v1.0/perception/1 HTTP/1.1" 200 172
+[INFO] 2022-10-05 12:35:43,271 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1038
+[INFO] 2022-10-05 12:36:12,060 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:36:12,067 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1038
+[WARNING] 2022-10-05 12:36:12,213 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:36:12,215 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:36:12,217 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:36:14,662 "PUT /api/v1.0/perception/1 HTTP/1.1" 200 173
+[INFO] 2022-10-05 12:36:14,680 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1039
+[INFO] 2022-10-05 12:36:32,269 "PUT /api/v1.0/perception/1 HTTP/1.1" 200 173
+[INFO] 2022-10-05 12:36:32,286 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1045
+[INFO] 2022-10-05 12:36:49,580 "POST /api/v1.0/perception/ HTTP/1.1" 200 147
+[INFO] 2022-10-05 12:36:49,598 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1278
+[WARNING] 2022-10-05 12:37:15,759 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:37:15,759 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:37:38,807 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:37:38,812 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1278
+[WARNING] 2022-10-05 12:37:39,222 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:37:39,224 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:37:39,227 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[WARNING] 2022-10-05 12:37:40,251 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:37:40,251 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:38:40,136 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:38:40,142 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1278
+[WARNING] 2022-10-05 12:38:40,205 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:38:40,207 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:38:40,209 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[WARNING] 2022-10-05 12:38:41,473 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:38:41,473 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:39:02,068 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:39:02,073 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1278
+[WARNING] 2022-10-05 12:39:02,210 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:39:02,211 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:39:02,213 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:39:29,981 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:39:29,981 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:39:29,992 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:39:29,999 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1278
+[INFO] 2022-10-05 12:39:33,744 "PUT /api/v1.0/perception/1 HTTP/1.1" 200 173
+[INFO] 2022-10-05 12:39:33,764 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1278
+[WARNING] 2022-10-05 12:39:39,955 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 12:39:39,955 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 12:40:09,994 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:40:10,002 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1278
+[WARNING] 2022-10-05 12:40:10,212 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 12:40:10,214 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 12:40:10,216 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:44:49,880 "POST /api/v1.0/perception/ HTTP/1.1" 200 156
+[INFO] 2022-10-05 12:44:49,899 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1509
+[INFO] 2022-10-05 12:45:32,351 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 167
+[INFO] 2022-10-05 12:46:02,794 "OPTIONS /api/v1.0/perceptionType/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:46:02,804 "POST /api/v1.0/perceptionType/ HTTP/1.1" 200 40
+[INFO] 2022-10-05 12:46:02,815 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 209
+[INFO] 2022-10-05 12:46:06,537 "OPTIONS /api/v1.0/perceptionType/10 HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:46:06,547 "PUT /api/v1.0/perceptionType/10 HTTP/1.1" 200 41
+[INFO] 2022-10-05 12:46:06,557 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:46:09,766 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1509
+[INFO] 2022-10-05 12:46:09,770 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:46:24,027 "POST /api/v1.0/perception/ HTTP/1.1" 200 164
+[INFO] 2022-10-05 12:46:24,045 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 12:47:15,755 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 12:47:15,760 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 12:47:25,923 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 12:47:25,927 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:48:22,513 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:48:22,518 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 12:51:21,535 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:51:21,542 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 12:54:53,439 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:54:54,014 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:54:54,022 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 12:54:54,364 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:54:54,698 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:54:54,707 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 12:54:55,165 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:54:56,875 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 12:54:56,882 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 12:59:26,584 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-05 12:59:27,120 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:00:03,212 D:\Binara\nominaFC\backend\sistemafcApp\views\__init__.py changed, reloading.
+[INFO] 2022-10-05 13:00:03,790 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:03:11,567 D:\Binara\nominaFC\backend\sistemafcApp\serializers\employeeSerializer.py changed, reloading.
+[INFO] 2022-10-05 13:03:12,142 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:03:35,267 D:\Binara\nominaFC\backend\sistemafcApp\models\deduction.py changed, reloading.
+[INFO] 2022-10-05 13:03:35,820 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:03:52,412 D:\Binara\nominaFC\backend\sistemafcApp\serializers\__init__.py changed, reloading.
+[INFO] 2022-10-05 13:03:52,960 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:04:14,988 D:\Binara\nominaFC\backend\sistemafcApp\views\__init__.py changed, reloading.
+[INFO] 2022-10-05 13:04:15,544 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:05:10,038 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employeePerceptionList.py changed, reloading.
+[INFO] 2022-10-05 13:05:10,586 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:05:14,208 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employeeDeductionList.py changed, reloading.
+[INFO] 2022-10-05 13:05:14,786 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:05:21,605 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-05 13:05:22,129 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:05:34,365 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-10-05 13:05:34,905 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:05:56,320 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:06:10,599 "GET /admin/sistemafcApp/deductiontype/ HTTP/1.1" 200 9024
+[INFO] 2022-10-05 13:06:10,678 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-10-05 13:06:10,678 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-10-05 13:06:10,680 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-10-05 13:06:10,680 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-10-05 13:06:10,683 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-10-05 13:06:10,683 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-10-05 13:06:10,690 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-05 13:06:10,691 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-10-05 13:06:10,692 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-10-05 13:06:10,693 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-10-05 13:06:10,694 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-10-05 13:06:10,696 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-10-05 13:06:10,697 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-10-05 13:06:10,699 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-10-05 13:06:10,701 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-10-05 13:06:10,705 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-10-05 13:06:10,706 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-10-05 13:06:10,715 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-10-05 13:06:10,722 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-10-05 13:06:10,722 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-10-05 13:06:10,724 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-10-05 13:06:10,725 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[WARNING] 2022-10-05 13:06:10,761 Not Found: /favicon.ico
+[WARNING] 2022-10-05 13:06:10,761 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-10-05 13:06:12,004 "GET /admin/sistemafcApp/deductiontype/add/ HTTP/1.1" 200 9674
+[INFO] 2022-10-05 13:06:12,016 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-10-05 13:06:12,017 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-10-05 13:06:12,020 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-05 13:06:12,027 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-10-05 13:06:12,027 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-10-05 13:06:18,486 "POST /admin/sistemafcApp/deductiontype/add/ HTTP/1.1" 302 0
+[INFO] 2022-10-05 13:06:18,512 "GET /admin/sistemafcApp/deductiontype/ HTTP/1.1" 200 10438
+[INFO] 2022-10-05 13:06:18,529 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-05 13:06:18,542 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2022-10-05 13:06:19,965 "GET /admin/sistemafcApp/deduction/ HTTP/1.1" 200 8991
+[INFO] 2022-10-05 13:06:19,981 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-05 13:06:20,944 "GET /admin/sistemafcApp/deduction/add/ HTTP/1.1" 200 15515
+[INFO] 2022-10-05 13:06:20,959 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-05 13:06:20,966 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-10-05 13:06:20,966 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[INFO] 2022-10-05 13:06:20,972 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2022-10-05 13:06:38,629 "POST /admin/sistemafcApp/deduction/add/ HTTP/1.1" 302 0
+[INFO] 2022-10-05 13:06:38,645 "GET /admin/sistemafcApp/deduction/ HTTP/1.1" 200 10458
+[INFO] 2022-10-05 13:06:38,660 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-05 13:06:48,722 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 13:07:08,739 D:\Binara\nominaFC\backend\sistemafcApp\views\employee\employeeDeductionList.py changed, reloading.
+[INFO] 2022-10-05 13:07:09,292 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:07:10,544 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:13:39,415 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[WARNING] 2022-10-05 13:13:39,421 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 13:13:39,421 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 13:13:39,510 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:13:39,519 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[WARNING] 2022-10-05 13:14:15,328 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 13:14:15,330 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 13:14:15,333 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:14:15,379 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:14:15,387 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[WARNING] 2022-10-05 13:15:23,550 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 13:15:23,552 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 13:15:23,554 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:15:23,586 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:15:23,593 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[WARNING] 2022-10-05 13:15:44,608 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 13:15:44,610 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 13:15:44,612 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:15:44,643 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:15:44,650 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 13:22:09,526 "OPTIONS /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:22:09,529 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:22:09,534 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:22:09,540 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:22:39,216 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:22:39,222 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:24:08,669 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:24:09,164 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:24:09,170 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:24:15,522 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:24:16,746 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:24:16,753 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:24:23,793 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:25:13,647 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:25:37,738 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:25:37,743 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:27:30,916 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:28:49,001 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:30:24,034 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:30:34,035 "OPTIONS /api/v1.0/deductionType/1 HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:30:34,040 "PUT /api/v1.0/deductionType/1 HTTP/1.1" 200 38
+[INFO] 2022-10-05 13:30:34,049 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 40
+[INFO] 2022-10-05 13:30:38,193 "PUT /api/v1.0/deductionType/1 HTTP/1.1" 200 37
+[INFO] 2022-10-05 13:30:38,201 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 39
+[INFO] 2022-10-05 13:30:45,651 "OPTIONS /api/v1.0/deductionType/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:30:45,661 "POST /api/v1.0/deductionType/ HTTP/1.1" 200 26
+[INFO] 2022-10-05 13:30:45,669 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:30:49,150 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 13:30:49,154 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:30:50,117 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:30:52,042 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:30:52,047 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:30:53,335 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:30:53,341 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 13:30:53,783 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:30:53,787 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:30:55,920 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:30:56,796 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:30:56,800 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:32:28,758 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:32:53,859 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:32:53,862 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 774
+[INFO] 2022-10-05 13:43:22,737 "OPTIONS /api/v1.0/deduction/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:43:22,744 "POST /api/v1.0/deduction/ HTTP/1.1" 200 157
+[INFO] 2022-10-05 13:43:22,760 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1004
+[INFO] 2022-10-05 13:43:36,241 "OPTIONS /api/v1.0/deduction/2 HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:43:36,254 "PUT /api/v1.0/deduction/2 HTTP/1.1" 200 156
+[INFO] 2022-10-05 13:43:36,270 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1003
+[INFO] 2022-10-05 13:44:00,819 "PUT /api/v1.0/deduction/2 HTTP/1.1" 200 159
+[INFO] 2022-10-05 13:44:00,834 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1006
+[WARNING] 2022-10-05 13:44:17,668 Bad Request: /api/v1.0/deduction/
+[WARNING] 2022-10-05 13:44:17,669 "POST /api/v1.0/deduction/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 13:44:40,997 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1006
+[INFO] 2022-10-05 13:44:41,006 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:44:56,387 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:44:56,394 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[WARNING] 2022-10-05 13:45:07,050 Bad Request: /api/v1.0/perception/
+[WARNING] 2022-10-05 13:45:07,051 "POST /api/v1.0/perception/ HTTP/1.1" 400 68
+[INFO] 2022-10-05 13:45:53,530 D:\Binara\nominaFC\backend\sistemafcApp\models\perception.py changed, reloading.
+[INFO] 2022-10-05 13:45:54,091 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:45:57,969 D:\Binara\nominaFC\backend\sistemafcApp\models\deduction.py changed, reloading.
+[INFO] 2022-10-05 13:45:58,494 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:46:14,395 Watching for file changes with StatReloader
+[INFO] 2022-10-05 13:46:16,427 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:46:16,444 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1753
+[INFO] 2022-10-05 13:46:27,525 "POST /api/v1.0/perception/ HTTP/1.1" 200 151
+[INFO] 2022-10-05 13:46:27,545 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 13:46:30,414 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:46:30,421 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1006
+[INFO] 2022-10-05 13:46:40,768 "POST /api/v1.0/deduction/ HTTP/1.1" 200 153
+[INFO] 2022-10-05 13:46:40,786 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1223
+[INFO] 2022-10-05 13:47:14,626 "POST /api/v1.0/deduction/ HTTP/1.1" 200 146
+[INFO] 2022-10-05 13:47:14,643 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1442
+[INFO] 2022-10-05 13:47:56,632 "OPTIONS /api/v1.0/deduction/4 HTTP/1.1" 200 0
+[INFO] 2022-10-05 13:47:56,640 "PUT /api/v1.0/deduction/4 HTTP/1.1" 200 153
+[INFO] 2022-10-05 13:47:56,658 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1442
+[INFO] 2022-10-05 13:48:03,976 "PUT /api/v1.0/deduction/4 HTTP/1.1" 200 152
+[INFO] 2022-10-05 13:48:03,993 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 13:48:11,799 "PUT /api/v1.0/deduction/4 HTTP/1.1" 200 152
+[INFO] 2022-10-05 13:48:11,816 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 13:48:15,958 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:48:15,967 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 13:51:03,709 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 13:51:04,045 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 13:51:04,052 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 13:51:04,349 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 13:51:04,356 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:04:25,462 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 14:04:25,694 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:04:25,697 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:04:26,071 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:04:26,078 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:04:26,785 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 14:04:38,479 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-10-05 14:04:38,504 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4612
+[INFO] 2022-10-05 14:04:45,153 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 14:04:45,159 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-05 14:04:50,520 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 14:04:53,040 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 289
+[INFO] 2022-10-05 14:04:55,361 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:04:55,367 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:04:55,928 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:04:55,932 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:06:15,542 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 14:06:16,198 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 14:06:16,198 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-10-05 14:06:16,206 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-10-05 14:06:16,211 "GET /api/v1.0/employees/ HTTP/1.1" 200 2301
+[INFO] 2022-10-05 14:07:15,313 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 14:07:16,197 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-10-05 14:07:16,202 "GET /api/v1.0/employees/ HTTP/1.1" 200 2301
+[INFO] 2022-10-05 14:08:33,680 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-10-05 14:08:33,684 "GET /api/v1.0/employees/ HTTP/1.1" 200 2301
+[INFO] 2022-10-05 14:09:20,508 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:09:20,515 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:09:42,347 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:09:42,353 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:09:43,184 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 14:09:44,281 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:09:44,289 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:25:04,752 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:25:04,760 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:25:04,977 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:25:04,984 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:25:05,525 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:25:05,534 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:25:07,196 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:25:07,205 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:25:07,704 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:25:07,710 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:25:43,107 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:25:43,114 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:25:43,541 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[WARNING] 2022-10-05 14:25:43,543 Unauthorized: /api/v1.0/employeePerceptionList/
+[INFO] 2022-10-05 14:25:43,543 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[WARNING] 2022-10-05 14:25:43,543 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 14:25:43,547 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:25:46,147 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:25:46,153 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983
+[INFO] 2022-10-05 14:25:49,419 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:25:49,424 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:26:16,009 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:26:16,017 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[WARNING] 2022-10-05 14:26:16,226 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-10-05 14:26:16,228 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-10-05 14:26:16,232 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:26:17,099 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-05 14:26:18,668 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-05 14:26:18,674 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1441
+[INFO] 2022-10-05 14:26:19,164 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 210
+[INFO] 2022-10-05 14:26:19,170 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 1983

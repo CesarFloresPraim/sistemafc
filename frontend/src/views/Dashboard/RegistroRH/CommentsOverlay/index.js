@@ -29,6 +29,7 @@ export default function CommentsOverlay({
 
   const handleSave = () => {
     let comment = {
+      registerDetail: selectedRegisterDetail.id,
       description: newComment,
       date: commentDate,
     };
