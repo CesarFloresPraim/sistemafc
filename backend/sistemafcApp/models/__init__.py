@@ -8,3 +8,5 @@ from .food import *
 from .comment import *
 from .perception import *
 from .deduction import *
+from .vacation import *
+from .payroll import *

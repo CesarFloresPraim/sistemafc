@@ -24,6 +24,7 @@ export default function AssignPercetionOverlay({
   const [isActive, setIsActive] = useState(true);
   const [creationDate, setCreationDate] = useState(new Date());
   const [selectedPerceptionId, setSelectedPerceptionId] = useState();
+  const [isForSalary, setIsForSalary] = useState(false);
 
   const handleCreate = () => {
     const perceptionDTO = {
@@ -34,6 +35,7 @@ export default function AssignPercetionOverlay({
         creationDate: creationDate,
         percentual: percentual,
         isActive: isActive,
+        isForSalary: isForSalary
     }
     onCreate(perceptionDTO)
   };
@@ -52,6 +54,7 @@ export default function AssignPercetionOverlay({
         creationDate: creationDate,
         percentual: percentual,
         isActive: isActive,
+        isForSalary: isForSalary
     }
     onEdit(perceptionDTO)
   };
@@ -201,6 +204,16 @@ export default function AssignPercetionOverlay({
                 }}
                 label="Esta activo"
                 name="isActive"
+              ></CheckboxField>
+            </div>
+            <div className="ml-4">
+              <CheckboxField
+                value={isForSalary}
+                onChange={(e) => {
+                  setIsForSalary(e.target.checked);
+                }}
+                label="Es complemento al salario"
+                name="isForSalary"
               ></CheckboxField>
             </div>
           </div>

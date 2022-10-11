@@ -14,7 +14,7 @@ function reducer(state = initialState, action) {
     case actionTypes.SHOW_NEW_PERCEPTION_OVERLAY:
       return {
         ...state,
-        showNewEmployeeOverlay: action.payload.show,
+        showNewPerceptionOverlay: action.payload.show,
         isEdittingPerceptionType: action.payload.isEditting,
       };
     case actionTypes.SET_PERCEPTION_TYPE_LIST:

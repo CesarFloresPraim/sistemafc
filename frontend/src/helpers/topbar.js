@@ -1,7 +1,27 @@
 const breadcrums = {
+  "nominas": [
+    { name: "Inicio", path: "/home" },
+    { name: "Registro de nominas", path: "/nominas" },
+  ],
+  "nueva-nomina": [
+    { name: "Inicio", path: "/home" },
+    { name: "Nueva nomina", path: "/nueva-nomina" },
+  ],
+  "detalles-nomina": [
+    { name: "Inicio", path: "/home" },
+    { name: "Detalles de nomina", path: "/detalles-nomina" },
+  ],
+  "resumen-nomina": [
+    { name: "Inicio", path: "/home" },
+    { name: "Resumen de nomina", path: "/resumen-nomina" },
+  ],
   "empleados": [
     { name: "Inicio", path: "/home" },
     { name: "Empleados", path: "/empleados" },
+  ],
+  "vacaciones": [
+    { name: "Inicio", path: "/home" },
+    { name: "Vacaciones", path: "/vacaciones" },
   ],
   "registros-rh": [
     { name: "Inicio", path: "/home" },
@@ -79,7 +99,11 @@ const breadcrums = {
 };
 
 const titles = {
-  "empleados": "Empleados",
+  "nominas": "Nomina",
+  "nueva-nomina": "Nueva nomina",
+  "detalles-nomina": "Nomina",
+  "resumen-nomina": "Resumen nomina",
+  "empleados": "Detalles de nomina",
   "registros-rh": "Registros RH",
   "detalles-registro-rh": "Detalles de registro",
   "lista-empleados-rh": "Lista empleados",
@@ -98,6 +122,8 @@ const titles = {
   "tipo-percepcion": "Crear tipo de percepcion",
   "asignar-deduccion": "Asignar deduccion",
   "tipo-deduccion": "Crear tipo de deduccion",
+  "vacaciones": "Vacaciones",
+
 };
 
 export function getBreadcrumsArray(path) {

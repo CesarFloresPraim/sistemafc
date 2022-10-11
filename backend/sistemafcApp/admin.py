@@ -13,4 +13,7 @@ admin.site.register(Deduction)
 admin.site.register(DeductionType)
 admin.site.register(Perception)
 admin.site.register(PerceptionType)
+admin.site.register(Vacation)
+admin.site.register(Payroll)
+admin.site.register(RegisterPayroll)
 

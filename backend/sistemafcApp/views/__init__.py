@@ -14,3 +14,8 @@ from .deduction.deductionType import *
 from .deduction.deduction import *
 from .deduction.deductionList import *
 from .employee.employeeDeductionList import *
+from .vacation.vacation import *
+from .employee.employeeVacationList import *
+from .payroll.initializePayroll import *
+from .payroll.payroll import *
+from .payroll.payrollList import *

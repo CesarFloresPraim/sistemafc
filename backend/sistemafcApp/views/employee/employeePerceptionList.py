@@ -15,12 +15,3 @@ class EmployeePerceptionListView(APIView):
         employeeSerialized = ReadEmployeePerceptionsSerializer(employeeInstances, many=True).data
         return JsonResponse(employeeSerialized, safe=False)
 
-class EmployeeForRegisterListView(APIView):
-    permission_classes = [permissions.IsAuthenticated]
-
-    def get(self, request):
-        dataSerialized = EmployeeForRegisterRhSerializer(
-                Employee.objects.filter(isActive=True), many=True).data
-
-
-        return JsonResponse(dataSerialized, safe=False)

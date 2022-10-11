@@ -8,3 +8,5 @@ from .foodSerializer import *
 from .commentSerializer import *
 from .perceptionSerializer import *
 from .deductionSerializer import *
+from .vacationSerializer import *
+from .payrollSerializer import *

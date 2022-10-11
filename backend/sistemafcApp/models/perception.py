@@ -16,6 +16,7 @@ class Perception(models.Model):
     creationDate = models.TextField(max_length=50)
     percentual = models.BooleanField(default=False)
     isActive = models.BooleanField(default=True)
+    isForSalary = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.employee.name} - {self.type.name} - ${self.amount}"

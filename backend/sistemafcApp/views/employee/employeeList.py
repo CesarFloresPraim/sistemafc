@@ -11,21 +11,21 @@ class EmployeeListView(APIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get(self, request):
-        if True:
-            dataSerialized = EmployeeRhSerializer(
+        if request.user.is_staff:
+            dataSerialized = ReadEmployeeSerializer(
                 Employee.objects.all(), many=True).data
         else:
-            dataSerialized = EmployeeSerializer(
+            dataSerialized = EmployeeRhSerializer(
                 Employee.objects.all(), many=True).data
 
         return JsonResponse(dataSerialized, safe=False)
+
 
 class EmployeeForRegisterListView(APIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get(self, request):
         dataSerialized = EmployeeForRegisterRhSerializer(
-                Employee.objects.filter(isActive=True), many=True).data
-
+            Employee.objects.filter(isActive=True), many=True).data
 
         return JsonResponse(dataSerialized, safe=False)

@@ -37,6 +37,13 @@ urlpatterns = [
          name="employeeDeductionList"),
     path('deduction/', views.DeductionView.as_view(), name="deductionPost"),
     path('deduction/<int:id>', views.DeductionView.as_view(), name="deduction"),
-
-
+    path('employeeVacationList/', views.EmployeeVacationListView.as_view(),
+         name="employeeVacationList"),
+    path('vacation/', views.VacationView.as_view(), name="vacationPost"),
+    path('vacation/<int:id>', views.VacationView.as_view(), name="vacation"),
+    path('initializePayroll/', views.InitializePayrollView.as_view(),
+         name="initializePayroll"),
+    path('payroll/<int:id>', views.PayrollView.as_view(), name="payroll"),
+    path('payrollList/', views.PayrollListView.as_view(),
+         name="payrollList"),
 ]

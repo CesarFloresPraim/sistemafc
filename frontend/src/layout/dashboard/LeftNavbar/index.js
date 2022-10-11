@@ -17,9 +17,9 @@ import DuplicateIcon from "../../../assets/svg/icon_duplicate.svg";
 import WheelActiveIcon from "../../../assets/svg/icon_menu_wheel_active.svg";
 import WheelIcon from "../../../assets/svg/icon_menu_wheel_hover.svg";
 import LogoutIcon from "../../../assets/svg/icon_menu_logout_hover.svg";
-import UpArrowIcon from "../../../assets/svg/icon_arrow_up.svg"; 
-import DownArrowIcon from "../../../assets/svg/icon_arrow_down.svg"; 
-import CalendarIcon from "../../../assets/svg/icon_calendar.svg"; 
+import UpArrowIcon from "../../../assets/svg/icon_arrow_up.svg";
+import DownArrowIcon from "../../../assets/svg/icon_arrow_down.svg";
+import CalendarIcon from "../../../assets/svg/icon_calendar.svg";
 
 export default function LeftNavbar({ handleLogout }) {
   const location = useLocation();
@@ -33,7 +33,7 @@ export default function LeftNavbar({ handleLogout }) {
         FC SISTEMA
       </div>
       <ul className="flex flex-col mt-12 px-6">
-      <li
+        <li
           className={`rounded-[32px] ${
             activeRoute === "home" ? "bg-primary" : "bg-transparent"
           } hover:bg-[#133B8D] mt-1`}
@@ -55,16 +55,16 @@ export default function LeftNavbar({ handleLogout }) {
         </li>
         <li
           className={`rounded-[32px] ${
-            activeRoute === "nomina" ? "bg-primary" : "bg-transparent"
+            activeRoute === "nominas" ? "bg-primary" : "bg-transparent"
           } hover:bg-[#133B8D] mt-1`}
         >
           <NavLink
-            to="nomina"
+            to="nominas"
             className={`flex items-center p-1`}
-            onClick={() => setActiveRoute("nomina")}
+            onClick={() => setActiveRoute("nominas")}
           >
             <div>
-            {activeRoute === "nomina" ? (
+              {activeRoute === "nominas" ? (
                 <MenuDocumentActiveIcon fill="#FFFFFF" />
               ) : (
                 <MenuDocumentIcon fill="#FFFFFF" />
@@ -75,9 +75,7 @@ export default function LeftNavbar({ handleLogout }) {
         </li>
         <li
           className={`rounded-[32px] ${
-            activeRoute === "empleados"
-              ? "bg-primary"
-              : "bg-transparent"
+            activeRoute === "empleados" ? "bg-primary" : "bg-transparent"
           } hover:bg-[#133B8D] mt-2`}
         >
           <NavLink
@@ -92,9 +90,27 @@ export default function LeftNavbar({ handleLogout }) {
                 <PortraitIcon fill="#FFFFFF" />
               )}
             </div>
-            <div className="grow text-white ml-2 text-sm">
-              Empleados
+            <div className="grow text-white ml-2 text-sm">Empleados</div>
+          </NavLink>
+        </li>
+        <li
+          className={`rounded-[32px] ${
+            activeRoute === "vacaciones" ? "bg-primary" : "bg-transparent"
+          } hover:bg-[#133B8D] mt-2`}
+        >
+          <NavLink
+            to="vacaciones"
+            className={`flex items-center p-1`}
+            onClick={() => setActiveRoute("vacaciones")}
+          >
+            <div>
+              {activeRoute === "vacaciones" ? (
+                <MenuMarkerActiveIcon fill="#FFFFFF" />
+              ) : (
+                <MenuMarkerIcon fill="#FFFFFF" />
+              )}
             </div>
+            <div className="grow text-white ml-2 text-sm">Vacaciones</div>
           </NavLink>
         </li>
         <li
@@ -116,9 +132,7 @@ export default function LeftNavbar({ handleLogout }) {
                 <UpArrowIcon fill="#FFFFFF" />
               )}
             </div>
-            <div className="grow text-white ml-2 text-sm">
-              Percepciones
-            </div>
+            <div className="grow text-white ml-2 text-sm">Percepciones</div>
           </NavLink>
         </li>
         <li
@@ -140,16 +154,12 @@ export default function LeftNavbar({ handleLogout }) {
                 <DownArrowIcon fill="#FFFFFF" />
               )}
             </div>
-            <div className="grow text-white ml-2 text-sm">
-              Deducciones
-            </div>
+            <div className="grow text-white ml-2 text-sm">Deducciones</div>
           </NavLink>
         </li>
         <li
           className={`rounded-[32px] ${
-            activeRoute === "registros-rh"
-              ? "bg-primary"
-              : "bg-transparent"
+            activeRoute === "registros-rh" ? "bg-primary" : "bg-transparent"
           } hover:bg-[#133B8D] mt-2`}
         >
           <NavLink
@@ -167,7 +177,6 @@ export default function LeftNavbar({ handleLogout }) {
             <div className="grow text-white ml-2 text-sm">Registro RH</div>
           </NavLink>
         </li>
-
       </ul>
       <div className="mt-auto px-6 mb-6">
         <div className="bg-[#133B8D] rounded-lg flex items-center p-4">
@@ -201,9 +210,7 @@ export default function LeftNavbar({ handleLogout }) {
                   <WheelIcon fill="#FFFFFF" />
                 )}
               </div>
-              <div className="grow text-white ml-2 text-sm">
-                Configuracion
-              </div>
+              <div className="grow text-white ml-2 text-sm">Configuracion</div>
             </NavLink>
           </li>
           <li

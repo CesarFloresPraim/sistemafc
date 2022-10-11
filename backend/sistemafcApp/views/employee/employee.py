@@ -25,6 +25,7 @@ class EmployeeView(APIView):
 
     def post(self, request):
         data = request.data
+        print(data)
         serializer = EmployeeSerializer(data=data)
 
         return self.__getResponseAfterValidation(serializer)

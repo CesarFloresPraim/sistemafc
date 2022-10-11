@@ -1,7 +1,7 @@
 from ..models.registerRH import RegisterRH, RegisterDetailRH
 from ..models.employee import Employee
 from rest_framework import serializers
-from .employeeSerializer import EmployeeForRegisterRhSerializer
+from .employeeSerializer import EmployeeForRegisterRhSerializer, ReadEmployeePayrollSerializer
 from .smallBoxSerializer import ReadSmallBoxSerializer
 from .foodSerializer import ReadFoodSerializer, WriteFoodSerializer
 from .commentSerializer import ReadCommentSerializer
@@ -29,6 +29,19 @@ class ReadRegisterDetailRHSerializer(serializers.ModelSerializer):
         fields = '__all__'
         depth = 2
 
+class ReadRegisterDetailPayrollSerializer(serializers.ModelSerializer):
+    employee = ReadEmployeePayrollSerializer()
+
+    smallBox = ReadSmallBoxSerializer(
+        source='smallbox_set', many=True, read_only=True)
+    food = ReadFoodSerializer(
+        source='food_set', read_only=True)
+    comments = ReadCommentSerializer(
+        source='comments_set', many=True, read_only=True)
+    class Meta:
+        model = RegisterDetailRH
+        fields = '__all__'
+        depth = 2
 
 class WriteRegisterRHSerializer(serializers.ModelSerializer):
     class Meta:
