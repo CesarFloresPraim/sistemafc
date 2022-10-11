@@ -59,7 +59,6 @@ export default function Employees() {
   };
 
   const handleSeeEmpoyee = (item) => {
-    console.log(item);
     setSelectedEmployee(item)
     handleSetShowOverlay(true);
   };

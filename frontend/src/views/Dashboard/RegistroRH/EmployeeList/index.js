@@ -102,11 +102,20 @@ export default function EmployeeList() {
   return (
     <>
       <div className="mx-8 flex mt-4 ">
-        <div className="ml-auto">        <SwitchSelection
-          selected={showInactive}
-          onChange={setShowInactive}
-        ></SwitchSelection></div>
-        <div className={`ml-2 ${!showInactive? "text-regentGray": "text-primary"} font-semibold`}>Mostrar inactivos</div>
+        <div className="ml-auto">
+          {" "}
+          <SwitchSelection
+            selected={showInactive}
+            onChange={setShowInactive}
+          ></SwitchSelection>
+        </div>
+        <div
+          className={`ml-2 ${
+            !showInactive ? "text-regentGray" : "text-primary"
+          } font-semibold`}
+        >
+          Mostrar inactivos
+        </div>
       </div>
       <div className="overflow-x-auto relative rounded-3xl m-6 ">
         <table className="w-full text-sm text-left text-gray-500">
@@ -146,9 +155,14 @@ export default function EmployeeList() {
                 })
                 .map((item) => {
                   return (
-                    <tr key={item.id} className="bg-white font-semibold hover:bg-gray-50 border-b border-porcelain">
+                    <tr
+                      key={item.id}
+                      className="bg-white font-semibold hover:bg-gray-50 border-b border-porcelain"
+                    >
                       <td className={`py-4 px-6`}>{item.number}</td>
-                      <td className={`py-4 px-6 whitespace-nowrap`}>{item.name}</td>
+                      <td className={`py-4 px-6 whitespace-nowrap`}>
+                        {item.name}
+                      </td>
                       <td className={`py-4 px-6`}>{item.department?.name}</td>
                       <td className={`py-4 px-6`}>
                         {new Date(item.startDate).toLocaleDateString(

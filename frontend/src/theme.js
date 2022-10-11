@@ -12,7 +12,9 @@ module.exports = {
     soltitude: "#E7EFFE", 
     seashellPeach: "#FFF7F3",
     paleSky: "#69747E",
-    zumthor: "#ECF4FF"
+    zumthor: "#ECF4FF",
+    marmalade: "#C16512",
+    cobalt: "#0047AB"
   },
   fontFamily: {
     poppins: ["Poppins", "sans-serif"], // Breeze
