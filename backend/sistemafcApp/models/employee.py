@@ -22,6 +22,9 @@ class Employee(models.Model):
     infonavitAmount = models.FloatField(default=0, null=True, blank=True)
     endDate = models.TextField(max_length=50, null=True, blank=True)
     hasExtraHourFixed = models.BooleanField(default=False)
+    extraHourPrice = models.FloatField(default=0, null=True, blank=True)
+    puntualityPrice = models.FloatField(default=0, null=True, blank=True)
+    attendancePrice = models.FloatField(default=0, null=True, blank=True)
     isActive = models.BooleanField(default=True)
 
     def __str__(self):

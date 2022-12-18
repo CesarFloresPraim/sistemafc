@@ -19,3 +19,4 @@ from .employee.employeeVacationList import *
 from .payroll.initializePayroll import *
 from .payroll.payroll import *
 from .payroll.payrollList import *
+from .register.unusedRegisterRHList import *

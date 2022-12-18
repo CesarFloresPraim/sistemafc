@@ -46,4 +46,7 @@ urlpatterns = [
     path('payroll/<int:id>', views.PayrollView.as_view(), name="payroll"),
     path('payrollList/', views.PayrollListView.as_view(),
          name="payrollList"),
+    path('unusedRegisterList/', views.UnusedRegisterListView.as_view(),
+         name="unusedRegisterList"),
+         
 ]

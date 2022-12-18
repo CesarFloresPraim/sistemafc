@@ -16,74 +16,62 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
-
-  .bubble-blue {
-    color: #0c3cfd;
-    background-color: #e7effe;
-  }
-  .bubble-red {
-    color: #fb3f3f;
-    background-color: #ffebeb;
-  }
-  .bubble-purple {
-    color: #bf40bf;
-    background-color: #ffe0ff;
-  }
-  .bubble-orange {
-    color: #ff6414;
-    background-color: #ffefe7;
-  }
-  .bubble-lime {
-    color: #47c400;
-    background-color: #ecf9e5;
-  }
-  .bubble-pink {
-    color: #fd0c95;
-    background-color: #feebf6;
-  }
-  .preference-green {
-    color: #00c48b;
-    background-color: #eaf8f6;
-  }
-  .preference-pink {
-    color: #fd0c95;
-    background-color: #fff2fa;
-  }
-  .preference-orange {
-    color: #ff6414;
-    background-color: #fff7f3;
-  }
-  .completion-green {
-    color: #00c48b;
-    background-color: #00c48b;
-  }
-  .completion-red {
-    color: #fb3f3f;
-    background-color: #fb3f3f;
-  }
-  .completion-orange {
-    color: #f89d00;
-    background-color: #f89d00;
-  }
-  .document-status-green {
-    color: #00c48b;
-    background-color: #eaf8f6;
-  }
-  .document-status-red {
-    color: #fb3f3f;
-    background-color: #fae6e6;
-  }
-  .document-status-blue {
-    color: #0c3cfd;
-    background-color: #e7effe;
-  }
-  .document-status-orange {
-    color: #ff6414;
-    background-color: #fff7f3;
-  }
 }
 
 .react-datepicker__input-container > input {
   border: 1px #E3E6E9 solid;
   border-radius: 32px;
+}
+
+.select-search-input {
+  background-color: #F6F8FC;
+  border-radius: 32px;
+  padding: 16px;
+  border: none;
+  color: black;
+}
+
+.select-search-input:hover {
+  background-color: #F6F8FC;
+  border-radius: 32px;
+  padding: 16px;
+  border: none;
+}
+
+.select-search-select {
+  background-color: white;
+}
+
+.select-search-options {
+  background-color: white;
+  color: black;
+}
+
+.select-search-options:hover {
+  background-color: white;
+  color: black;
+}
+
+.select-search-row {
+  background-color: white;
+  color: black;
+}
+
+.select-search-row:hover {
+  background-color: white;
+  color: lightgrey;
+}
+
+.select-search-option {
+  background-color: white;
+  color: black;
+}
+
+.select-search-is-highlighted, .select-search-option:not(.select-search-is-selected):hover {
+  background: lightgrey;
+}
+
+.select-search-option:hover {
+  background-color: white;
+  color: black;
 }

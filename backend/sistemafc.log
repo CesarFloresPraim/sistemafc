@@ -6832,3 +6832,1269 @@ Original exception text was: 'Payroll' object has no attribute 'employee'.
 [INFO] 2022-10-10 00:07:18,472 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11693
 [INFO] 2022-10-10 00:10:58,816 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11693
 [INFO] 2022-10-10 00:12:22,084 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11693
+[INFO] 2022-10-11 11:53:54,717 Watching for file changes with StatReloader
+[INFO] 2022-10-11 11:54:02,319 "OPTIONS /api/v1.0/payrollList/ HTTP/1.1" 200 0
+[INFO] 2022-10-11 11:54:02,327 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-11 11:54:03,931 "OPTIONS /api/v1.0/payroll/11 HTTP/1.1" 200 0
+[INFO] 2022-10-11 11:54:03,982 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11693
+[INFO] 2022-10-11 12:39:31,094 "GET /admin/sistemafcApp/perceptiontype/ HTTP/1.1" 200 12349
+[INFO] 2022-10-11 12:39:31,112 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,112 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,114 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,114 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,120 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,121 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,124 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,126 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,127 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:39:31,128 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,129 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,130 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,131 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,133 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,133 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,143 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,143 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,151 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,155 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,156 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,157 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:31,158 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:33,161 "GET /admin/sistemafcApp/perception/ HTTP/1.1" 200 12762
+[INFO] 2022-10-11 12:39:33,178 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:39:40,901 "GET /admin/sistemafcApp/perception/1/change/ HTTP/1.1" 200 17687
+[INFO] 2022-10-11 12:39:40,913 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:40,917 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:39:40,922 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:40,922 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:40,925 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:40,925 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:40,933 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:40,933 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[INFO] 2022-10-11 12:39:42,961 "POST /admin/sistemafcApp/perception/1/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 12:39:42,984 "GET /admin/sistemafcApp/perception/ HTTP/1.1" 200 13032
+[INFO] 2022-10-11 12:39:43,003 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:39:43,044 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2022-10-11 12:39:52,933 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11692
+[INFO] 2022-10-11 12:56:20,408 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 12:56:20,422 "GET /admin/login/?next=/admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 2278
+[INFO] 2022-10-11 12:56:20,434 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[INFO] 2022-10-11 12:56:25,866 "POST /admin/login/?next=/admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 12:56:25,899 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 15977
+[INFO] 2022-10-11 12:56:25,920 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:56:37,899 "GET /admin/sistemafcApp/registerdetailrh/274/change/ HTTP/1.1" 200 20904
+[INFO] 2022-10-11 12:56:37,916 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:56:39,583 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 15977
+[INFO] 2022-10-11 12:56:41,898 "GET /admin/sistemafcApp/registerdetailrh/288/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 12:56:41,913 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:56:54,299 "POST /admin/sistemafcApp/registerdetailrh/288/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 12:56:54,330 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 16227
+[INFO] 2022-10-11 12:56:54,347 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:57:22,974 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11692
+[INFO] 2022-10-11 12:57:43,706 "GET /admin/sistemafcApp/registerdetailrh/288/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 12:57:43,723 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:57:45,722 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 15977
+[INFO] 2022-10-11 12:57:47,475 "GET /admin/sistemafcApp/registerdetailrh/281/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 12:57:47,492 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:57:53,762 "POST /admin/sistemafcApp/registerdetailrh/281/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 12:57:53,793 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 16227
+[INFO] 2022-10-11 12:57:53,810 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 12:57:59,048 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11701
+[INFO] 2022-10-11 12:58:25,158 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-11 12:58:27,408 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11701
+[INFO] 2022-10-11 13:07:34,426 "GET /admin/sistemafcApp/registerdetailrh/288/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 13:07:34,444 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:07:44,744 "POST /admin/sistemafcApp/registerdetailrh/288/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 13:07:44,776 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 16227
+[INFO] 2022-10-11 13:07:44,794 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:07:50,098 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11701
+[INFO] 2022-10-11 13:07:54,803 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-11 13:07:57,952 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11701
+[INFO] 2022-10-11 13:08:17,305 "GET /admin/sistemafcApp/registerdetailrh/288/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 13:08:17,322 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:08:19,626 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 15977
+[INFO] 2022-10-11 13:08:21,214 "GET /admin/sistemafcApp/registerdetailrh/281/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 13:08:21,232 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:08:31,382 "POST /admin/sistemafcApp/registerdetailrh/281/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 13:08:31,413 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 16227
+[INFO] 2022-10-11 13:08:31,430 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:08:34,745 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11746
+[INFO] 2022-10-11 13:11:54,392 "GET /admin/sistemafcApp/registerdetailrh/281/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 13:11:54,408 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:12:01,244 "POST /admin/sistemafcApp/registerdetailrh/281/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 13:12:01,273 "GET /admin/sistemafcApp/registerdetailrh/ HTTP/1.1" 200 16227
+[INFO] 2022-10-11 13:12:01,290 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:12:04,478 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11701
+[INFO] 2022-10-11 13:56:34,377 "GET /admin/sistemafcApp/registerdetailrh/288/change/ HTTP/1.1" 200 20910
+[INFO] 2022-10-11 13:56:34,395 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:56:39,872 "GET /admin/sistemafcApp/employee/2/change/?_to_field=id&_popup=1 HTTP/1.1" 200 12893
+[INFO] 2022-10-11 13:56:39,886 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:57:00,395 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 13293
+[INFO] 2022-10-11 13:57:00,413 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:57:03,616 "GET /admin/sistemafcApp/vacation/add/ HTTP/1.1" 200 14341
+[INFO] 2022-10-11 13:57:03,635 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:57:51,868 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 13293
+[INFO] 2022-10-11 13:57:54,163 "GET /admin/sistemafcApp/vacation/9/change/ HTTP/1.1" 200 14794
+[INFO] 2022-10-11 13:57:54,180 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:57:59,229 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 13293
+[INFO] 2022-10-11 13:58:00,207 "GET /admin/sistemafcApp/vacation/add/ HTTP/1.1" 200 14341
+[INFO] 2022-10-11 13:58:00,226 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:58:13,489 "POST /admin/sistemafcApp/vacation/add/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 13:58:13,511 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 13821
+[INFO] 2022-10-11 13:58:13,529 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:58:17,111 "OPTIONS /api/v1.0/payroll/11 HTTP/1.1" 200 0
+[INFO] 2022-10-11 13:58:17,155 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11877
+[INFO] 2022-10-11 13:58:44,775 "GET /admin/sistemafcApp/vacation/10/change/ HTTP/1.1" 200 14790
+[INFO] 2022-10-11 13:58:44,792 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:58:47,334 "POST /admin/sistemafcApp/vacation/10/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 13:58:47,358 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 13823
+[INFO] 2022-10-11 13:58:47,377 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 13:58:50,287 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 11877
+[INFO] 2022-10-11 14:04:06,418 "GET /admin/sistemafcApp/vacation/10/change/ HTTP/1.1" 200 14790
+[INFO] 2022-10-11 14:04:06,437 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:04:24,708 "POST /admin/sistemafcApp/vacation/10/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 14:04:24,730 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 13823
+[INFO] 2022-10-11 14:04:24,749 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:04:28,850 "GET /admin/sistemafcApp/vacation/add/ HTTP/1.1" 200 14341
+[INFO] 2022-10-11 14:04:28,869 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:04:52,243 "POST /admin/sistemafcApp/vacation/add/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 14:04:52,265 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 14087
+[INFO] 2022-10-11 14:04:52,285 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:04:56,441 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12052
+[INFO] 2022-10-11 14:05:27,931 "GET /admin/sistemafcApp/vacation/10/change/ HTTP/1.1" 200 14790
+[INFO] 2022-10-11 14:05:27,947 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:05:32,883 "POST /admin/sistemafcApp/vacation/10/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 14:05:32,906 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 14091
+[INFO] 2022-10-11 14:05:32,923 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:05:34,022 "GET /admin/sistemafcApp/vacation/11/change/ HTTP/1.1" 200 14789
+[INFO] 2022-10-11 14:05:34,039 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:05:36,589 "POST /admin/sistemafcApp/vacation/11/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 14:05:36,610 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 14092
+[INFO] 2022-10-11 14:05:36,630 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:05:46,791 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12054
+[INFO] 2022-10-11 14:06:03,792 "GET /admin/sistemafcApp/vacation/11/change/ HTTP/1.1" 200 14793
+[INFO] 2022-10-11 14:06:03,809 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:06:06,831 "POST /admin/sistemafcApp/vacation/11/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-11 14:06:06,852 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 14092
+[INFO] 2022-10-11 14:06:06,870 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-11 14:06:14,524 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12054
+[INFO] 2022-10-29 12:23:22,557 Watching for file changes with StatReloader
+[INFO] 2022-10-29 12:47:36,395 "OPTIONS /api/token/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 12:47:36,581 "POST /api/token/ HTTP/1.1" 200 483
+[INFO] 2022-10-29 12:47:40,697 "OPTIONS /api/v1.0/payrollList/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 12:47:40,707 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-29 12:47:46,058 "OPTIONS /api/v1.0/payroll/11 HTTP/1.1" 200 0
+[INFO] 2022-10-29 12:47:46,141 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12054
+[INFO] 2022-10-29 12:55:28,985 D:\Binara\nominaFC\backend\sistemafcApp\models\employee.py changed, reloading.
+[INFO] 2022-10-29 12:55:29,615 Watching for file changes with StatReloader
+[INFO] 2022-10-29 12:55:46,818 Watching for file changes with StatReloader
+[INFO] 2022-10-29 12:57:57,892 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12551
+[WARNING] 2022-10-29 12:57:57,983 Not Found: /favicon.ico
+[WARNING] 2022-10-29 12:57:57,984 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-10-29 12:58:02,635 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12551
+[INFO] 2022-10-29 13:00:20,396 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-29 13:00:21,754 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12551
+[INFO] 2022-10-29 13:25:24,661 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 302 0
+[INFO] 2022-10-29 13:25:24,700 "GET /admin/login/?next=/admin/sistemafcApp/vacation/ HTTP/1.1" 200 2262
+[INFO] 2022-10-29 13:25:24,790 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-10-29 13:25:24,790 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-10-29 13:25:24,793 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-10-29 13:25:24,793 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[INFO] 2022-10-29 13:25:24,796 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-10-29 13:25:24,796 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-10-29 13:25:24,805 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-10-29 13:25:24,825 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-10-29 13:25:24,826 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-10-29 13:25:30,689 "POST /admin/login/?next=/admin/sistemafcApp/vacation/ HTTP/1.1" 302 0
+[INFO] 2022-10-29 13:25:30,747 "GET /admin/sistemafcApp/vacation/ HTTP/1.1" 200 13830
+[INFO] 2022-10-29 13:25:30,764 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-10-29 13:25:30,765 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-10-29 13:25:30,765 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-10-29 13:25:30,766 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-10-29 13:25:30,768 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-10-29 13:25:30,774 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-10-29 13:25:30,775 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-10-29 13:25:30,776 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-10-29 13:25:30,779 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-29 13:25:30,779 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-10-29 13:25:30,784 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-10-29 13:25:30,798 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-10-29 13:25:30,799 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-10-29 13:25:30,817 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-10-29 13:25:39,228 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 13145
+[INFO] 2022-10-29 13:25:39,247 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-29 13:25:51,580 "GET /admin/sistemafcApp/employee/2/change/ HTTP/1.1" 200 22276
+[INFO] 2022-10-29 13:25:51,598 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-10-29 13:25:51,604 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-29 13:25:51,604 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-10-29 13:25:51,604 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-10-29 13:25:51,609 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-10-29 13:25:51,609 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[INFO] 2022-10-29 13:25:51,615 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2022-10-29 13:25:51,615 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-10-29 13:26:20,104 "POST /admin/sistemafcApp/employee/2/change/ HTTP/1.1" 302 0
+[INFO] 2022-10-29 13:26:20,124 "GET /admin/sistemafcApp/employee/ HTTP/1.1" 200 13375
+[INFO] 2022-10-29 13:26:20,146 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-10-29 13:26:20,161 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2022-10-29 13:26:27,562 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-10-29 13:27:15,362 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-29 13:27:27,527 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-29 13:28:21,051 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 13:28:21,056 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-29 13:28:22,608 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 13:28:22,609 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 13:28:22,633 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-10-29 13:28:22,638 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-10-29 13:28:27,663 "OPTIONS /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 13:28:27,664 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 13:28:27,678 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-10-29 13:28:27,687 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-10-29 13:28:30,086 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 13:28:30,086 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-10-29 13:28:30,094 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-10-29 13:28:30,104 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-10-29 13:29:29,945 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-29 13:29:31,546 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-10-29 13:29:42,738 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-10-29 13:29:42,745 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-10-29 13:34:04,566 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-29 13:34:06,161 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-10-29 13:40:29,676 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-10-29 14:03:24,243 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-29 14:03:25,292 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-10-29 14:03:25,318 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-10-29 14:03:34,782 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-10-29 14:03:42,729 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-10-29 14:03:43,796 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-11 10:35:07,374 Watching for file changes with StatReloader
+[INFO] 2022-11-11 10:35:41,285 "OPTIONS /api/token/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 10:35:41,478 "POST /api/token/ HTTP/1.1" 200 483
+[INFO] 2022-11-11 10:35:57,616 "OPTIONS /api/v1.0/payrollList/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 10:35:57,625 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 10:36:01,778 "OPTIONS /api/v1.0/payroll/11 HTTP/1.1" 200 0
+[INFO] 2022-11-11 10:36:01,847 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-11-11 11:14:36,505 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 11:14:36,516 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 11:14:37,859 "OPTIONS /api/v1.0/registerRH/84 HTTP/1.1" 200 0
+[INFO] 2022-11-11 11:14:37,887 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3779
+[INFO] 2022-11-11 11:22:46,774 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 11:22:48,062 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-11-11 11:25:03,921 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 11:25:09,631 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 11:25:13,653 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 11:26:51,277 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 11:26:51,278 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 11:26:51,292 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-11 11:26:51,298 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-11 11:26:53,653 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 11:26:55,682 "OPTIONS /api/v1.0/employeeVacationList/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 11:26:55,703 "GET /api/v1.0/employeeVacationList/ HTTP/1.1" 200 3553
+[INFO] 2022-11-11 11:26:55,977 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-11 11:26:55,981 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-11 11:26:58,082 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 11:53:37,685 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 11:53:43,666 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 11:59:22,160 "OPTIONS /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 0
+[WARNING] 2022-11-11 11:59:22,187 Not Found: /api/v1.0/unusedRegisterList/
+[WARNING] 2022-11-11 11:59:22,187 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 404 7952
+[INFO] 2022-11-11 12:07:34,758 D:\Binara\nominaFC\backend\sistemafcApp\views\__init__.py changed, reloading.
+[INFO] 2022-11-11 12:07:35,382 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:07:43,704 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-11-11 12:07:44,348 Watching for file changes with StatReloader
+[ERROR] 2022-11-11 12:07:46,276 Internal Server Error: /api/v1.0/unusedRegisterList/
+Traceback (most recent call last):
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Binara\nominaFC\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Binara\nominaFC\backend\sistemafcApp\views\register\unusedRegisterRHList.py", line 21, in get
+    RegisterRH.objects.filter(registerdetail_set=None), many=True).data
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Binara\nominaFC\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'registerdetail_set' into field. Choices are: fromDate, id, payroll, registerdetailrh_set, toDate
+[ERROR] 2022-11-11 12:07:46,279 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 500 135383
+[INFO] 2022-11-11 12:08:20,201 D:\Binara\nominaFC\backend\sistemafcApp\views\register\unusedRegisterRHList.py changed, reloading.
+[INFO] 2022-11-11 12:08:20,805 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:08:24,523 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 2
+[INFO] 2022-11-11 12:28:05,740 "GET /admin HTTP/1.1" 301 0
+[INFO] 2022-11-11 12:28:05,823 "GET /admin/ HTTP/1.1" 200 14172
+[INFO] 2022-11-11 12:28:05,911 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-11-11 12:28:05,912 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-11-11 12:28:05,913 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-11-11 12:28:05,915 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[INFO] 2022-11-11 12:28:05,916 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-11-11 12:28:05,916 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-11-11 12:28:05,926 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-11-11 12:28:05,926 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-11-11 12:28:05,928 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-11-11 12:28:05,956 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-11-11 12:28:05,957 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-11-11 12:28:05,959 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[WARNING] 2022-11-11 12:28:05,990 Not Found: /favicon.ico
+[WARNING] 2022-11-11 12:28:05,991 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-11-11 12:28:14,201 "GET /admin/sistemafcApp/registerpayroll/ HTTP/1.1" 200 12587
+[INFO] 2022-11-11 12:28:14,219 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-11-11 12:28:14,219 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-11-11 12:28:14,219 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-11-11 12:28:14,220 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-11-11 12:28:14,223 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-11-11 12:28:14,223 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-11-11 12:28:14,224 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-11-11 12:28:14,230 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 12:28:14,231 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-11-11 12:28:14,231 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-11-11 12:28:14,237 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-11-11 12:28:14,251 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-11-11 12:28:22,282 "GET /admin/sistemafcApp/registerpayroll/1/change/ HTTP/1.1" 200 19955
+[INFO] 2022-11-11 12:28:22,297 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-11-11 12:28:22,307 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 12:28:22,313 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-11-11 12:28:22,313 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-11-11 12:28:22,318 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[INFO] 2022-11-11 12:28:22,318 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2022-11-11 12:28:22,326 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-11-11 12:29:06,592 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11134
+[INFO] 2022-11-11 12:29:06,618 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 12:29:07,701 "GET /admin/sistemafcApp/payroll/11/change/ HTTP/1.1" 200 13595
+[INFO] 2022-11-11 12:29:07,717 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 12:30:38,618 D:\Binara\nominaFC\backend\sistemafcApp\models\payroll.py changed, reloading.
+[INFO] 2022-11-11 12:30:39,261 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:31:12,412 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:31:33,829 D:\Binara\nominaFC\backend\sistemafcApp\views\register\unusedRegisterRHList.py changed, reloading.
+[INFO] 2022-11-11 12:31:34,425 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:31:36,837 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:33:16,457 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:33:32,409 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:33:35,438 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:34:08,986 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:34:16,856 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:34:24,637 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:34:34,852 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:34:46,074 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:35:26,280 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 12:36:16,984 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:36:28,340 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:36:45,020 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:37:20,275 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:37:31,139 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:37:45,378 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:38:00,215 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:39:14,324 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:39:30,713 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:39:43,545 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:39:54,752 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:39:59,904 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:42:50,430 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:43:05,739 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:43:13,323 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:43:18,756 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:44:19,613 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:44:42,010 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:44:47,271 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:44:54,602 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:45:13,146 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:45:33,417 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:45:36,881 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:45:43,485 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:46:12,357 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:46:23,301 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:46:28,408 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:51:01,532 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:53:22,285 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 12:53:22,872 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:54:22,213 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 12:54:22,805 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:54:33,451 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:55:25,766 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 12:55:26,408 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:55:33,856 "OPTIONS /api/v1.0/initializePayroll/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 12:55:33,871 "POST /api/v1.0/initializePayroll/ HTTP/1.1" 200 20
+[INFO] 2022-11-11 12:56:18,705 D:\Binara\nominaFC\backend\sistemafcApp\urls.py changed, reloading.
+[INFO] 2022-11-11 12:56:19,313 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:56:25,459 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 12:56:26,078 Watching for file changes with StatReloader
+[INFO] 2022-11-11 12:56:33,833 "OPTIONS /api/v1.0/payrollList/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 12:57:00,649 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 12:57:08,126 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 12:57:11,376 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 12:57:14,148 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 12:57:20,066 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-11-11 12:57:20,091 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-11 12:57:32,093 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 12:57:32,933 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:57:47,935 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:11,384 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:23,937 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:25,669 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:26,679 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:27,359 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:27,435 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:27,761 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:27,929 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:28,102 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:28,252 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:28,320 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:28,451 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:28,544 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:38,117 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 12:59:40,614 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:00:11,593 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:00:13,887 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:00:41,114 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:00:49,785 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:01:14,538 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:01:17,418 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:01:47,960 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:02:45,946 "GET /admin/sistemafcApp/payroll/11/change/ HTTP/1.1" 200 13595
+[INFO] 2022-11-11 13:02:45,976 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:02:48,667 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11134
+[INFO] 2022-11-11 13:02:48,688 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:03:25,287 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 13:03:26,218 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-11 13:03:26,223 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-11 13:03:27,002 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 13:03:27,685 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[WARNING] 2022-11-11 13:03:32,998 Bad Request: /api/v1.0/initializePayroll/
+[WARNING] 2022-11-11 13:03:32,998 "POST /api/v1.0/initializePayroll/ HTTP/1.1" 400 92
+[INFO] 2022-11-11 13:04:11,835 "GET /admin/sistemafcApp/registerrh/ HTTP/1.1" 200 11698
+[INFO] 2022-11-11 13:04:11,852 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:04:13,227 "GET /admin/sistemafcApp/registerrh/85/change/ HTTP/1.1" 200 11566
+[INFO] 2022-11-11 13:04:13,247 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:04:14,518 "GET /admin/sistemafcApp/registerrh/ HTTP/1.1" 200 11698
+[INFO] 2022-11-11 13:04:15,444 "GET /admin/sistemafcApp/registerrh/84/change/ HTTP/1.1" 200 11566
+[INFO] 2022-11-11 13:04:15,461 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:04:16,451 "GET /admin/sistemafcApp/registerrh/ HTTP/1.1" 200 11698
+[INFO] 2022-11-11 13:04:16,992 "GET /admin/sistemafcApp/registerrh/82/change/ HTTP/1.1" 200 11566
+[INFO] 2022-11-11 13:04:17,010 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:04:19,098 "GET /admin/sistemafcApp/registerrh/ HTTP/1.1" 200 11698
+[INFO] 2022-11-11 13:05:02,458 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 13:05:03,157 Watching for file changes with StatReloader
+[WARNING] 2022-11-11 13:05:07,537 Bad Request: /api/v1.0/initializePayroll/
+[WARNING] 2022-11-11 13:05:07,537 "POST /api/v1.0/initializePayroll/ HTTP/1.1" 400 92
+[INFO] 2022-11-11 13:05:45,492 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 13:05:46,101 Watching for file changes with StatReloader
+[INFO] 2022-11-11 13:05:55,507 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 13:05:56,127 Watching for file changes with StatReloader
+[INFO] 2022-11-11 13:05:57,740 "POST /api/v1.0/initializePayroll/ HTTP/1.1" 200 10
+[INFO] 2022-11-11 13:06:06,212 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 90
+[INFO] 2022-11-11 13:06:09,211 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 672
+[INFO] 2022-11-11 13:06:23,104 "GET /admin/sistemafcApp/registerrh/ HTTP/1.1" 200 11698
+[INFO] 2022-11-11 13:06:23,122 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:06:26,097 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11915
+[INFO] 2022-11-11 13:06:26,116 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:06:34,929 "POST /admin/sistemafcApp/payroll/ HTTP/1.1" 200 10176
+[INFO] 2022-11-11 13:06:34,972 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[INFO] 2022-11-11 13:06:39,786 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11915
+[INFO] 2022-11-11 13:06:42,948 "GET /admin/sistemafcApp/registerpayroll/ HTTP/1.1" 200 14233
+[INFO] 2022-11-11 13:06:42,965 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:06:54,368 "POST /admin/sistemafcApp/registerpayroll/ HTTP/1.1" 200 10932
+[INFO] 2022-11-11 13:06:55,558 "POST /admin/sistemafcApp/registerpayroll/ HTTP/1.1" 302 0
+[INFO] 2022-11-11 13:06:55,586 "GET /admin/sistemafcApp/registerpayroll/ HTTP/1.1" 200 12975
+[INFO] 2022-11-11 13:06:55,603 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:06:55,618 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2022-11-11 13:07:03,844 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11915
+[INFO] 2022-11-11 13:07:03,864 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:07:07,156 "POST /admin/sistemafcApp/payroll/ HTTP/1.1" 200 9463
+[INFO] 2022-11-11 13:07:12,592 "GET /admin/sistemafcApp/registerpayroll/8/change/ HTTP/1.1" 200 20204
+[INFO] 2022-11-11 13:07:12,608 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:07:13,422 "GET /admin/sistemafcApp/registerpayroll/8/delete/ HTTP/1.1" 200 9989
+[INFO] 2022-11-11 13:07:14,622 "POST /admin/sistemafcApp/registerpayroll/8/delete/ HTTP/1.1" 302 0
+[INFO] 2022-11-11 13:07:14,649 "GET /admin/sistemafcApp/registerpayroll/ HTTP/1.1" 200 12772
+[INFO] 2022-11-11 13:07:14,668 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:07:17,027 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11915
+[INFO] 2022-11-11 13:07:17,044 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:07:20,046 "POST /admin/sistemafcApp/payroll/ HTTP/1.1" 200 10423
+[INFO] 2022-11-11 13:07:21,984 "POST /admin/sistemafcApp/payroll/ HTTP/1.1" 302 0
+[INFO] 2022-11-11 13:07:21,998 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11272
+[INFO] 2022-11-11 13:07:22,018 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-11 13:07:24,206 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 168
+[INFO] 2022-11-11 13:07:25,565 "GET /api/v1.0/unusedRegisterList/ HTTP/1.1" 200 180
+[INFO] 2022-11-11 13:09:42,103 D:\Binara\nominaFC\backend\sistemafcApp\views\payroll\initializePayroll.py changed, reloading.
+[INFO] 2022-11-11 13:09:42,791 Watching for file changes with StatReloader
+[INFO] 2022-11-11 13:09:45,326 "POST /api/v1.0/initializePayroll/ HTTP/1.1" 200 10
+[WARNING] 2022-11-11 13:09:54,486 Bad Request: /api/v1.0/initializePayroll/
+[WARNING] 2022-11-11 13:09:54,486 "POST /api/v1.0/initializePayroll/ HTTP/1.1" 400 69
+[INFO] 2022-11-11 13:10:41,758 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:10:57,400 "OPTIONS /api/v1.0/payroll/11 HTTP/1.1" 200 0
+[INFO] 2022-11-11 13:10:57,459 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-11-11 13:11:02,717 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:11:04,442 "OPTIONS /api/v1.0/payroll/15 HTTP/1.1" 200 0
+[INFO] 2022-11-11 13:11:04,503 "GET /api/v1.0/payroll/15 HTTP/1.1" 200 13381
+[INFO] 2022-11-11 13:11:09,779 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:11:12,113 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12554
+[INFO] 2022-11-11 13:11:23,998 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:11:32,559 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:11:33,757 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:11:34,786 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3779
+[INFO] 2022-11-11 13:11:48,430 "PUT /api/v1.0/registerRH/84 HTTP/1.1" 200 68
+[INFO] 2022-11-11 13:11:48,449 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:11:49,576 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:12:02,249 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12556
+[INFO] 2022-11-11 13:12:26,518 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:12:32,399 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:12:33,273 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:12:34,246 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3781
+[INFO] 2022-11-11 13:12:40,824 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 13:12:40,830 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-11 13:12:46,968 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-11 13:13:20,007 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:13:24,888 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12556
+[INFO] 2022-11-11 13:13:55,091 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:13:57,628 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:13:59,561 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:14:01,312 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-11 13:14:06,929 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-11 13:14:07,458 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:14:08,766 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3781
+[INFO] 2022-11-11 13:14:12,647 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-11 13:14:21,779 "PUT /api/v1.0/registerRH/84 HTTP/1.1" 200 68
+[INFO] 2022-11-11 13:14:21,799 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:14:23,658 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3882
+[INFO] 2022-11-11 13:14:25,924 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:14:27,214 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3882
+[INFO] 2022-11-11 13:14:30,406 "PUT /api/v1.0/registerRH/84 HTTP/1.1" 200 68
+[INFO] 2022-11-11 13:14:30,425 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:14:32,318 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3882
+[INFO] 2022-11-11 13:14:53,443 "OPTIONS /api/v1.0/registerRH/84 HTTP/1.1" 200 0
+[INFO] 2022-11-11 13:14:53,483 "PUT /api/v1.0/registerRH/84 HTTP/1.1" 200 68
+[INFO] 2022-11-11 13:14:53,498 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-11-11 13:14:53,503 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:14:58,381 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:15:00,919 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12666
+[INFO] 2022-11-11 13:18:02,138 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-11 13:55:16,038 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12666
+[INFO] 2022-11-11 13:59:01,287 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-11 13:59:04,126 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-11 13:59:08,166 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 11:38:44,642 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:38:44,648 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:38:46,390 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:38:46,390 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:38:46,400 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-12 11:38:46,405 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-12 11:38:52,603 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:38:54,116 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:38:54,162 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:39:16,863 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:39:34,151 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:41:03,453 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:41:04,363 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:41:12,261 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:41:12,267 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 11:41:52,796 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 11:42:02,808 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:42:02,808 "OPTIONS /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:42:02,815 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-11-12 11:42:02,823 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-11-12 11:43:13,864 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:43:14,591 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-12 11:43:14,594 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-12 11:43:14,960 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:43:36,487 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-11-12 11:43:36,495 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-11-12 11:43:39,835 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:43:41,419 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:43:44,462 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 11:44:03,957 "OPTIONS /api/v1.0/payrollList/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:44:03,963 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-12 11:44:06,433 "OPTIONS /api/v1.0/payroll/11 HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:44:06,485 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12666
+[INFO] 2022-11-12 11:54:28,770 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:54:29,020 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-12 11:54:29,025 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-12 11:54:32,834 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:54:33,580 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:54:36,933 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-11-12 11:54:36,953 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:54:38,279 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:54:42,925 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 11:54:43,971 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-12 11:54:46,123 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-11-12 11:54:46,127 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-11-12 11:54:46,883 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:54:46,883 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:54:46,892 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-11-12 11:54:46,899 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-11-12 11:54:47,742 "OPTIONS /api/v1.0/employeeVacationList/ HTTP/1.1" 200 0
+[INFO] 2022-11-12 11:54:47,756 "GET /api/v1.0/employeeVacationList/ HTTP/1.1" 200 3553
+[INFO] 2022-11-12 11:54:51,316 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-12 11:54:51,319 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-12 11:54:52,761 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-12 11:54:54,956 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12666
+[INFO] 2022-11-12 11:55:07,022 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:55:07,819 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:55:11,468 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-11-12 11:55:11,476 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-11-12 11:55:12,177 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-12 11:55:15,655 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-11-12 11:55:15,659 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-11-12 11:55:20,787 "GET /api/v1.0/employeeVacationList/ HTTP/1.1" 200 3553
+[INFO] 2022-11-12 11:55:21,996 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-11-12 11:55:22,004 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-11-12 11:55:23,085 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-11-12 11:55:23,090 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-11-12 11:55:24,061 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:55:26,405 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-12 11:55:28,471 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-12 11:56:04,277 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12666
+[INFO] 2022-11-12 11:56:27,737 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 11:57:34,201 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 11:58:03,657 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 11:59:02,103 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-11-12 11:59:04,216 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12666
+[INFO] 2022-11-12 12:00:12,871 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 12:00:14,076 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 12:00:51,826 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 12:00:53,341 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 12:00:55,670 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 12:00:57,327 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 12:01:00,238 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 12:01:00,981 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-12 12:01:07,814 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4599
+[INFO] 2022-11-12 12:01:41,203 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:02:51,130 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:03:08,794 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:05:41,686 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:06:11,418 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:06:51,882 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:07:13,563 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:07:41,483 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:08:09,859 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:09:03,171 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:12:43,347 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:13:25,870 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:17:09,484 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:20:32,076 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:22:12,239 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:24:38,654 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:28:43,334 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:29:09,646 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:29:11,850 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:29:59,060 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:30:19,742 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:30:23,915 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:31:43,823 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:32:28,115 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:35:43,056 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-12 12:37:37,057 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:12:08,143 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-11-13 17:12:08,227 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:12:40,620 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:12:42,499 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:12:43,827 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:12:44,626 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:12:47,067 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:22:50,384 D:\Binara\nominaFC\backend\sistemafcApp\models\smallBox.py changed, reloading.
+[INFO] 2022-11-13 17:22:51,174 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:23:38,466 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:23:58,620 D:\Binara\nominaFC\backend\sistemafcApp\admin.py changed, reloading.
+[INFO] 2022-11-13 17:23:59,186 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:24:51,935 D:\Binara\nominaFC\backend\sistemafcApp\serializers\smallBoxSerializer.py changed, reloading.
+[INFO] 2022-11-13 17:24:52,478 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:25:15,924 D:\Binara\nominaFC\backend\sistemafcApp\serializers\smallBoxSerializer.py changed, reloading.
+[INFO] 2022-11-13 17:25:16,470 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:25:48,557 D:\Binara\nominaFC\backend\sistemafcApp\models\smallBox.py changed, reloading.
+[INFO] 2022-11-13 17:25:49,135 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:25:56,446 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:28:32,163 D:\Binara\nominaFC\backend\sistemafcApp\serializers\smallBoxSerializer.py changed, reloading.
+[INFO] 2022-11-13 17:28:32,721 Watching for file changes with StatReloader
+[INFO] 2022-11-13 17:28:41,747 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-11-13 17:28:41,753 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-13 17:28:42,470 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-11-13 17:28:42,498 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4851
+[INFO] 2022-11-13 17:29:14,919 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:31:08,131 "OPTIONS /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 0
+[INFO] 2022-11-13 17:31:08,133 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-11-13 17:31:08,146 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-11-13 17:31:08,149 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-11-13 17:35:05,685 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-13 17:35:06,707 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 4851
+[INFO] 2022-11-13 17:35:08,728 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:35:17,941 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 302 0
+[INFO] 2022-11-13 17:35:17,970 "GET /admin/login/?next=/admin/sistemafcApp/payroll/ HTTP/1.1" 200 2260
+[INFO] 2022-11-13 17:35:18,040 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-11-13 17:35:18,040 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-11-13 17:35:18,043 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-11-13 17:35:18,043 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[INFO] 2022-11-13 17:35:18,045 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-11-13 17:35:18,046 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-11-13 17:35:18,047 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-11-13 17:35:18,056 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[INFO] 2022-11-13 17:35:18,056 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[WARNING] 2022-11-13 17:35:18,081 Not Found: /favicon.ico
+[WARNING] 2022-11-13 17:35:18,081 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-11-13 17:35:26,209 "POST /admin/login/?next=/admin/sistemafcApp/payroll/ HTTP/1.1" 302 0
+[INFO] 2022-11-13 17:35:26,248 "GET /admin/sistemafcApp/payroll/ HTTP/1.1" 200 11727
+[INFO] 2022-11-13 17:35:26,266 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-11-13 17:35:26,267 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-11-13 17:35:26,267 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-11-13 17:35:26,270 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-11-13 17:35:26,272 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:35:26,272 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-11-13 17:35:26,273 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-11-13 17:35:26,273 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-11-13 17:35:26,275 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-11-13 17:35:26,275 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-11-13 17:35:26,283 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-11-13 17:35:26,297 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-11-13 17:35:26,297 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-11-13 17:35:26,306 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-11-13 17:35:28,919 "GET /admin/sistemafcApp/smallboxsplit/ HTTP/1.1" 200 10316
+[INFO] 2022-11-13 17:35:28,937 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:35:29,952 "GET /admin/sistemafcApp/smallboxsplit/add/ HTTP/1.1" 200 13643
+[INFO] 2022-11-13 17:35:29,966 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-11-13 17:35:29,970 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:35:29,974 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-11-13 17:35:29,975 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-11-13 17:35:29,977 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-11-13 17:35:29,979 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2022-11-13 17:35:29,986 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-11-13 17:36:40,267 "POST /admin/sistemafcApp/smallboxsplit/add/ HTTP/1.1" 302 0
+[INFO] 2022-11-13 17:36:40,281 "GET /admin/sistemafcApp/smallboxsplit/ HTTP/1.1" 200 11711
+[INFO] 2022-11-13 17:36:40,299 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:36:40,316 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2022-11-13 17:36:42,969 "GET /admin/sistemafcApp/smallboxsplit/add/ HTTP/1.1" 200 13643
+[INFO] 2022-11-13 17:36:42,987 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:36:48,643 "POST /admin/sistemafcApp/smallboxsplit/add/ HTTP/1.1" 302 0
+[INFO] 2022-11-13 17:36:48,657 "GET /admin/sistemafcApp/smallboxsplit/ HTTP/1.1" 200 11930
+[INFO] 2022-11-13 17:36:48,673 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:36:51,536 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:37:13,372 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5019
+[INFO] 2022-11-13 17:37:14,734 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5019
+[INFO] 2022-11-13 17:37:14,937 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-13 17:37:15,648 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-13 17:37:16,221 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5019
+[INFO] 2022-11-13 17:37:18,533 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:37:34,333 "GET /admin/sistemafcApp/smallbox/ HTTP/1.1" 200 12943
+[INFO] 2022-11-13 17:37:34,349 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:37:37,902 "GET /admin/sistemafcApp/smallbox/3/change/ HTTP/1.1" 200 15203
+[INFO] 2022-11-13 17:37:37,918 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:37:40,882 "POST /admin/sistemafcApp/smallbox/3/change/ HTTP/1.1" 302 0
+[INFO] 2022-11-13 17:37:40,897 "GET /admin/sistemafcApp/smallbox/ HTTP/1.1" 200 13154
+[INFO] 2022-11-13 17:37:40,917 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-11-13 17:37:44,033 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-11-13 17:37:44,579 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-13 17:37:45,139 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-13 17:37:45,833 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-11-13 17:37:48,189 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:38:11,036 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:38:32,857 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:39:43,153 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:56:55,586 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:57:13,178 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-11-13 17:57:14,213 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-11-13 17:57:18,753 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-11-13 17:57:55,565 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-01 11:49:39,700 Watching for file changes with StatReloader
+[INFO] 2022-12-01 11:54:30,090 "OPTIONS /api/v1.0/payrollList/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:54:30,104 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-01 11:54:32,245 "OPTIONS /api/v1.0/employees/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:54:32,245 "OPTIONS /api/v1.0/departments/ HTTP/1.1" 200 0
+[WARNING] 2022-12-01 11:54:32,263 Unauthorized: /api/v1.0/departments/
+[WARNING] 2022-12-01 11:54:32,264 Unauthorized: /api/v1.0/employees/
+[WARNING] 2022-12-01 11:54:32,264 "GET /api/v1.0/departments/ HTTP/1.1" 401 183
+[WARNING] 2022-12-01 11:54:32,264 "GET /api/v1.0/employees/ HTTP/1.1" 401 183
+[WARNING] 2022-12-01 11:54:34,946 Unauthorized: /api/v1.0/employees/
+[WARNING] 2022-12-01 11:54:34,948 Unauthorized: /api/v1.0/departments/
+[WARNING] 2022-12-01 11:54:34,948 "GET /api/v1.0/employees/ HTTP/1.1" 401 183
+[WARNING] 2022-12-01 11:54:34,949 "GET /api/v1.0/departments/ HTTP/1.1" 401 183
+[INFO] 2022-12-01 11:54:37,275 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-01 11:55:00,540 "OPTIONS /api/token/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:55:00,696 "POST /api/token/ HTTP/1.1" 200 483
+[INFO] 2022-12-01 11:55:02,465 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-01 11:55:03,265 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-12-01 11:55:03,269 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-12-01 11:55:11,028 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-01 11:55:11,687 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-12-01 11:55:11,691 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-12-01 11:55:13,561 "OPTIONS /api/v1.0/employeeVacationList/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:55:13,577 "GET /api/v1.0/employeeVacationList/ HTTP/1.1" 200 3553
+[INFO] 2022-12-01 11:55:14,551 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:55:14,551 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:55:14,557 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-01 11:55:14,569 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-12-01 11:55:16,106 "OPTIONS /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:55:16,106 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:55:16,112 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-01 11:55:16,120 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-01 11:55:17,099 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:55:17,104 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-01 11:55:17,939 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-01 11:55:17,949 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-01 11:55:33,997 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-01 11:55:34,009 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-12-01 11:55:34,491 "GET /api/v1.0/employeeVacationList/ HTTP/1.1" 200 3553
+[INFO] 2022-12-01 11:55:34,990 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-12-01 11:55:34,993 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-12-01 11:55:36,224 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-01 11:55:37,765 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-01 11:55:37,773 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-01 11:55:38,153 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-01 11:55:49,909 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-01 11:55:49,917 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-01 11:55:50,551 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-01 11:55:50,557 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-12-01 11:55:51,457 "GET /api/v1.0/employeeVacationList/ HTTP/1.1" 200 3553
+[INFO] 2022-12-01 11:57:05,348 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-01 11:57:09,239 "OPTIONS /api/v1.0/payroll/11 HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:57:09,303 "GET /api/v1.0/payroll/11 HTTP/1.1" 200 12708
+[INFO] 2022-12-01 11:58:28,206 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-01 11:58:28,214 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-01 11:59:04,967 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-01 11:59:06,306 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-12-01 11:59:06,310 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-12-01 11:59:11,816 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-01 11:59:11,828 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-01 11:59:13,314 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-01 11:59:13,324 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-12-01 11:59:16,805 "GET /api/v1.0/employeeVacationList/ HTTP/1.1" 200 3553
+[INFO] 2022-12-01 11:59:20,101 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-01 11:59:22,020 "GET /api/v1.0/departments/ HTTP/1.1" 200 62
+[INFO] 2022-12-01 11:59:22,024 "GET /api/v1.0/employees/ HTTP/1.1" 200 5620
+[INFO] 2022-12-01 11:59:23,347 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-01 11:59:24,340 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:59:24,366 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-12-01 11:59:28,121 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-01 11:59:28,127 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-01 12:05:59,599 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-01 12:06:02,433 "OPTIONS /api/v1.0/registerRH/84 HTTP/1.1" 200 0
+[INFO] 2022-12-01 12:06:02,459 "GET /api/v1.0/registerRH/84 HTTP/1.1" 200 3933
+[INFO] 2022-12-01 12:06:05,887 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[WARNING] 2022-12-01 13:32:08,788 Not Found: /
+[WARNING] 2022-12-01 13:32:08,789 "GET / HTTP/1.1" 404 2447
+[WARNING] 2022-12-01 13:32:08,876 Not Found: /favicon.ico
+[WARNING] 2022-12-01 13:32:08,877 "GET /favicon.ico HTTP/1.1" 404 2498
+[WARNING] 2022-12-01 13:32:20,924 Not Found: /api/v1.0/surveyList/
+[WARNING] 2022-12-01 13:32:20,924 "GET /api/v1.0/surveyList/ HTTP/1.1" 404 8130
+[INFO] 2022-12-05 11:15:54,358 Watching for file changes with StatReloader
+[INFO] 2022-12-17 12:15:35,517 Watching for file changes with StatReloader
+[INFO] 2022-12-17 12:22:17,334 "OPTIONS /api/v1.0/payrollList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:22:17,348 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-17 12:22:46,269 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:22:46,269 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:22:46,274 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[WARNING] 2022-12-17 12:22:46,289 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-12-17 12:22:46,289 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[WARNING] 2022-12-17 12:22:48,432 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-12-17 12:22:48,433 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-12-17 12:22:48,436 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[WARNING] 2022-12-17 12:22:49,478 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-12-17 12:22:49,480 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-12-17 12:22:49,487 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[WARNING] 2022-12-17 12:22:50,046 Unauthorized: /api/v1.0/employeePerceptionList/
+[WARNING] 2022-12-17 12:22:50,047 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 401 183
+[INFO] 2022-12-17 12:22:50,050 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-17 12:22:51,160 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-17 12:22:52,067 "GET /api/v1.0/payrollList/ HTTP/1.1" 200 336
+[INFO] 2022-12-17 12:22:59,544 "OPTIONS /api/token/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:22:59,697 "POST /api/token/ HTTP/1.1" 200 483
+[INFO] 2022-12-17 12:23:01,511 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-17 12:23:01,524 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-12-17 12:23:02,733 "OPTIONS /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:23:02,733 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:23:02,738 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-17 12:23:02,747 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-17 12:25:10,195 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:25:10,200 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 12:25:28,412 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:25:28,442 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-12-17 12:27:04,799 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:27:04,805 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:27:12,249 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:27:21,813 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:28:01,042 "GET /admin HTTP/1.1" 301 0
+[INFO] 2022-12-17 12:28:01,078 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2022-12-17 12:28:01,114 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[INFO] 2022-12-17 12:28:01,178 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-12-17 12:28:01,179 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-12-17 12:28:01,181 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[INFO] 2022-12-17 12:28:01,183 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-12-17 12:28:01,184 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-12-17 12:28:01,189 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-12-17 12:28:01,193 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-12-17 12:28:01,209 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-12-17 12:28:01,209 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[WARNING] 2022-12-17 12:28:01,236 Not Found: /favicon.ico
+[WARNING] 2022-12-17 12:28:01,236 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-12-17 12:28:04,986 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2022-12-17 12:28:05,018 "GET /admin/ HTTP/1.1" 200 14058
+[INFO] 2022-12-17 12:28:05,029 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[INFO] 2022-12-17 12:28:05,042 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-12-17 12:28:05,042 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-12-17 12:28:05,052 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[INFO] 2022-12-17 12:28:05,053 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-12-17 12:28:11,266 "GET /admin/sistemafcApp/smallboxsplit/ HTTP/1.1" 200 11711
+[INFO] 2022-12-17 12:28:11,280 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-12-17 12:28:11,280 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-12-17 12:28:11,281 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-12-17 12:28:11,281 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-12-17 12:28:11,284 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-12-17 12:28:11,284 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-12-17 12:28:11,284 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-12-17 12:28:11,287 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-12-17 12:28:11,288 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-12-17 12:28:11,289 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-12-17 12:28:11,294 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-12-17 12:28:11,316 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-12-17 12:30:10,471 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:30:12,324 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:34:05,717 "OPTIONS /api/token/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:34:05,874 "POST /api/token/ HTTP/1.1" 200 483
+[INFO] 2022-12-17 12:34:30,875 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:34:30,880 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 12:34:31,606 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:34:31,635 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-12-17 12:34:33,305 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 12:34:33,311 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:41:13,979 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:41:31,404 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:53:18,268 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 12:58:28,347 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:10:56,315 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:12:48,679 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:12:59,860 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:13:37,200 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:14:15,331 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:14:22,241 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:15:17,997 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:16:18,516 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:17:30,352 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:29:10,312 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:35:58,129 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:42:26,918 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:42:46,461 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:42:50,063 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:43:35,304 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:47:48,958 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:48:20,778 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:48:28,105 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:49:25,118 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:50:19,984 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 13:56:35,887 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:00:37,280 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:02:39,536 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:04:17,642 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:07:55,351 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:12:34,508 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:16:13,799 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:19:34,890 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:19:51,031 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:20:24,713 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:20:50,554 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:21:06,649 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:22:09,242 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:23:12,570 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:23:20,677 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 14:23:20,686 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:24:30,617 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:26:34,921 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 14:26:34,928 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:33:06,890 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:34:22,236 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:35:31,724 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:36:15,568 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:36:38,316 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:37:18,951 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:37:47,889 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:37:56,812 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:39:21,942 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:39:28,191 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 14:39:28,199 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:39:44,982 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:40:38,358 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:41:09,017 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:41:16,071 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 14:41:16,078 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:44:34,995 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:45:32,798 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:47:31,745 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:47:36,030 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:47:51,984 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:49:30,596 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:51:05,681 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:51:51,512 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:52:06,629 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:52:09,776 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:54:07,120 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:54:20,035 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:56:01,185 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:56:33,857 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:57:39,464 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:58:28,308 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:59:09,937 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 14:59:22,057 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:05:43,555 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:06:25,534 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[WARNING] 2022-12-17 15:06:25,566 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-12-17 15:06:25,567 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-12-17 15:08:28,914 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 15:08:29,543 Watching for file changes with StatReloader
+[WARNING] 2022-12-17 15:08:33,250 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-12-17 15:08:33,251 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-12-17 15:14:28,898 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:15:36,230 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:16:26,281 "OPTIONS /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 15:16:26,282 "OPTIONS /api/v1.0/deductionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 15:16:26,295 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-17 15:16:26,298 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-17 15:16:26,761 "OPTIONS /api/v1.0/registerList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 15:16:26,765 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:16:28,702 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-12-17 15:16:47,309 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:20:02,946 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-17 15:20:02,950 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-17 15:20:03,427 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:20:04,262 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-12-17 15:20:12,845 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:20:54,891 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:25:43,606 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:28:57,975 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:29:03,656 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-17 15:29:03,660 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-17 15:29:05,051 "OPTIONS /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 15:29:05,051 "OPTIONS /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 15:29:05,057 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-17 15:29:05,065 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-12-17 15:29:05,555 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:29:12,649 "GET /api/v1.0/perceptionTypeList/ HTTP/1.1" 200 256
+[INFO] 2022-12-17 15:29:12,663 "GET /api/v1.0/employeePerceptionList/ HTTP/1.1" 200 2508
+[INFO] 2022-12-17 15:29:13,528 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-17 15:29:13,540 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-17 15:29:14,304 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:29:52,944 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:30:19,544 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-12-17 15:30:24,039 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:30:40,326 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:30:42,783 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:31:06,369 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:31:41,319 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:31:44,765 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:32:36,678 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:43:49,321 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:46:48,614 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:47:04,835 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:47:23,711 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 15:47:23,735 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:47:34,248 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5018
+[INFO] 2022-12-17 15:47:42,675 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:48:07,824 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 15:48:07,843 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:48:10,044 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5019
+[INFO] 2022-12-17 15:48:12,254 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:49:00,883 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 15:49:00,902 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 15:49:05,073 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5168
+[INFO] 2022-12-17 15:49:08,181 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 15:49:42,181 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 15:49:42,727 Watching for file changes with StatReloader
+[INFO] 2022-12-17 15:58:59,408 D:\Binara\nominaFC\backend\sistemafcApp\serializers\smallBoxSerializer.py changed, reloading.
+[INFO] 2022-12-17 15:58:59,962 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:02:04,978 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:02:05,512 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:03:24,149 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:03:24,705 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:04:18,555 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:04:19,099 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:04:37,157 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:04:37,698 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:04:47,521 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:05:10,324 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[WARNING] 2022-12-17 16:05:21,972 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-12-17 16:05:21,973 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-12-17 16:06:48,411 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:09:10,929 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-17 16:09:10,933 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-17 16:09:11,437 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:09:12,317 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5315
+[INFO] 2022-12-17 16:09:15,497 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:09:22,114 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:09:23,538 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:09:24,916 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5315
+[INFO] 2022-12-17 16:09:31,529 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:10:56,006 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 16:10:56,026 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:10:59,990 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5399
+[INFO] 2022-12-17 16:11:02,783 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:11:14,407 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 16:11:14,425 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:11:15,407 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5398
+[INFO] 2022-12-17 16:11:18,216 "GET /api/v1.0/employeeDeductionList/ HTTP/1.1" 200 1529
+[INFO] 2022-12-17 16:11:18,220 "GET /api/v1.0/deductionTypeList/ HTTP/1.1" 200 67
+[INFO] 2022-12-17 16:11:18,469 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:11:19,494 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:11:20,738 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5398
+[INFO] 2022-12-17 16:11:22,281 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:12:31,769 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:18:45,317 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:18:46,000 Watching for file changes with StatReloader
+[WARNING] 2022-12-17 16:20:30,095 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-12-17 16:20:30,096 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-12-17 16:21:47,152 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:21:47,725 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:21:50,847 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:21:55,410 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:21:56,502 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5544
+[INFO] 2022-12-17 16:21:58,029 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[WARNING] 2022-12-17 16:22:22,596 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-12-17 16:22:22,597 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-12-17 16:22:44,160 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:22:44,703 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:22:50,985 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:22:51,709 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5690
+[INFO] 2022-12-17 16:22:53,137 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[WARNING] 2022-12-17 16:23:02,556 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-12-17 16:23:02,556 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-12-17 16:23:40,281 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:23:40,842 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:23:51,382 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:23:51,858 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5834
+[INFO] 2022-12-17 16:23:56,154 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:24:08,273 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 16:24:08,293 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:24:10,134 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6061
+[INFO] 2022-12-17 16:24:12,749 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:24:23,267 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:24:24,420 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6061
+[INFO] 2022-12-17 16:24:29,329 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:24:42,960 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 16:24:42,977 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:24:44,135 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6061
+[INFO] 2022-12-17 16:24:46,260 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:26:08,315 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 16:26:08,334 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:26:09,336 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6232
+[INFO] 2022-12-17 16:26:12,628 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:26:19,811 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 16:26:19,830 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 16:26:20,809 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6232
+[INFO] 2022-12-17 16:26:22,948 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:33:31,708 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 16:37:08,476 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 16:37:09,042 Watching for file changes with StatReloader
+[INFO] 2022-12-17 16:37:09,995 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[WARNING] 2022-12-17 16:37:22,445 Bad Request: /api/v1.0/registerRH/82
+[WARNING] 2022-12-17 16:37:22,446 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 400 68
+[INFO] 2022-12-17 17:05:12,200 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 17:05:12,753 Watching for file changes with StatReloader
+[INFO] 2022-12-17 17:05:17,583 "OPTIONS /api/v1.0/employeesForRegister/ HTTP/1.1" 200 0
+[INFO] 2022-12-17 17:05:17,596 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:05:25,871 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:05:28,971 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 17:05:29,713 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6232
+[INFO] 2022-12-17 17:05:31,843 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 17:05:31,862 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 17:05:33,018 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6232
+[INFO] 2022-12-17 17:05:34,644 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:05:44,749 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 17:05:44,768 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 17:06:43,027 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 17:06:43,568 Watching for file changes with StatReloader
+[INFO] 2022-12-17 17:06:47,882 "OPTIONS /api/v1.0/registerRH/82 HTTP/1.1" 200 0
+[INFO] 2022-12-17 17:06:47,907 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6232
+[INFO] 2022-12-17 17:06:49,476 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:09:59,195 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 17:09:59,795 Watching for file changes with StatReloader
+[INFO] 2022-12-17 17:10:04,929 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 17:10:04,950 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 17:10:09,919 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6147
+[INFO] 2022-12-17 17:10:13,655 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:10:20,564 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 17:10:20,584 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 17:10:21,763 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 6062
+[INFO] 2022-12-17 17:10:24,449 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:11:51,899 D:\Binara\nominaFC\backend\sistemafcApp\views\register\register.py changed, reloading.
+[INFO] 2022-12-17 17:11:52,450 Watching for file changes with StatReloader
+[INFO] 2022-12-17 17:12:03,250 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 17:12:03,269 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 17:12:04,360 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5977
+[INFO] 2022-12-17 17:12:21,127 "GET /admin HTTP/1.1" 301 0
+[INFO] 2022-12-17 17:12:21,156 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2022-12-17 17:12:21,183 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[INFO] 2022-12-17 17:12:21,257 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[INFO] 2022-12-17 17:12:21,257 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[INFO] 2022-12-17 17:12:21,259 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[INFO] 2022-12-17 17:12:21,260 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[INFO] 2022-12-17 17:12:21,262 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2022-12-17 17:12:21,262 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[INFO] 2022-12-17 17:12:21,264 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[INFO] 2022-12-17 17:12:21,280 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[INFO] 2022-12-17 17:12:21,281 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[WARNING] 2022-12-17 17:12:21,314 Not Found: /favicon.ico
+[WARNING] 2022-12-17 17:12:21,315 "GET /favicon.ico HTTP/1.1" 404 2498
+[INFO] 2022-12-17 17:12:26,487 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2022-12-17 17:12:26,510 "GET /admin/ HTTP/1.1" 200 14058
+[INFO] 2022-12-17 17:12:26,517 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[INFO] 2022-12-17 17:12:26,536 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2022-12-17 17:12:26,536 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2022-12-17 17:12:26,548 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[INFO] 2022-12-17 17:12:26,554 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[INFO] 2022-12-17 17:12:30,471 "GET /admin/sistemafcApp/smallboxsplit/ HTTP/1.1" 200 11928
+[INFO] 2022-12-17 17:12:30,482 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[INFO] 2022-12-17 17:12:30,482 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2022-12-17 17:12:30,484 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[INFO] 2022-12-17 17:12:30,485 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+[INFO] 2022-12-17 17:12:30,488 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-12-17 17:12:30,488 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2022-12-17 17:12:30,488 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[INFO] 2022-12-17 17:12:30,489 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[INFO] 2022-12-17 17:12:30,491 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2022-12-17 17:12:30,492 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2022-12-17 17:12:30,502 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[INFO] 2022-12-17 17:12:30,521 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2022-12-17 17:12:32,117 "GET /admin/sistemafcApp/smallboxsplit/2/change/ HTTP/1.1" 200 14110
+[INFO] 2022-12-17 17:12:32,126 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[INFO] 2022-12-17 17:12:32,132 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-12-17 17:12:32,140 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2022-12-17 17:12:32,140 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[INFO] 2022-12-17 17:12:32,146 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2022-12-17 17:12:32,147 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2022-12-17 17:12:34,204 "POST /admin/sistemafcApp/smallboxsplit/2/change/ HTTP/1.1" 302 0
+[INFO] 2022-12-17 17:12:34,219 "GET /admin/sistemafcApp/smallboxsplit/ HTTP/1.1" 200 12149
+[INFO] 2022-12-17 17:12:34,232 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-12-17 17:12:34,254 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2022-12-17 17:12:36,172 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5976
+[INFO] 2022-12-17 17:12:39,199 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:12:44,825 "GET /admin/sistemafcApp/smallboxsplit/2/change/ HTTP/1.1" 200 14118
+[INFO] 2022-12-17 17:12:44,838 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-12-17 17:12:58,747 "PUT /api/v1.0/registerRH/82 HTTP/1.1" 200 68
+[INFO] 2022-12-17 17:12:58,768 "GET /api/v1.0/registerList/ HTTP/1.1" 200 270
+[INFO] 2022-12-17 17:13:00,677 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5976
+[INFO] 2022-12-17 17:13:08,486 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:14:54,946 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:15:43,081 "POST /admin/sistemafcApp/smallboxsplit/2/change/ HTTP/1.1" 302 0
+[INFO] 2022-12-17 17:15:43,096 "GET /admin/sistemafcApp/smallboxsplit/ HTTP/1.1" 200 12149
+[INFO] 2022-12-17 17:15:43,108 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2022-12-17 17:16:10,724 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5977
+[INFO] 2022-12-17 17:16:14,342 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:16:21,694 "GET /api/v1.0/registerRH/82 HTTP/1.1" 200 5977
+[INFO] 2022-12-17 17:16:24,347 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:16:30,614 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341
+[INFO] 2022-12-17 17:16:32,805 "GET /api/v1.0/employeesForRegister/ HTTP/1.1" 200 341

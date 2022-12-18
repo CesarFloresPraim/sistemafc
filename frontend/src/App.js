@@ -121,10 +121,12 @@ function App(props) {
                 element={<EditOvertimeAttendanceRegister />}
               />
             </Route>
+
             <Route element={<Perceptions />}>
               <Route path="asignar-percepcion" element={<AssignPerception />} />
               <Route path="tipo-percepcion" element={<PerceptionTypes />} />
             </Route>
+            
             <Route element={<Deductions />}>
               <Route path="asignar-deduccion" element={<AssignDeduction />} />
               <Route path="tipo-deduccion" element={<DeductionTypes />} />

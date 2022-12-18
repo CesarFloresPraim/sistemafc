@@ -17,50 +17,32 @@ class InitializePayrollView(APIView):
         try:
             with transaction.atomic():
                 data = request.data
-                # payrollSerialized = WritePayrollSerializer(data=data)
+                payrollSerialized = WritePayrollSerializer(data=data)
 
-                # if payrollSerialized.is_valid(raise_exception=True):
-                #     payrollSerialized.save()
+                if payrollSerialized.is_valid(raise_exception=True):
+                    payrollSerialized.save()
 
-                try:
-                    print(5)
+                registerRHInstance = RegisterRH.objects.get(
+                    id=payrollSerialized.data['registerRH'])
+                #registerRHInstance = RegisterRH.objects.get(id=84)
 
-                    #registerRHInstance = RegisterRH.objects.get(id=payrollSerialized.data['registerRH'])
-                    registerRHInstance = RegisterRH.objects.get(id=84)
+                registerRHSerializedData = ReadRegisterRHSerializer(
+                    registerRHInstance).data
 
-                    registerRHSerializedData = ReadRegisterRHSerializer(
-                        registerRHInstance).data
+                for registersDetail in registerRHSerializedData['registersDetails']:
+                    registerDetailInstance = RegisterDetailRH.objects.get(
+                        id=registersDetail['id'])
+                    registerPayrollDTO = {
+                        "payroll": payrollSerialized.data["id"],
+                        "registerDetail": registerDetailInstance.id
+                    }
+                    registerPayrollSerialized = WriteRegisterPayrollSerializer(
+                        data=registerPayrollDTO)
+                    if registerPayrollSerialized.is_valid(raise_exception=True):
+                        registerPayrollSerialized.save()
 
-                    for registersDetail in registerRHSerializedData['registersDetails']:
-                        try:
-                            registerDetailInstance = RegisterDetailRH.objects.get(
-                                id=registersDetail['id'])
-                            registerPayrollDTO = {
-                                "payroll": "11",
-                                "registerDetail": registerDetailInstance.id
-                            }
-                            registerPayrollSerialized = WriteRegisterPayrollSerializer(
-                                data=registerPayrollDTO)
-                            try:
-                                if registerPayrollSerialized.is_valid(raise_exception=True):
-                                    registerPayrollSerialized.save()
-                            except BaseException as e:
-                                print(e)
-                                return JsonResponse({"message": "Los datos enviados son incorrectos o falta algun dato para registro de nomina"},
-                                                    status=400,
-                                                    safe=False)
-                        except ObjectDoesNotExist as e:
-                            print(e)
-                            return JsonResponse({"message": "No se encontro ese detalle de registro RH"},
-                                                status=400,
-                                                safe=False)
-                except ObjectDoesNotExist as e:
-                    print(e)
-                    return JsonResponse({"message": "No se encontro ese registro de RH"},
-                                        status=400,
-                                        safe=False)
-                return JsonResponse({'id': 11}, status=200)
-                # return JsonResponse({'id': payrollSerialized.data['id']}, status=200)
+                # return JsonResponse({'id': 11}, status=200)
+                return JsonResponse({'id': payrollSerialized.data['id']}, status=200)
 
         except BaseException as e:
             print(e)

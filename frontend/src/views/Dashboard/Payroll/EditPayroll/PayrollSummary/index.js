@@ -14,19 +14,22 @@ export default function PayrollSummary() {
 
   const { selectedPayrollDetails } = useSelector((state) => state.payroll);
 
-  const calcPercepcionsAmount = (employeeItem) => {
+  const calcPercepcionsAmount = (registerDetailItem) => {
     let sum = 0;
-    for (const perception of employeeItem.perceptions) {
+    for (const perception of registerDetailItem.employee.perceptions) {
       if (!perception.isForSalary) {
         sum += perception.amount;
+      } else {
+        const abscenceNumber = calcAbscenceNumber(registerDetailItem);
+        sum += (perception.amount * registerDetailItem.employee.daysOfWork - abscenceNumber) / registerDetailItem.employee.daysOfWork
       }
     }
     return sum;
   };
 
-  const calcDeductionsAmount = (employeeItem) => {
+  const calcDeductionsAmount = (registerDetailItem) => {
     let sum = 0;
-    for (const deduction of employeeItem.deductions) {
+    for (const deduction of registerDetailItem.employee.deductions) {
       if (!deduction.payed) {
         sum += deduction.amount;
       }
@@ -95,9 +98,44 @@ export default function PayrollSummary() {
     return amountWithVacationBonus;
   };
 
-  const calcTotalToPay = () => {
-    return 100
+  const calcFoodAmount = (registerDetailItem) => {
+    const foodDict = registerDetailItem.food
+    let numberOfFoods = 0
+    for (const key in foodDict) {
+      if(key != "id" && foodDict[key] == true){
+        numberOfFoods++
+      }
+    }
+    return numberOfFoods * 20 //Change to food price setting (not implemented yet)
   }
+
+  const calcSmallBoxAmount = (registerDetailItem) => {
+    const smallBoxArray = registerDetailItem.smallBox
+    let total = 0
+    for (const smallBoxItem of smallBoxArray) {
+      total += smallBoxItem.amount
+    }
+    return total
+  }
+
+  const calcTotalToPay = (payrollRegister) => {
+    let salary = payrollRegister.registerDetail.employee.salary
+    let perceptions = calcPercepcionsAmount(payrollRegister.registerDetail)
+    let saving = payrollRegister.registerDetail.employee.savingsPerWeek
+    let retention = payrollRegister.registerDetail.employee.retentionPerWeek
+    let deductions = calcDeductionsAmount(payrollRegister.registerDetail)
+    let food = calcFoodAmount(payrollRegister.registerDetail)
+    let smallBox = calcSmallBoxAmount(payrollRegister.registerDetail)
+    let cardPayment = payrollRegister.cardAmount
+    let infonavit = payrollRegister.registerDetail.employee.retentionInfonavit
+    let abscence = calcAbscenceAmount(payrollRegister.registerDetail)
+    let vacations = calcVacationAmount(payrollRegister.registerDetail)
+    let puntuality = payrollRegister.registerDetail.employee.puntualityPrice
+    let attendance = payrollRegister.registerDetail.employee.attendancePrice
+    
+    let total = salary + perceptions - saving - retention - deductions - food - smallBox - cardPayment -infonavit - abscence + vacations + puntuality + attendance
+    return total;
+  };
 
   return (
     <>
@@ -105,79 +143,85 @@ export default function PayrollSummary() {
         <table className="w-full text-sm text-left text-gray-500">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50">
             <tr>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 No
               </th>
               <th
                 scope="col"
-                className="py-3 px-6 sticky top-0 left-0 bg-gray-50"
+                className="py-2 px-4 sticky top-0 left-0 bg-gray-50"
               >
                 Nombre
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Departamento
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Dias T
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Salario
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Percepciones
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Ahorro
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Sem anterior
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Saldo ahorro
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Retencion
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Sem anteior
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Saldo adeudo
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Pago en tarjeta
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Ret. Infonavit
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Sem anteior
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Saldo infonavit
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Deducciones
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Faltas
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Importe faltas
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Vacaciones
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Importe vacaciones
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
+                Importe Comidas
+              </th>
+              <th scope="col" className="py-2 px-4">
+                Importe Caja chica
+              </th>
+              <th scope="col" className="py-2 px-4">
                 B. Puntualidad
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 B. Asistencia
               </th>
-              <th scope="col" className="py-3 px-6">
+              <th scope="col" className="py-2 px-4">
                 Total a pagar
               </th>
             </tr>
@@ -190,40 +234,40 @@ export default function PayrollSummary() {
                     key={item.id}
                     className="bg-white font-semibold hover:bg-gray-50 "
                   >
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {item.registerDetail.employee.number}
                     </td>
                     <td
-                      className={`py-4 px-6 whitespace-nowrap border bg-gray-50 border-porcelain sticky top-0 left-0`}
+                      className={`p-2 whitespace-nowrap border bg-gray-50 border-porcelain sticky top-0 left-0`}
                     >
                       {item.registerDetail.employee.name}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {item.registerDetail.employee.department.name}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {item.registerDetail.employee.daysOfWork}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {moneyFormat(item.registerDetail.employee.salary)}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {moneyFormat(
-                        calcPercepcionsAmount(item.registerDetail.employee)
+                        calcPercepcionsAmount(item.registerDetail)
                       )}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-caribbeanGreen`}
+                      className={`p-2 border border-porcelain text-caribbeanGreen`}
                     >
                       {moneyFormat(item.registerDetail.employee.savingsPerWeek)}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-caribbeanGreen`}
+                      className={`p-2 border border-porcelain text-caribbeanGreen`}
                     >
                       {moneyFormat(item.registerDetail.employee.savingsAmount)}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-caribbeanGreen`}
+                      className={`p-2 border border-porcelain text-caribbeanGreen`}
                     >
                       {moneyFormat(
                         item.registerDetail.employee.savingsPerWeek +
@@ -231,37 +275,37 @@ export default function PayrollSummary() {
                       )}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-cobalt`}
+                      className={`p-2 border border-porcelain text-cobalt`}
                     >
                       {moneyFormat(
                         item.registerDetail.employee.retentionPerWeek
                       )}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-cobalt`}
+                      className={`p-2 border border-porcelain text-cobalt`}
                     >
                       {moneyFormat(item.registerDetail.employee.debtAmount)}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-cobalt`}
+                      className={`p-2 border border-porcelain text-cobalt`}
                     >
                       {moneyFormat(
                         item.registerDetail.employee.debtAmount -
                           item.registerDetail.employee.retentionPerWeek
                       )}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {moneyFormat(item.cardAmount)}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-marmalade`}
+                      className={`p-2 border border-porcelain text-marmalade`}
                     >
                       {moneyFormat(
                         item.registerDetail.employee.retentionInfonavit
                       )}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-marmalade`}
+                      className={`p-2 border border-porcelain text-marmalade`}
                     >
                       {moneyFormat(
                         item.registerDetail.employee.infonavitAmount -
@@ -269,34 +313,44 @@ export default function PayrollSummary() {
                       )}
                     </td>
                     <td
-                      className={`py-4 px-6 border border-porcelain text-marmalade`}
+                      className={`p-2 border border-porcelain text-marmalade`}
                     >
-                      {moneyFormat(item.registerDetail.employee.infonavitAmount)}
-                    </td>
-
-                    <td className={`py-4 px-6 border border-porcelain`}>
                       {moneyFormat(
-                        calcDeductionsAmount(item.registerDetail.employee)
+                        item.registerDetail.employee.infonavitAmount
                       )}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+
+                    <td className={`p-2 border border-porcelain`}>
+                      {moneyFormat(
+                        calcDeductionsAmount(item.registerDetail)
+                      )}
+                    </td>
+                    <td className={`p-2 border border-porcelain`}>
                       {calcAbscenceNumber(item.registerDetail)}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {moneyFormat(calcAbscenceAmount(item.registerDetail))}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {calcVacationNumber(item.registerDetail)}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
                       {moneyFormat(calcVacationAmount(item.registerDetail))}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
+                      {moneyFormat(calcFoodAmount(item.registerDetail))}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
+                    <td className={`p-2 border border-porcelain`}>
+                      {moneyFormat(calcSmallBoxAmount(item.registerDetail))}
                     </td>
-                    <td className={`py-4 px-6 border border-porcelain`}>
-                      {moneyFormat(calcTotalToPay(item.registerDetail))}
+                    <td className={`p-2 border border-porcelain`}>
+                      {item.registerDetail.puntuality ? moneyFormat(item.registerDetail.employee.puntualityPrice) : moneyFormat(0)}
+                    </td>
+                    <td className={`p-2 border border-porcelain`}>
+                      {item.registerDetail.attendance ? moneyFormat(item.registerDetail.employee.attendancePrice) : moneyFormat(0)}
+                    </td>
+                    <td className={`p-2 border border-porcelain`}>
+                      {moneyFormat(calcTotalToPay(item))}
                     </td>
                   </tr>
                 );

@@ -6,7 +6,7 @@ from .registerRH import RegisterDetailRH, RegisterRH
 
 class Payroll(models.Model):
     registerRH = models.ForeignKey(
-        RegisterRH, on_delete=models.RESTRICT)
+        RegisterRH, on_delete=models.RESTRICT, related_name="registerrh_set")
     inflationPercentage = models.FloatField(default=7.0)
     extraHourPrice = models.FloatField(default=50.0)
 

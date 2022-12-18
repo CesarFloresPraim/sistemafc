@@ -16,4 +16,5 @@ admin.site.register(PerceptionType)
 admin.site.register(Vacation)
 admin.site.register(Payroll)
 admin.site.register(RegisterPayroll)
+admin.site.register(SmallBoxSplit)
 

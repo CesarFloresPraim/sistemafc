@@ -3,8 +3,8 @@ import { axiosPrivate } from "../../utils/axiosPrivate";
 import { apiRoutes } from "../../types/api-routes";
 
 
-export const InitializePayroll = () => (dispatch) => {
-    return 
+export const InitializePayroll = (payroll) => (dispatch) => {
+    return axiosPrivate.post(apiRoutes.INITIALIZE_PAYROLL, payroll)
 };
 
 export const SetSelectedPayroll = (id) => (dispatch) => {
@@ -25,6 +25,10 @@ export const SetPayrollDetails = (payrollDetails) => (dispatch) => {
 
 export const SetPayrollList = (payrollList) => (dispatch) => {
     return dispatch({type: actionTypes.SET_PAYROLL_LIST, payload: payrollList})
+};
+
+export const FetchUnusedRegisterList = () => (dispatch) => {
+    return axiosPrivate.get(apiRoutes.FETCH_PAYROLL_UNUSED_REGISTERS_RH)
 };
 
 

@@ -32,5 +32,7 @@ export const apiRoutes = {
   EDIT_DEDUCTION: "api/v1.0/deduction/",
 
   FETCH_PAYROLL_LIST: "api/v1.0/payrollList/",
-  FETCH_PAYROLL_DETAILS: "api/v1.0/payroll/"
+  FETCH_PAYROLL_DETAILS: "api/v1.0/payroll/",
+  FETCH_PAYROLL_UNUSED_REGISTERS_RH: "api/v1.0/unusedRegisterList/",
+  INITIALIZE_PAYROLL: "api/v1.0/initializePayroll/"
 };

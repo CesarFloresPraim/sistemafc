@@ -52,7 +52,7 @@ class RegisterRHView(APIView):
                         if registerDetailSerialized.is_valid(raise_exception=True):
                             registerDetailSerialized.save()
 
-                        #Save food, new if no id found
+                        # Save food, new if no id found
                         foodObject = Food.objects.get(
                             id=registerDetail['food']['id'])
                         foodSerialized = WriteFoodSerializer(
@@ -61,9 +61,9 @@ class RegisterRHView(APIView):
                         if foodSerialized.is_valid(raise_exception=True):
                             foodSerialized.save()
 
-                        
-                        #Save small box, new if no id found
+                        # Save small box, new if no id found
                         for smallBoxRecord in registerDetail['smallBox']:
+                            print(smallBoxRecord)
                             try:
                                 if "id" in smallBoxRecord:
                                     smallBoxObject = SmallBox.objects.get(
@@ -76,12 +76,43 @@ class RegisterRHView(APIView):
 
                                 if smallBoxSerialized.is_valid(raise_exception=True):
                                     smallBoxSerialized.save()
+                                
+                                
+                                for smallBoxSplitRecord in smallBoxRecord["smallBoxSplit"]:
+                                    # print(smallBoxSplitRecord)
+                                    # Save smallBoxSplit, new if no id found
+                                    try:
+                                        if "id" in smallBoxSplitRecord:
+                                            smallBoxSplitRecord[
+                                                "smallBoxRegister"] = smallBoxSerialized.data["id"]
+                                            smallBoxSplitObject = SmallBoxSplit.objects.get(
+                                                id=smallBoxSplitRecord["id"])
+                                            smallBoxSplitSerialized = WriteSmallBoxSplitSerializer(
+                                                smallBoxSplitObject, smallBoxSplitRecord)
+                                        else:
+                                            smallBoxSplitRecord["smallBoxRegister"] = smallBoxSerialized.data["id"]
+                                            smallBoxSplitSerialized = WriteSmallBoxSplitSerializer(
+                                                data=smallBoxSplitRecord)
+                                        if smallBoxSplitSerialized.is_valid(raise_exception=True):
+                                            smallBoxSplitSerialized.save()
+
+                                    except (ObjectDoesNotExist, ValidationError):
+                                        print(e)
+                                        return JsonResponse({"message": "Los datos enviados son incorrectos o falta algun dato"},
+                                                            status=400,
+                                                            safe=False)
+
+                                for deletedSplitId in smallBoxRecord.get("deletedSplitsIds", []):
+                                    sbsp = SmallBoxSplit.objects.get(id=deletedSplitId)
+                                    if not sbsp.isPayed:
+                                        sbsp.delete()
+
                             except (ObjectDoesNotExist, ValidationError):
                                 print(e)
                                 return JsonResponse({"message": "Los datos enviados son incorrectos o falta algun dato"},
                                                     status=400,
                                                     safe=False)
-                        #Save comments, new if no id found
+                        # Save comments, new if no id found
                         for commentRecord in registerDetail['comments']:
                             try:
                                 if "id" in commentRecord:

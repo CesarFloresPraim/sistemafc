@@ -26,7 +26,10 @@ import SwitchSelection from "../../../components/SwitchSelection";
 
 import AddIcon from "../../../assets/svg/icon_plus.svg";
 import NewEmployeeFullOverlay from "../Overlays/NewEmployeeFullOverlay";
-import { SetPayrollDetails, FetchPayrollDetails } from "../../../store/actionCreators/payroll";
+import {
+  SetPayrollDetails,
+  FetchPayrollDetails,
+} from "../../../store/actionCreators/payroll";
 
 export default function Payroll() {
   const navigate = useNavigate();
@@ -40,7 +43,7 @@ export default function Payroll() {
     departments,
   } = useSelector((state) => state.employees);
 
-  const { selectedPayrollId } = useSelector(state => state.payroll)
+  const { selectedPayrollId } = useSelector((state) => state.payroll);
 
   //Route handling
   const [activeRoute, setActiveRoute] = useState(
@@ -79,10 +82,12 @@ export default function Payroll() {
             {activeRoute == "detalles-nomina" && (
               <button
                 onClick={() => {
-                    dispatch(FetchPayrollDetails(selectedPayrollId)).then(res => {
-                        dispatch(SetPayrollDetails(res.data))
-                        navigate({ pathname: "/resumen-nomina" })
-                      })
+                  dispatch(FetchPayrollDetails(selectedPayrollId)).then(
+                    (res) => {
+                      dispatch(SetPayrollDetails(res.data));
+                      navigate({ pathname: "/resumen-nomina" });
+                    }
+                  );
                 }}
                 className=" flex items-center rounded-3xl h-12 pr-4 ml-4 text-[13px] text-white bg-primary"
               >

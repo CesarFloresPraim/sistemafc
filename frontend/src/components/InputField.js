@@ -74,7 +74,7 @@ export default function InputField({
           placeholder={placeholder}
           aria-invalid="true"
           aria-describedby="email-error"
-          defaultValue={defaultValue}
+          value={defaultValue}
           onChange={onInputChange}
         />
         {prefixIcon && (
