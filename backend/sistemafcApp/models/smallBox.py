@@ -8,7 +8,7 @@ class SmallBox(models.Model):
     amount = models.FloatField(default=0, null=True, blank=True)
     comment = models.TextField(max_length=500, null=True, blank=True)
     date = models.TextField(max_length=50)
-    isSplitted = models.BooleanField(default=False)
+    #isSplitted = models.BooleanField(default=False)
 
 
     def __str__(self):
